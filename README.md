@@ -11,17 +11,17 @@
 
 ~~8poprawnie zaprojektowanych tabel (na osob�), przy czym w bazie danych powinno by� minimum 10 tabel,~~
 
- - dane dotycz�ce atrybut�w, kt�rych warto�� zmienia si� w czasie,
+ - dane dotyczące atrybutów, których wartość zmienia się w czasie,
 
- - tabele realizuj�ce jeden ze schemat�w dziedziczenia,
+ - tabele realizujące jeden ze schematów dziedziczenia,
  
- - 10 widok�w lub funkcji
+ - 10 widoków lub funkcji
 
-- baza odpowiednio oprogramowana z wykorzystaniem procedur sk�adowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
+- baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 
-- strategi� piel�gnacji bazy danych (kopie zapasowe)
+- strategia pielęgnacji bazy danych (kopie zapasowe)
 
-- mo�na utworzy� dwa programy klienckie � jeden umo�liwiaj�cy prac� �administrator�w� (u�ytkownik�w ze zwi�kszonymi uprawnieniami), drugi umo�liwiaj�cy prac� zwyk�ych u�ytkownik�w.
+- można utworzyć dwa programy klienckie � jeden umo�liwiaj�cy prac� �administrator�w� (u�ytkownik�w ze zwi�kszonymi uprawnieniami), drugi umo�liwiaj�cy prac� zwyk�ych u�ytkownik�w.
 
 Plik z opisem:
 - podstawowe za�o�enia projektu (cel, g��wne za�o�enia, mo�liwo�ci, ograniczenia przyj�te przy projektowaniu),
