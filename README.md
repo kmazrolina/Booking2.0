@@ -25,7 +25,9 @@ Widoki:
 5.
 6.
 Funkcje:
-1. 
+1. Obliczanie ratingu
+2. Obliczanie wskaźnika atrakcyjności domku
+3. 
 ...
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
