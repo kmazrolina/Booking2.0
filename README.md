@@ -12,6 +12,7 @@
 ~~8poprawnie zaprojektowanych tabel (na osob�), przy czym w bazie danych powinno by� minimum 10 tabel,~~
 
  - dane dotyczące atrybutów, których wartość zmienia się w czasie,
+ Ceny domków
 
  - tabele realizujące jeden ze schematów dziedziczenia,
  
@@ -29,24 +30,27 @@ Funkcje:
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 Wyzwalacze:
-1.
+1. Przy anulowaniu / zmianie dat rezerwacji zwolnienie dat "w kalendarzu"
 2.
 3.
 4.
 5.
 Procedury składowane:
 1. Domki w danym miescie posortowane po: cenie, odleglosci od centurm, ratingu, ilosci atrakcji w pobliżu 
-2. Domki w danym miescie ponizej danej ceny
-3. Domki w odleglosci X ode mnie
-4. Domki w odleglosci nie mniejszej niz X od centrum
-5. Domki o ratingu nie mniejszym niz X
-6. Domki o ratingu właściciela nie mniejszym niz X
-7. Domki z udogodnieniem X
-8. Dodawanie recenzji domku, gospodarza, gościa
-9. Dodawanie pytania do gospodarza
-10. Dodawanie odpowiedzi do pytania
-11. Dokonanie rezerwacji domku
-12. Opłacenie rezerwacji
+2. Domki w danym mieście przy zdanych datach
+3. Domki w danym miescie przy zdanych datach ponizej danej ceny
+4. Domki w danym mieście przy zdanych datach w odleglosci X ode mnie
+5. Domki w danym mieście przy zdanych datach w odleglosci nie mniejszej niz X od centrum
+6. Domki w danym mieście przy zdanych datach o ratingu nie mniejszym niz X
+7. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
+8. Domki w danym mieście przy zdanych datach z udogodnieniem X
+9. Dodawanie recenzji domku, gospodarza, gościa
+10. Dodawanie pytania do gospodarza
+11. Dodawanie odpowiedzi do pytania
+12. Dokonanie rezerwacji domku
+13. Opłacenie rezerwacji
+14. Anulowanie rezerwacji
+15. Zmiana daty rezerwacji
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 
