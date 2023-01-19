@@ -16,8 +16,32 @@
  - tabele realizujące jeden ze schematów dziedziczenia,
  
  - 10 widoków lub funkcji
+Widoki:
+1. Domki w danym mieście 
+2. 
+3.
+4.
+5.
+6.
+Funkcje:
+1. 
+...
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
+Wyzwalacze:
+1.
+2.
+3.
+4.
+5.
+Procedury składowane:
+1. Domki w danym miescie posortowane po: cenie, odleglosci od centurm, ratingu 
+2. Domki w danym miescie ponizej danej ceny
+3. Domki w odleglosci X ode mnie
+4. Domki w odleglosci nie mniejszej niz X od centrum
+5. Domki o ratingu nie mniejszym niz X
+6. Domki o ratingu właściciela nie mniejszym niz X
+7. Domki z udogodnieniem X
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 
