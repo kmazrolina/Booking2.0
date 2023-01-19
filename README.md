@@ -18,7 +18,7 @@
  - 10 widoków lub funkcji
 Widoki:
 1. Domki w danym mieście 
-2. 
+2. Domek wraz z informacjami (rating, rating gospodarza, udogodnienia, atrakcje w pobliżu, odległość od centrum)
 3.
 4.
 5.
@@ -35,13 +35,18 @@ Wyzwalacze:
 4.
 5.
 Procedury składowane:
-1. Domki w danym miescie posortowane po: cenie, odleglosci od centurm, ratingu 
+1. Domki w danym miescie posortowane po: cenie, odleglosci od centurm, ratingu, ilosci atrakcji w pobliżu 
 2. Domki w danym miescie ponizej danej ceny
 3. Domki w odleglosci X ode mnie
 4. Domki w odleglosci nie mniejszej niz X od centrum
 5. Domki o ratingu nie mniejszym niz X
 6. Domki o ratingu właściciela nie mniejszym niz X
 7. Domki z udogodnieniem X
+8. Dodawanie recenzji domku, gospodarza, gościa
+9. Dodawanie pytania do gospodarza
+10. Dodawanie odpowiedzi do pytania
+11. Dokonanie rezerwacji domku
+12. Opłacenie rezerwacji
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 
