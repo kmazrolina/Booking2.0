@@ -35,7 +35,7 @@ Funkcje:
 Wyzwalacze:
 1. Przy anulowaniu / zmianie dat rezerwacji zwolnienie dat "w kalendarzu"
 2. [After update] wiadomosc dla wynajmujacego o tym ze zaakceptowano wynajem
-3.
+3. before insert, przed dodaniem konta o tym samym mailu
 4.
 5.
 Procedury składowane:
