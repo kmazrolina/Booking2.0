@@ -1,3 +1,4 @@
+--user_id_data od 1-100 to uzytkownicy a od 101-200 gospodarze
 insert into tenant (id, user_data_id) values (1, 2);
 insert into tenant (id, user_data_id) values (2, 1);
 insert into tenant (id, user_data_id) values (3, 100);
