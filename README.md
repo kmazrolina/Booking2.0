@@ -35,7 +35,7 @@ Funkcje:
 2. Obliczanie wskaźnika atrakcyjności domku
 3. Obliczanie ilości wolnych domkow w danym dniu
 4. Obliczanie ceny domku w podanych datach, z uwzględnieniem opłaty serwisowej
-...
+
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 Wyzwalacze:
@@ -47,14 +47,14 @@ Wyzwalacze:
 6.
 
 Procedury składowane:
-9. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
-10. Dodawanie pytania do gospodarza
-11. Dodawanie odpowiedzi do pytania
-12. Dokonanie rezerwacji domku
-13. Opłacenie rezerwacji
-14. Anulowanie rezerwacji
-15. Zmiana daty rezerwacji
-16. Zmiana ceny noclegu w danym domku
+1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
+2. Dodawanie pytania do gospodarza
+3. Dodawanie odpowiedzi do pytania
+4. Dokonanie rezerwacji domku
+5. Opłacenie rezerwacji
+6. Anulowanie rezerwacji
+7. Zmiana daty rezerwacji
+8. Zmiana ceny noclegu w danym domku
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 
