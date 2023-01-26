@@ -14,7 +14,7 @@
  - dane dotyczące atrybutów, których wartość zmienia się w czasie,
  Ceny domków
 
- - tabele realizujące jeden ze schematów dziedziczenia,
+~~ - tabele realizujące jeden ze schematów dziedziczenia,~~
  
  - 10 widoków lub funkcji
  
@@ -33,25 +33,26 @@ Widoki:
 Funkcje:
 1. Obliczanie ratingu
 2. Obliczanie wskaźnika atrakcyjności domku
-3. Ile wolnych domkow w danym dniu ?
-4. 
+3. Obliczanie ilości wolnych domkow w danym dniu
+4. Obliczanie ceny domku w podanych datach, z uwzględnieniem opłaty serwisowej
 ...
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 Wyzwalacze:
-1. Przy anulowaniu / zmianie dat rezerwacji zwolnienie dat "w kalendarzu"
-2.
+1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji 
+2. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
 3.
 4.
 5.
 Procedury składowane:
-9. Dodawanie recenzji domku, gospodarza, gościa
+9. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
 10. Dodawanie pytania do gospodarza
 11. Dodawanie odpowiedzi do pytania
 12. Dokonanie rezerwacji domku
 13. Opłacenie rezerwacji
 14. Anulowanie rezerwacji
 15. Zmiana daty rezerwacji
+16. Zmiana ceny noclegu w danym domku
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 
