@@ -103,7 +103,7 @@ Table housing_category {
 Table housing_rating {
   id integer [pk]
   housing_id integer [ref: > housing.id]
-  author integer [ref: > tenant.id]
+  author_id integer [ref: > tenant.id]
   rating_data_id integer [ref: > rating_data.id]
 }
 
@@ -131,7 +131,7 @@ Table facility_type {
 Table room {
   id integer 
   name varchar(100)
-  cost float
+  cost_per_night money
   housing_id integer [ref: > housing.id]
 }
 
