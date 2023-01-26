@@ -45,6 +45,7 @@ Wyzwalacze:
 4. 
 5.
 6.
+
 Procedury składowane:
 9. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
 10. Dodawanie pytania do gospodarza
