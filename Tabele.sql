@@ -99,9 +99,8 @@ CREATE TABLE [housing_question] (
 )
 GO
 
-CREATE TABLE [facilitity] (
+CREATE TABLE [facility] (
   [id] integer PRIMARY KEY,
-  [count] integer,
   [housing_id] integer,
   [facility_type_id] integer
 )
@@ -121,7 +120,7 @@ CREATE TABLE [room] (
 )
 GO
 
-CREATE TABLE [room_equipment] (
+CREATE TABLE [room_equipment_and_facilities] (
   [id] integer PRIMARY KEY,
   [count] integer,
   [room_id] integer,
@@ -132,7 +131,7 @@ GO
 CREATE TABLE [item] (
   [id] integer PRIMARY KEY,
   [name] nvarchar(255),
-  [category] integer
+  [category_id] integer
 )
 GO
 
@@ -243,22 +242,22 @@ GO
 ALTER TABLE [housing_question] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
 GO
 
-ALTER TABLE [facilitity] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
+ALTER TABLE [facility] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
 GO
 
-ALTER TABLE [facilitity] ADD FOREIGN KEY ([facility_type_id]) REFERENCES [facility_type] ([id])
+ALTER TABLE [facility] ADD FOREIGN KEY ([facility_type_id]) REFERENCES [facility_type] ([id])
 GO
 
 ALTER TABLE [room] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
 GO
 
-ALTER TABLE [room_equipment] ADD FOREIGN KEY ([room_id]) REFERENCES [room] ([id])
+ALTER TABLE [room_equipment_and_facilities] ADD FOREIGN KEY ([room_id]) REFERENCES [room] ([id])
 GO
 
-ALTER TABLE [room_equipment] ADD FOREIGN KEY ([item_id]) REFERENCES [item] ([id])
+ALTER TABLE [room_equipment_and_facilities] ADD FOREIGN KEY ([item_id]) REFERENCES [item] ([id])
 GO
 
-ALTER TABLE [item] ADD FOREIGN KEY ([category]) REFERENCES [item_category] ([id])
+ALTER TABLE [item] ADD FOREIGN KEY ([category_id]) REFERENCES [item_category] ([id])
 GO
 
 ALTER TABLE [attraction] ADD FOREIGN KEY ([attraction_type_id]) REFERENCES [attraction_type] ([id])
