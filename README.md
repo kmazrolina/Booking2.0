@@ -21,7 +21,7 @@ Widoki:
 1. Domki w danym mieście 
 2. Domek wraz z informacjami (rating, rating gospodarza, udogodnienia, atrakcje w pobliżu, odległość od centrum)
 3. Najwyz
-4.
+4. przyszle/trwajace rezerwacje ownera od najblizszej 
 5.
 6.
 Funkcje:
