@@ -1,6 +1,6 @@
 insert into tenant (id, user_data_id) values (1, 2);
 insert into tenant (id, user_data_id) values (2, 1);
-insert into tenant (id, user_data_id) values (3, 0);
+insert into tenant (id, user_data_id) values (3, 100);
 insert into tenant (id, user_data_id) values (4, 7);
 insert into tenant (id, user_data_id) values (5, 6);
 insert into tenant (id, user_data_id) values (6, 5);
