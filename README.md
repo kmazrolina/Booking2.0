@@ -28,7 +28,7 @@ Funkcje:
 1. Obliczanie ratingu
 2. Obliczanie wskaźnika atrakcyjności domku
 3. Ile wolnych domkow w danym dniu ?
-4. Wyliczanie ceny (cena od ownera + prowizja apikacji + podatek)
+4. Wyliczanie ceny (cena od ownera + prowizja apikacji + podatek)*ilosc dni
 ...
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
