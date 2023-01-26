@@ -17,36 +17,34 @@
  - tabele realizujące jeden ze schematów dziedziczenia,
  
  - 10 widoków lub funkcji
+ 
 Widoki:
 1. Domki w danym mieście 
 2. Domek wraz z informacjami (rating, rating gospodarza, udogodnienia, atrakcje w pobliżu, odległość od centrum)
-3. Najwyz
-4. przyszle/trwajace rezerwacje ownera od najblizszej 
-5.
-6.
+3. Domki w danym miescie posortowane po: cenie, odleglosci od centurm, ratingu, ilosci atrakcji w pobliżu 
+4. Domki w danym mieście przy zdanych datach
+5. Domki w danym miescie przy zdanych datach ponizej danej ceny
+6. Domki w danym mieście przy zdanych datach w odleglosci X ode mnie
+7. Domki w danym mieście przy zdanych datach w odleglosci nie mniejszej niz X od centrum
+8. Domki w danym mieście przy zdanych datach o ratingu nie mniejszym niz X
+9. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
+10. Domki w danym mieście przy zdanych datach z udogodnieniem X
+
 Funkcje:
 1. Obliczanie ratingu
 2. Obliczanie wskaźnika atrakcyjności domku
 3. Ile wolnych domkow w danym dniu ?
-4. Wyliczanie ceny (cena od ownera + prowizja apikacji + podatek)*ilosc dni
+4. 
 ...
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 Wyzwalacze:
 1. Przy anulowaniu / zmianie dat rezerwacji zwolnienie dat "w kalendarzu"
-2. [After update] wiadomosc dla wynajmujacego o tym ze zaakceptowano wynajem
-3. before insert, przed dodaniem konta o tym samym mailu
+2.
+3.
 4.
 5.
 Procedury składowane:
-1. Domki w danym miescie posortowane po: cenie, odleglosci od centurm, ratingu, ilosci atrakcji w pobliżu 
-2. Domki w danym mieście przy zdanych datach
-3. Domki w danym miescie przy zdanych datach ponizej danej ceny
-4. Domki w danym mieście przy zdanych datach w odleglosci X ode mnie
-5. Domki w danym mieście przy zdanych datach w odleglosci nie mniejszej niz X od centrum
-6. Domki w danym mieście przy zdanych datach o ratingu nie mniejszym niz X
-7. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
-8. Domki w danym mieście przy zdanych datach z udogodnieniem X
 9. Dodawanie recenzji domku, gospodarza, gościa
 10. Dodawanie pytania do gospodarza
 11. Dodawanie odpowiedzi do pytania
