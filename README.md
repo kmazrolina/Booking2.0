@@ -20,14 +20,15 @@
 Widoki:
 1. Domki w danym mieście 
 2. Domek wraz z informacjami (rating, rating gospodarza, udogodnienia, atrakcje w pobliżu, odległość od centrum)
-3.
+3. Najwyz
 4.
 5.
 6.
 Funkcje:
 1. Obliczanie ratingu
 2. Obliczanie wskaźnika atrakcyjności domku
-3. 
+3. Ile wolnych domkow w danym dniu ?
+4. 
 ...
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
