@@ -1,3 +1,5 @@
+// ==================== USERS ====================
+
 // ========== ABSTRACT CLASSES ==========
 
 Table user_data {
@@ -15,8 +17,6 @@ Table rating_data {
   description varchar (2000)
 }
 
-// ==================== USERS ====================
-
 // ========== TENANT ==========
 
 Table tenant {
@@ -32,12 +32,13 @@ Table tenant_rating {
   rating_data_id integer [ref: > rating_data.id]
 }
 
-// proposal: remove as it does not posess any significant role
-Table tenant_favorite {
-  id integer [pk]
-  tenant_id integer [ref: > tenant.id]
-  housing_id integer [ref: > housing.id]
-}
+// proposal: remove as it does not posess any significant role 
+// and we have 24 tables already
+// Table tenant_favorite {
+//   id integer [pk]
+//   tenant_id integer [ref: > tenant.id]
+//   housing_id integer [ref: > housing.id]
+// }
 
 // ========== OWNER ==========
 
@@ -114,9 +115,8 @@ Table housing_question {
 
 // ========== FACILITY ==========
 
-Table facilitity {
+Table facility {
   id integer [pk]
-  count integer
   housing_id integer [ref: > housing.id]
   facility_type_id integer [ref: > facility_type.id]
 }
@@ -129,13 +129,13 @@ Table facility_type {
 // ========== ROOM ==========
 
 Table room {
-  id integer
+  id integer 
   name varchar(100)
   cost float
   housing_id integer [ref: > housing.id]
 }
 
-Table room_equipment {
+Table room_equipment_and_facilities {
   id integer [pk]
   count integer
   room_id integer [ref: > room.id]
@@ -145,7 +145,7 @@ Table room_equipment {
 Table item {
   id integer [pk]
   name varchar
-  category integer [ref: > item_category.id]
+  category_id integer [ref: > item_category.id]
 }
 
 Table item_category {
@@ -155,31 +155,16 @@ Table item_category {
 
 // ==================== PLACE ====================
 
-// Table country {
-//   id integer [pk]
-//   name varchar (100)
-//   location geometry
-// }
+Table country {
+  id integer [pk]
+  name varchar (100)
+  location geometry
+}
 
 Table city {
   id integer [pk]
   name varchar (100)
-  // country_id integer [ref: > country.id]
-  location geometry
-}
-
-// proposal: Remove district table and create country table
-// as [country > city] relation gives more opportunities than
-// [city > district] relation. Country is significant, while
-// district seems more like additional info that is nice to have
-// but not required.
-// Having countries we can search for most attractive countries,
-// average housing price in country (e.g. Spain and Slovakia
-// will differ a lot), cities in country, and many more.
-Table city_district {
-  id integer [pk]
-  name varchar (100)
-  city_id integer [ref: > city.id]
+  population integer
   location geometry
 }
 
