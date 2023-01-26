@@ -14,7 +14,7 @@
  - dane dotyczące atrybutów, których wartość zmienia się w czasie,
  Ceny domków
 
-~~ - tabele realizujące jeden ze schematów dziedziczenia,~~
+~~- tabele realizujące jeden ze schematów dziedziczenia,~~
  
  - 10 widoków lub funkcji
  
