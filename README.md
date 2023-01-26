@@ -39,11 +39,12 @@ Funkcje:
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 Wyzwalacze:
-1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji 
-2. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
-3.
-4.
+1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji (aktualizacja odpowiedniego widoku)
+2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualizacja odpowiedniego widoku)
+3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
+4. 
 5.
+6.
 Procedury składowane:
 9. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
 10. Dodawanie pytania do gospodarza
