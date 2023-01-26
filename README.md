@@ -28,13 +28,13 @@ Funkcje:
 1. Obliczanie ratingu
 2. Obliczanie wskaźnika atrakcyjności domku
 3. Ile wolnych domkow w danym dniu ?
-4. 
+4. Wyliczanie ceny (cena od ownera + prowizja apikacji + podatek)
 ...
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 Wyzwalacze:
 1. Przy anulowaniu / zmianie dat rezerwacji zwolnienie dat "w kalendarzu"
-2.
+2. [After update] wiadomosc dla wynajmujacego o tym ze zaakceptowano wynajem
 3.
 4.
 5.
