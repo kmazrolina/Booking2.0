@@ -3,7 +3,8 @@ CREATE TABLE [user_data] (
   [firstname] varchar(100),
   [lastname] varchar(100),
   [email] varchar(100),
-  [phone] varchar(20)
+  [phone] varchar(20),
+  [gender]CHAR(10),
 )
 GO
 
@@ -21,34 +22,37 @@ CREATE TABLE [tenant] (
 )
 GO
 
-CREATE TABLE [tenant_rating] (
+CREATE TABLE [guest_rating] (
   [id] integer PRIMARY KEY,
-  [tenant_id] integer,
+  [guest_id] integer,
   [author] integer,
   [rating_data_id] integer
 )
 GO
 
-CREATE TABLE [owner] (
+CREATE TABLE [host] (
   [id] integer PRIMARY KEY,
-  [user_data_id] integer
+  [user_data_id] integer,
+  [avg_rating] FLOAT,
+  [rating_num] INT,
 )
 GO
 
-CREATE TABLE [owner_rating] (
+CREATE TABLE [host_rating] (
   [id] integer PRIMARY KEY,
-  [owner_id] integer,
-  [author] integer,
+  [host_id] integer,
+  [guest] integer,
   [rating_data_id] integer
 )
 GO
+
 
 CREATE TABLE [reservation] (
   [id] integer PRIMARY KEY,
-  [tenant_id] integer,
+  [guest_id] integer,
   [housing_id] integer,
-  [start_date] timestamp,
-  [end_date] timestamp
+  [start_date] datetime,
+  [end_date] datetime
 )
 GO
 
@@ -56,13 +60,13 @@ CREATE TABLE [reservation_details] (
   [id] integer PRIMARY KEY,
   [reservation_id] integer,
   [room_id] integer,
-  [cost] float
+  [cost] MONEY
 )
 GO
 
 CREATE TABLE [payment] (
   [id] integer PRIMARY KEY,
-  [value] float,
+  [value] MONEY,
   [date] datetime,
   [sender_id] integer,
   [reservation_id] integer
