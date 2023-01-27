@@ -8,6 +8,7 @@
 - [Source file](./diagram-src.txt)
 
 ***TO DO:***
+
 !!Sprawdzić czy rezerwacje są poprawne (czy nie ma zbyt dużo rezerwacji na jeden obiekt w danych datach) !!
 
 ~~8poprawnie zaprojektowanych tabel (na osob�), przy czym w bazie danych powinno by� minimum 10 tabel,~~
@@ -43,7 +44,7 @@ Wyzwalacze:
 1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji (aktualizacja odpowiedniego widoku)
 2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualizacja odpowiedniego widoku)
 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
-4. 
+4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji
 5.
 6.
 
