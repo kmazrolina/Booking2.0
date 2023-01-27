@@ -43,7 +43,7 @@ CREATE TABLE [owner_rating] (
 )
 GO
 
-CREATE TABLE [reservation] (
+CREATE TABLE [reservations] (
   [id] integer PRIMARY KEY,
   [tenant_id] integer,
   [housing_id] integer,
