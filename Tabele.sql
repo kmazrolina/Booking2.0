@@ -33,8 +33,7 @@ GO
 CREATE TABLE [host] (
   [id] integer PRIMARY KEY,
   [user_data_id] integer,
-  [avg_rating] FLOAT,
-  [rating_num] INT,
+  
 )
 GO
 
