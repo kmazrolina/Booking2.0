@@ -8,6 +8,7 @@
 - [Source file](./diagram-src.txt)
 
 ***TO DO:***
+!!Sprawdzić czy rezerwacje są poprawne (czy nie ma zbyt dużo rezerwacji na jeden obiekt w danych datach) !!
 
 ~~8poprawnie zaprojektowanych tabel (na osob�), przy czym w bazie danych powinno by� minimum 10 tabel,~~
 
