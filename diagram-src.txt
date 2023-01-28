@@ -1,11 +1,14 @@
+// ==================== USERS ====================
+
 // ========== ABSTRACT CLASSES ==========
 
 Table user_data {
   id integer [pk]
-  firstname varchar (100)
-  lastname varchar (100)
+  first_name varchar (100)
+  last_name varchar (100)
   email varchar (100)
   phone varchar (20)
+  gender varchar(10)
 }
 
 Table rating_data {
@@ -15,42 +18,41 @@ Table rating_data {
   description varchar (2000)
 }
 
-// ==================== USERS ====================
+// ========== GUEST ==========
 
-// ========== TENANT ==========
-
-Table tenant {
+Table guest {
   id integer [pk]
   user_data_id integer [ref: > user_data.id]
 }
 
-// check: whether owner had contact with this tenant
-Table tenant_rating {
+// check: whether host had contact with this guest
+Table guest_rating {
   id integer [pk]
-  tenant_id integer [ref: > tenant.id]
-  author integer [ref: > owner.id]
+  guest_id integer [ref: > guest.id]
+  author_id integer [ref: > host.id]
   rating_data_id integer [ref: > rating_data.id]
 }
 
-// proposal: remove as it does not posess any significant role
-Table tenant_favorite {
-  id integer [pk]
-  tenant_id integer [ref: > tenant.id]
-  housing_id integer [ref: > housing.id]
-}
+// proposal: remove as it does not posess any significant role 
+// and we have 24 tables already
+// Table guest_favorite {
+//   id integer [pk]
+//   guest_id integer [ref: > guest.id]
+//   housing_id integer [ref: > housing.id]
+// }
 
-// ========== OWNER ==========
+// ========== host ==========
 
-Table owner {
+Table host{
   id integer [pk]
   user_data_id integer [ref: > user_data.id]
 }
 
-// check: whether tenant had contact with this owner
-Table owner_rating {
+// check: whether guest had contact with this host
+Table host_rating {
   id integer [pk]
-  owner_id integer [ref: > owner.id]
-  author integer [ref: > tenant.id]
+  host_id integer [ref: > host.id]
+  author_id integer [ref: > guest.id]
   rating_data_id integer [ref: > rating_data.id]
 }
 
@@ -60,7 +62,7 @@ Table owner_rating {
 
 Table reservation {
   id integer [pk]
-  tenant_id integer [ref: > tenant.id]
+  guest_id integer [ref: > guest.id]
   housing_id integer [ref: > housing.id]
   start_date timestamp
   end_date timestamp
@@ -73,13 +75,13 @@ Table reservation_details {
   cost float
 }
 
-// check1: sender_id and reservation_id.tenant_id must match
+// check1: sender_id and reservation_id.guest_id must match
 // check2: date must be before reservation_id.start_date
 Table payment {
   id integer [pk]
   value float
   date datetime
-  sender_id integer [ref: > tenant.id]
+  sender_id integer [ref: > guest.id]
   reservation_id integer [ref: > reservation.id]
 }
 
@@ -89,7 +91,7 @@ Table housing {
   id integer [pk]
   name varchar
   housing_category_id integer [ref: > housing_category.id]
-  owner_id integer [ref: > owner.id]
+  host_id integer [ref: > host.id]
   location geometry
 }
 
@@ -98,25 +100,24 @@ Table housing_category {
   name varchar (100)
 }
 
-// check: whether tenant really was there
+// check: whether guest really was there
 Table housing_rating {
   id integer [pk]
   housing_id integer [ref: > housing.id]
-  author integer [ref: > tenant.id]
+  author_id integer [ref: > guest.id]
   rating_data_id integer [ref: > rating_data.id]
 }
 
 Table housing_question {
   id integer [pk]
   housing_id integer [ref: > housing.id]
-  author integer [ref: > tenant.id]
+  author integer [ref: > guest.id]
 }
 
 // ========== FACILITY ==========
 
-Table facilitity {
+Table facility {
   id integer [pk]
-  count integer
   housing_id integer [ref: > housing.id]
   facility_type_id integer [ref: > facility_type.id]
 }
@@ -129,13 +130,13 @@ Table facility_type {
 // ========== ROOM ==========
 
 Table room {
-  id integer
+  id integer 
   name varchar(100)
-  cost float
+  cost_per_night money
   housing_id integer [ref: > housing.id]
 }
 
-Table room_equipment {
+Table room_equipment_and_facilities {
   id integer [pk]
   count integer
   room_id integer [ref: > room.id]
@@ -145,7 +146,7 @@ Table room_equipment {
 Table item {
   id integer [pk]
   name varchar
-  category integer [ref: > item_category.id]
+  category_id integer [ref: > item_category.id]
 }
 
 Table item_category {
@@ -155,31 +156,16 @@ Table item_category {
 
 // ==================== PLACE ====================
 
-// Table country {
-//   id integer [pk]
-//   name varchar (100)
-//   location geometry
-// }
+Table country {
+  id integer [pk]
+  name varchar (100)
+  location geometry
+}
 
 Table city {
   id integer [pk]
   name varchar (100)
-  // country_id integer [ref: > country.id]
-  location geometry
-}
-
-// proposal: Remove district table and create country table
-// as [country > city] relation gives more opportunities than
-// [city > district] relation. Country is significant, while
-// district seems more like additional info that is nice to have
-// but not required.
-// Having countries we can search for most attractive countries,
-// average housing price in country (e.g. Spain and Slovakia
-// will differ a lot), cities in country, and many more.
-Table city_district {
-  id integer [pk]
-  name varchar (100)
-  city_id integer [ref: > city.id]
+  population integer
   location geometry
 }
 
@@ -198,7 +184,7 @@ Table attraction_type {
 
 Table attraction_rating {
   id integer [pk]
-  author integer [ref: > tenant.id]
+  author integer [ref: > guest.id]
   attraction_id integer [ref: > attraction.id]
   rating_data_id integer [ref: > rating_data.id]
 }
