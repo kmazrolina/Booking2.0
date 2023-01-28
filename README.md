@@ -37,6 +37,7 @@ Funkcje:
 2. Obliczanie wskaźnika atrakcyjności domku
 3. Obliczanie ilości wolnych domkow w danym dniu
 4. Obliczanie ceny domku w podanych datach, z uwzględnieniem opłaty serwisowej
+5. Sparwdzenie, czy dany domek jest dostępny w danych datach.
 
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
