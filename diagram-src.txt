@@ -64,22 +64,22 @@ Table reservation {
   id integer [pk]
   guest_id integer [ref: > guest.id]
   housing_id integer [ref: > housing.id]
-  start_date timestamp
-  end_date timestamp
+  start_date datetime
+  end_date datetime
 }
 
 Table reservation_details {
   id integer [pk]
   reservation_id integer [ref: > reservation.id]
   room_id integer [ref: > room.id]
-  cost float
+  cost money
 }
 
 // check1: sender_id and reservation_id.guest_id must match
 // check2: date must be before reservation_id.start_date
 Table payment {
   id integer [pk]
-  value float
+  value money
   date datetime
   sender_id integer [ref: > guest.id]
   reservation_id integer [ref: > reservation.id]
