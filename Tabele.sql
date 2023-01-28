@@ -97,14 +97,14 @@ CREATE TABLE [housing_question] (
   [id] integer PRIMARY KEY,
   [housing_id] integer,
   [author_id] integer,
-  [question] varchar(2000)
+  [description] varchar(2000)
 )
 GO
 
 CREATE TABLE [question_answer] (
   [id] integer PRIMARY KEY,
   [question_id] integer,
-  [answer] varchar(2000)
+  [description] varchar(2000)
 )
 GO
 
@@ -182,7 +182,7 @@ GO
 
 CREATE TABLE [attraction_rating] (
   [id] integer PRIMARY KEY,
-  [author] integer,
+  [author_id] integer,
   [attraction_id] integer,
   [rating_data_id] integer
 )
@@ -275,7 +275,7 @@ GO
 ALTER TABLE [attraction] ADD FOREIGN KEY ([attraction_type_id]) REFERENCES [attraction_type] ([id])
 GO
 
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([author]) REFERENCES [guest] ([id])
+ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [guest] ([id])
 GO
 
 ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([attraction_id]) REFERENCES [attraction] ([id])
