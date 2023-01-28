@@ -3,7 +3,8 @@ CREATE TABLE [user_data] (
   [first_name] varchar(100),
   [last_name] varchar(100),
   [email] varchar(100),
-  [phone] varchar(20)
+  [phone] varchar(20),
+  [gender] varchar(10)
 )
 GO
 
@@ -15,29 +16,29 @@ CREATE TABLE [rating_data] (
 )
 GO
 
-CREATE TABLE [tenant] (
+CREATE TABLE [guest] (
   [id] integer PRIMARY KEY,
   [user_data_id] integer
 )
 GO
 
-CREATE TABLE [tenant_rating] (
+CREATE TABLE [guest_rating] (
   [id] integer PRIMARY KEY,
-  [tenant_id] integer,
+  [guest_id] integer,
   [author_id] integer,
   [rating_data_id] integer
 )
 GO
 
-CREATE TABLE [owner] (
+CREATE TABLE [host] (
   [id] integer PRIMARY KEY,
   [user_data_id] integer
 )
 GO
 
-CREATE TABLE [owner_rating] (
+CREATE TABLE [host_rating] (
   [id] integer PRIMARY KEY,
-  [owner_id] integer,
+  [host_id] integer,
   [author_id] integer,
   [rating_data_id] integer
 )
@@ -45,7 +46,7 @@ GO
 
 CREATE TABLE [reservation] (
   [id] integer PRIMARY KEY,
-  [tenant_id] integer,
+  [guest_id] integer,
   [housing_id] integer,
   [start_date] timestamp,
   [end_date] timestamp
@@ -73,7 +74,7 @@ CREATE TABLE [housing] (
   [id] integer PRIMARY KEY,
   [name] nvarchar(255),
   [housing_category_id] integer,
-  [owner_id] integer,
+  [host_id] integer,
   [location] geometry
 )
 GO
@@ -179,31 +180,31 @@ CREATE TABLE [attraction_rating] (
 )
 GO
 
-ALTER TABLE [tenant] ADD FOREIGN KEY ([user_data_id]) REFERENCES [user_data] ([id])
+ALTER TABLE [guest] ADD FOREIGN KEY ([user_data_id]) REFERENCES [user_data] ([id])
 GO
 
-ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([tenant_id]) REFERENCES [tenant] ([id])
+ALTER TABLE [guest_rating] ADD FOREIGN KEY ([guest_id]) REFERENCES [guest] ([id])
 GO
 
-ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [owner] ([id])
+ALTER TABLE [guest_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [host] ([id])
 GO
 
-ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
+ALTER TABLE [guest_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
 GO
 
-ALTER TABLE [owner] ADD FOREIGN KEY ([user_data_id]) REFERENCES [user_data] ([id])
+ALTER TABLE [host] ADD FOREIGN KEY ([user_data_id]) REFERENCES [user_data] ([id])
 GO
 
-ALTER TABLE [owner_rating] ADD FOREIGN KEY ([owner_id]) REFERENCES [owner] ([id])
+ALTER TABLE [host_rating] ADD FOREIGN KEY ([host_id]) REFERENCES [host] ([id])
 GO
 
-ALTER TABLE [owner_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [tenant] ([id])
+ALTER TABLE [host_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [guest] ([id])
 GO
 
-ALTER TABLE [owner_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
+ALTER TABLE [host_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
 GO
 
-ALTER TABLE [reservation] ADD FOREIGN KEY ([tenant_id]) REFERENCES [tenant] ([id])
+ALTER TABLE [reservation] ADD FOREIGN KEY ([guest_id]) REFERENCES [guest] ([id])
 GO
 
 ALTER TABLE [reservation] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
@@ -215,7 +216,7 @@ GO
 ALTER TABLE [reservation_details] ADD FOREIGN KEY ([room_id]) REFERENCES [room] ([id])
 GO
 
-ALTER TABLE [payment] ADD FOREIGN KEY ([sender_id]) REFERENCES [tenant] ([id])
+ALTER TABLE [payment] ADD FOREIGN KEY ([sender_id]) REFERENCES [guest] ([id])
 GO
 
 ALTER TABLE [payment] ADD FOREIGN KEY ([reservation_id]) REFERENCES [reservation] ([id])
@@ -224,13 +225,13 @@ GO
 ALTER TABLE [housing] ADD FOREIGN KEY ([housing_category_id]) REFERENCES [housing_category] ([id])
 GO
 
-ALTER TABLE [housing] ADD FOREIGN KEY ([owner_id]) REFERENCES [owner] ([id])
+ALTER TABLE [housing] ADD FOREIGN KEY ([host_id]) REFERENCES [host] ([id])
 GO
 
 ALTER TABLE [housing_rating] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
 GO
 
-ALTER TABLE [housing_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [tenant] ([id])
+ALTER TABLE [housing_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [guest] ([id])
 GO
 
 ALTER TABLE [housing_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
@@ -239,7 +240,7 @@ GO
 ALTER TABLE [housing_question] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
 GO
 
-ALTER TABLE [housing_question] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
+ALTER TABLE [housing_question] ADD FOREIGN KEY ([author]) REFERENCES [guest] ([id])
 GO
 
 ALTER TABLE [facility] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
@@ -263,7 +264,7 @@ GO
 ALTER TABLE [attraction] ADD FOREIGN KEY ([attraction_type_id]) REFERENCES [attraction_type] ([id])
 GO
 
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
+ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([author]) REFERENCES [guest] ([id])
 GO
 
 ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([attraction_id]) REFERENCES [attraction] ([id])
