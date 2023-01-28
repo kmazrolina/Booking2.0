@@ -4,7 +4,7 @@
 
 ### dbdiagram.io
 
-- [Link to diagram](https://dbdiagram.io/d/63a201e199cb1f3b55a296f4](https://dbdiagram.io/d/63d2c531296d97641d7c61c4) (view only)
+- [Link to diagram]([https://dbdiagram.io/d/63a201e199cb1f3b55a296f4](https://dbdiagram.io/d/63d2c531296d97641d7c61c4]) (view only)
 - [Source file](./diagram-src.txt)
 
 ***TO DO:***
