@@ -48,8 +48,8 @@ CREATE TABLE [reservation] (
   [id] integer PRIMARY KEY,
   [guest_id] integer,
   [housing_id] integer,
-  [start_date] timestamp,
-  [end_date] timestamp
+  [start_date] datetime,
+  [end_date] datetime
 )
 GO
 
@@ -57,13 +57,13 @@ CREATE TABLE [reservation_details] (
   [id] integer PRIMARY KEY,
   [reservation_id] integer,
   [room_id] integer,
-  [cost] float
+  [cost] money
 )
 GO
 
 CREATE TABLE [payment] (
   [id] integer PRIMARY KEY,
-  [value] float,
+  [value] money,
   [date] datetime,
   [sender_id] integer,
   [reservation_id] integer
