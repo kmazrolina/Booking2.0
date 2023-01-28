@@ -112,14 +112,14 @@ Table housing_question {
   id integer [pk]
   housing_id integer [ref: > housing.id]
   author_id integer [ref: > guest.id]
-  question varchar(2000)
+  description varchar(2000)
 }
 
 
 Table question_answer {
   id integer [pk]
   question_id integer [ref: > housing_question.id]
-  answer varchar(2000)
+  description varchar(2000)
 }
 
 
@@ -193,7 +193,7 @@ Table attraction_type {
 
 Table attraction_rating {
   id integer [pk]
-  author integer [ref: > guest.id]
+  author_id integer [ref: > guest.id]
   attraction_id integer [ref: > attraction.id]
   rating_data_id integer [ref: > rating_data.id]
 }
