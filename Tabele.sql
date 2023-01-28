@@ -1,7 +1,7 @@
 CREATE TABLE [user_data] (
   [id] integer PRIMARY KEY,
-  [firstname] varchar(100),
-  [lastname] varchar(100),
+  [first_name] varchar(100),
+  [last_name] varchar(100),
   [email] varchar(100),
   [phone] varchar(20)
 )
@@ -24,7 +24,7 @@ GO
 CREATE TABLE [tenant_rating] (
   [id] integer PRIMARY KEY,
   [tenant_id] integer,
-  [author] integer,
+  [author_id] integer,
   [rating_data_id] integer
 )
 GO
@@ -38,7 +38,7 @@ GO
 CREATE TABLE [owner_rating] (
   [id] integer PRIMARY KEY,
   [owner_id] integer,
-  [author] integer,
+  [author_id] integer,
   [rating_data_id] integer
 )
 GO
@@ -87,7 +87,7 @@ GO
 CREATE TABLE [housing_rating] (
   [id] integer PRIMARY KEY,
   [housing_id] integer,
-  [author] integer,
+  [author_id] integer,
   [rating_data_id] integer
 )
 GO
@@ -115,7 +115,7 @@ GO
 CREATE TABLE [room] (
   [id] integer,
   [name] varchar(100),
-  [cost] float,
+  [cost_per_night] money,
   [housing_id] integer
 )
 GO
@@ -185,7 +185,7 @@ GO
 ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([tenant_id]) REFERENCES [tenant] ([id])
 GO
 
-ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([author]) REFERENCES [owner] ([id])
+ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [owner] ([id])
 GO
 
 ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
@@ -197,7 +197,7 @@ GO
 ALTER TABLE [owner_rating] ADD FOREIGN KEY ([owner_id]) REFERENCES [owner] ([id])
 GO
 
-ALTER TABLE [owner_rating] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
+ALTER TABLE [owner_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [tenant] ([id])
 GO
 
 ALTER TABLE [owner_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
@@ -230,7 +230,7 @@ GO
 ALTER TABLE [housing_rating] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
 GO
 
-ALTER TABLE [housing_rating] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
+ALTER TABLE [housing_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [tenant] ([id])
 GO
 
 ALTER TABLE [housing_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
