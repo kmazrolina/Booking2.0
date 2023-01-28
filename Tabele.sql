@@ -1,277 +1,190 @@
-CREATE TABLE [user_data] (
-  [id] integer PRIMARY KEY,
-  [firstname] varchar(100),
-  [lastname] varchar(100),
-  [email] varchar(100),
-  [phone] varchar(20),
-  [gender]CHAR(10),
-)
-GO
+// ==================== USERS ====================
 
-CREATE TABLE [rating_data] (
-  [id] integer PRIMARY KEY,
-  [score] integer,
-  [title] varchar(100),
-  [description] varchar(2000)
-)
-GO
+// ========== ABSTRACT CLASSES ==========
 
-CREATE TABLE [guest] (
-  [id] integer PRIMARY KEY,
-  [user_data_id] integer
-)
-GO
+Table user_data {
+  id integer [pk]
+  first_name varchar (100)
+  last_name varchar (100)
+  email varchar (100)
+  phone varchar (20)
+  gender varchar(10)
+}
 
-CREATE TABLE [guest_rating] (
-  [id] integer PRIMARY KEY,
-  [guest_id] integer,
-  [author] integer,
-  [rating_data_id] integer
-)
-GO
+Table rating_data {
+  id integer [pk]
+  score integer
+  title varchar (100)
+  description varchar (2000)
+}
 
-CREATE TABLE [host] (
-  [id] integer PRIMARY KEY,
-  [user_data_id] integer,
-  
-)
-GO
+// ========== GUEST ==========
 
-CREATE TABLE [host_rating] (
-  [id] integer PRIMARY KEY,
-  [host_id] integer,
-  [guest] integer,
-  [rating_data_id] integer
-)
-GO
+Table guest {
+  id integer [pk]
+  user_data_id integer [ref: > user_data.id]
+}
 
+// check: whether host had contact with this guest
+Table guest_rating {
+  id integer [pk]
+  guest_id integer [ref: > guest.id]
+  author_id integer [ref: > host.id]
+  rating_data_id integer [ref: > rating_data.id]
+}
 
-CREATE TABLE [reservation] (
-  [id] integer PRIMARY KEY,
-  [guest_id] integer,
-  [housing_id] integer,
-  [start_date] datetime,
-  [end_date] datetime
-)
-GO
+// proposal: remove as it does not posess any significant role 
+// and we have 24 tables already
+// Table guest_favorite {
+//   id integer [pk]
+//   guest_id integer [ref: > guest.id]
+//   housing_id integer [ref: > housing.id]
+// }
 
-CREATE TABLE [reservation_details] (
-  [id] integer PRIMARY KEY,
-  [reservation_id] integer,
-  [room_id] integer,
-  [cost] MONEY
-)
-GO
+// ========== host ==========
 
-CREATE TABLE [payment] (
-  [id] integer PRIMARY KEY,
-  [value] MONEY,
-  [date] datetime,
-  [sender_id] integer,
-  [reservation_id] integer
-)
-GO
+Table host{
+  id integer [pk]
+  user_data_id integer [ref: > user_data.id]
+}
 
-CREATE TABLE [housing] (
-  [id] integer PRIMARY KEY,
-  [name] nvarchar(255),
-  [housing_category_id] integer,
-  [owner_id] integer,
-  [location] geometry
-)
-GO
+// check: whether guest had contact with this host
+Table host_rating {
+  id integer [pk]
+  host_id integer [ref: > host.id]
+  author_id integer [ref: > guest.id]
+  rating_data_id integer [ref: > rating_data.id]
+}
 
-CREATE TABLE [housing_category] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100)
-)
-GO
+// ==================== RESERVATION ====================
 
-CREATE TABLE [housing_rating] (
-  [id] integer PRIMARY KEY,
-  [housing_id] integer,
-  [author] integer,
-  [rating_data_id] integer
-)
-GO
+// ========== RESERVATION ==========
 
-CREATE TABLE [housing_question] (
-  [id] integer PRIMARY KEY,
-  [housing_id] integer,
-  [author] integer
-)
-GO
+Table reservation {
+  id integer [pk]
+  guest_id integer [ref: > guest.id]
+  housing_id integer [ref: > housing.id]
+  start_date timestamp
+  end_date timestamp
+}
 
-CREATE TABLE [facilitity] (
-  [id] integer PRIMARY KEY,
-  [count] integer,
-  [housing_id] integer,
-  [facility_type_id] integer
-)
-GO
+Table reservation_details {
+  id integer [pk]
+  reservation_id integer [ref: > reservation.id]
+  room_id integer [ref: > room.id]
+  cost float
+}
 
-CREATE TABLE [facility_type] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100)
-)
-GO
+// check1: sender_id and reservation_id.guest_id must match
+// check2: date must be before reservation_id.start_date
+Table payment {
+  id integer [pk]
+  value float
+  date datetime
+  sender_id integer [ref: > guest.id]
+  reservation_id integer [ref: > reservation.id]
+}
 
-CREATE TABLE [room] (
-  [id] integer,
-  [name] varchar(100),
-  [cost] float,
-  [housing_id] integer
-)
-GO
+// ========== HOUSING ==========
 
-CREATE TABLE [room_equipment] (
-  [id] integer PRIMARY KEY,
-  [count] integer,
-  [room_id] integer,
-  [item_id] integer
-)
-GO
+Table housing {
+  id integer [pk]
+  name varchar
+  housing_category_id integer [ref: > housing_category.id]
+  host_id integer [ref: > host.id]
+  location geometry
+}
 
-CREATE TABLE [item] (
-  [id] integer PRIMARY KEY,
-  [name] nvarchar(255),
-  [category] integer
-)
-GO
+Table housing_category {
+  id integer [pk]
+  name varchar (100)
+}
 
-CREATE TABLE [item_category] (
-  [id] integer PRIMARY KEY,
-  [name] nvarchar(255)
-)
-GO
+// check: whether guest really was there
+Table housing_rating {
+  id integer [pk]
+  housing_id integer [ref: > housing.id]
+  author_id integer [ref: > guest.id]
+  rating_data_id integer [ref: > rating_data.id]
+}
 
-CREATE TABLE [country] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100),
-  [location] geometry
-)
-GO
+Table housing_question {
+  id integer [pk]
+  housing_id integer [ref: > housing.id]
+  author integer [ref: > guest.id]
+}
 
-CREATE TABLE [city] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100),
-  [population] integer,
-  [location] geometry
-)
-GO
+// ========== FACILITY ==========
 
-CREATE TABLE [attraction] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100),
-  [description] varchar(500),
-  [attraction_type_id] integer,
-  [location] geometry
-)
-GO
+Table facility {
+  id integer [pk]
+  housing_id integer [ref: > housing.id]
+  facility_type_id integer [ref: > facility_type.id]
+}
 
-CREATE TABLE [attraction_type] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100)
-)
-GO
+Table facility_type {
+  id integer [pk]
+  name varchar (100)
+}
 
-CREATE TABLE [attraction_rating] (
-  [id] integer PRIMARY KEY,
-  [author] integer,
-  [attraction_id] integer,
-  [rating_data_id] integer
-)
-GO
+// ========== ROOM ==========
 
-ALTER TABLE [tenant] ADD FOREIGN KEY ([user_data_id]) REFERENCES [user_data] ([id])
-GO
+Table room {
+  id integer 
+  name varchar(100)
+  cost_per_night money
+  housing_id integer [ref: > housing.id]
+}
 
-ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([tenant_id]) REFERENCES [tenant] ([id])
-GO
+Table room_equipment_and_facilities {
+  id integer [pk]
+  count integer
+  room_id integer [ref: > room.id]
+  item_id integer [ref: > item.id]
+}
 
-ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([author]) REFERENCES [owner] ([id])
-GO
+Table item {
+  id integer [pk]
+  name varchar
+  category_id integer [ref: > item_category.id]
+}
 
-ALTER TABLE [tenant_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
-GO
+Table item_category {
+  id integer [pk]
+  name varchar
+}
 
-ALTER TABLE [owner] ADD FOREIGN KEY ([user_data_id]) REFERENCES [user_data] ([id])
-GO
+// ==================== PLACE ====================
 
-ALTER TABLE [owner_rating] ADD FOREIGN KEY ([owner_id]) REFERENCES [owner] ([id])
-GO
+Table country {
+  id integer [pk]
+  name varchar (100)
+  location geometry
+}
 
-ALTER TABLE [owner_rating] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
-GO
+Table city {
+  id integer [pk]
+  name varchar (100)
+  population integer
+  location geometry
+}
 
-ALTER TABLE [owner_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
-GO
+Table attraction {
+  id integer [pk]
+  name varchar (100)
+  description varchar (500)
+  attraction_type_id integer [ref: > attraction_type.id]
+  location geometry
+}
 
-ALTER TABLE [reservation] ADD FOREIGN KEY ([tenant_id]) REFERENCES [tenant] ([id])
-GO
+Table attraction_type {
+  id integer [pk]
+  name varchar (100)
+}
 
-ALTER TABLE [reservation] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
-GO
-
-ALTER TABLE [reservation_details] ADD FOREIGN KEY ([reservation_id]) REFERENCES [reservation] ([id])
-GO
-
-ALTER TABLE [reservation_details] ADD FOREIGN KEY ([room_id]) REFERENCES [room] ([id])
-GO
-
-ALTER TABLE [payment] ADD FOREIGN KEY ([sender_id]) REFERENCES [tenant] ([id])
-GO
-
-ALTER TABLE [payment] ADD FOREIGN KEY ([reservation_id]) REFERENCES [reservation] ([id])
-GO
-
-ALTER TABLE [housing] ADD FOREIGN KEY ([housing_category_id]) REFERENCES [housing_category] ([id])
-GO
-
-ALTER TABLE [housing] ADD FOREIGN KEY ([owner_id]) REFERENCES [owner] ([id])
-GO
-
-ALTER TABLE [housing_rating] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
-GO
-
-ALTER TABLE [housing_rating] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
-GO
-
-ALTER TABLE [housing_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
-GO
-
-ALTER TABLE [housing_question] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
-GO
-
-ALTER TABLE [housing_question] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
-GO
-
-ALTER TABLE [facilitity] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
-GO
-
-ALTER TABLE [facilitity] ADD FOREIGN KEY ([facility_type_id]) REFERENCES [facility_type] ([id])
-GO
-
-ALTER TABLE [room] ADD FOREIGN KEY ([housing_id]) REFERENCES [housing] ([id])
-GO
-
-ALTER TABLE [room_equipment] ADD FOREIGN KEY ([room_id]) REFERENCES [room] ([id])
-GO
-
-ALTER TABLE [room_equipment] ADD FOREIGN KEY ([item_id]) REFERENCES [item] ([id])
-GO
-
-ALTER TABLE [item] ADD FOREIGN KEY ([category]) REFERENCES [item_category] ([id])
-GO
-
-ALTER TABLE [attraction] ADD FOREIGN KEY ([attraction_type_id]) REFERENCES [attraction_type] ([id])
-GO
-
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([author]) REFERENCES [tenant] ([id])
-GO
-
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([attraction_id]) REFERENCES [attraction] ([id])
-GO
-
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
-GO
+Table attraction_rating {
+  id integer [pk]
+  author integer [ref: > guest.id]
+  attraction_id integer [ref: > attraction.id]
+  rating_data_id integer [ref: > rating_data.id]
+}
