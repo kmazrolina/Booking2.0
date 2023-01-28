@@ -28,7 +28,7 @@ Table tenant {
 Table tenant_rating {
   id integer [pk]
   tenant_id integer [ref: > tenant.id]
-  author integer [ref: > owner.id]
+  author_id integer [ref: > owner.id]
   rating_data_id integer [ref: > rating_data.id]
 }
 
@@ -51,7 +51,7 @@ Table owner {
 Table owner_rating {
   id integer [pk]
   owner_id integer [ref: > owner.id]
-  author integer [ref: > tenant.id]
+  author_id integer [ref: > tenant.id]
   rating_data_id integer [ref: > rating_data.id]
 }
 
