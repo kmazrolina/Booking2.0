@@ -16,7 +16,7 @@ CREATE TABLE [rating_data] (
 )
 GO
 
-CREATE TABLE [tenant] (
+CREATE TABLE [guest] (
   [id] integer PRIMARY KEY,
   [user_data_id] integer
 )
