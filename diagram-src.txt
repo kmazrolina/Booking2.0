@@ -111,8 +111,17 @@ Table housing_rating {
 Table housing_question {
   id integer [pk]
   housing_id integer [ref: > housing.id]
-  author integer [ref: > guest.id]
+  author_id integer [ref: > guest.id]
+  question varchar(2000)
 }
+
+
+Table question_answer {
+  id integer [pk]
+  question_id integer [ref: > housing_question.id]
+  answer varchar(2000)
+}
+
 
 // ========== FACILITY ==========
 
