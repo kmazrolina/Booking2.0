@@ -1,0 +1,23 @@
+---dostepnosc domku o danym ID
+CREATE OR ALTER FUNCTION dbo.IsHousingAvailable
+(
+ @housingId INT,
+ @startDate DATETIME,
+ @endDate DATETIME
+)
+RETURNS varchar(100)
+AS
+BEGIN
+ DECLARE @result varchar(100) = 'Available!'
+
+ IF EXISTS (SELECT * FROM reservation r 
+            WHERE r.housing_id = @housingId 
+            AND (@startDate BETWEEN r.start_date AND r.end_date OR
+                 @endDate BETWEEN r.start_date AND r.end_date))
+ BEGIN
+  SET @result = 'Sorry, the property is unavailable on those dates'
+ END
+
+ RETURN @result
+END
+--SELECT dbo.IsHousingAvailable(29, '2023-12-11', '2023-12-13'); ---niedostepne
