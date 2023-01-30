@@ -1,33 +1,43 @@
 # Booking2.0
 
-## Database Diagram
+## Database diagram
 
 ### dbdiagram.io
 
 - [Link to diagram](https://dbdiagram.io/d/63d2c531296d97641d7c61c4) (view only)
 - [Source file](./diagram-src.txt)
 
-***TO DO:***
+## Docker + VSCode setup
 
-~~!!Sprawdzić czy rezerwacje są poprawne (czy nie ma zbyt dużo rezerwacji na jeden obiekt w danych datach) !!~~
+Setup with SQL server as docker container and VSCode as GUI.
 
-~~8poprawnie zaprojektowanych tabel (na osob�), przy czym w bazie danych powinno by� minimum 10 tabel,~~
+1. Requirements: Docker, VSCode with [SQL Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) extension.
+1. Go to `docker/` directory and execute `sh start.sh` command.
+1. Connect via extension using below values:
+   - hostname: `localhost`
+   - database: `-`
+   - authentication type: `SQL Login`
+   - username: `sa`
+   - password: `zaq1@WSX`
 
- - dane dotyczące atrybutów, których wartość zmienia się w czasie,
- Ceny domków
+## TO DO
 
-~~- tabele realizujące jeden ze schematów dziedziczenia,~~
- 
- - 10 widoków lub funkcji
- 
-Widoki:
-1. Domki w danym mieście 
+- ~~!!Sprawdzić czy rezerwacje są poprawne (czy nie ma zbyt dużo rezerwacji na jeden obiekt w danych datach) !!~~
+- ~~8poprawnie zaprojektowanych tabel (na osobę), przy czym w bazie danych powinno być minimum 10 tabel,~~
+- dane dotyczące atrybutów, których wartość zmienia się w czasie,
+  Ceny domków
+- ~~- tabele realizujące jeden ze schematów dziedziczenia,~~
+- 10 widoków lub funkcji
+
+### Widoki
+
+1. Domki w danym mieście
 2. Domek wraz z informacjami (rating, rating gospodarza, udogodnienia, atrakcje w pobliżu, odległość od centrum)
-3. Domki w danym miescie posortowane po: cenie, odleglosci od centurm, ratingu, ilosci atrakcji w pobliżu 
+3. Domki w danym miescie posortowane po: cenie, odległości od centurm, ratingu, ilosci atrakcji w pobliżu
 4. Domki w danym mieście przy zdanych datach
-5. Domki w danym miescie przy zdanych datach ponizej danej ceny
-6. Domki w danym mieście przy zdanych datach w odleglosci X ode mnie
-7. Domki w danym mieście przy zdanych datach w odleglosci nie mniejszej niz X od centrum
+5. Domki w danym miescie przy zdanych datach poniżej danej ceny
+6. Domki w danym mieście przy zdanych datach w odległości X ode mnie
+7. Domki w danym mieście przy zdanych datach w odległości nie mniejszej niz X od centrum
 8. Domki w danym mieście przy zdanych datach o ratingu nie mniejszym niz X
 9. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
 10. Domki w danym mieście przy zdanych datach z udogodnieniem X
@@ -36,16 +46,17 @@ Widoki:
 
 ~~12. Domki z pokojami~~
 
-Funkcje:
+### Funkcje
+
 1. Obliczanie ratingu
 2. Obliczanie wskaźnika atrakcyjności domku
-3. Obliczanie ilości wolnych domkow w danym dniu
+3. Obliczanie ilości wolnych domków w danym dniu
 4. Obliczanie ceny domku w podanych datach, z uwzględnieniem opłaty serwisowej
-5. Sparwdzenie, czy dany domek jest dostępny w danych datach.
-
+5. Sprawdzenie, czy dany domek jest dostępny w danych datach.
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
-Wyzwalacze:
+  Wyzwalacze:
+
 1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji (aktualizacja odpowiedniego widoku)
 2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualizacja odpowiedniego widoku)
 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
@@ -53,7 +64,8 @@ Wyzwalacze:
 5.
 6.
 
-Procedury składowane:
+### Procedury składowane
+
 1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
 2. Dodawanie pytania do gospodarza
 3. Dodawanie odpowiedzi do pytania
@@ -64,17 +76,17 @@ Procedury składowane:
 8. Zmiana ceny noclegu w danym domku
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
+- można utworzyć dwa programy klienckie jeden umożliwiający pracę administratorów (użytkowników ze zwiększonymi uprawnieniami), drugi umożliwiający prac zwykłych użytkowników.
 
-- można utworzyć dwa programy klienckie � jeden umo�liwiaj�cy prac� �administrator�w� (u�ytkownik�w ze zwi�kszonymi uprawnieniami), drugi umo�liwiaj�cy prac� zwyk�ych u�ytkownik�w.
+### Plik z opisem
 
-Plik z opisem:
-- podstawowe za�o�enia projektu (cel, g��wne za�o�enia, mo�liwo�ci, ograniczenia przyj�te przy projektowaniu),
+- podstawowe założenia projektu (cel, główne założenia, możliwości, ograniczenia przyj�te przy projektowaniu),
 - diagram ER,
 - schemat bazy danych (diagram relacji),
-- dodatkowe wi�zy integralno�ci danych (nie zapisane w schemacie),
+- dodatkowe wi�zy integralności danych (nie zapisane w schemacie),
 - utworzone indeksy,
 - opis stworzonych widok�w,
-- opis procedur sk�adowanych,
+- opis procedur składowanych,
 - opis wyzwalaczy,
-- skrypt tworz�cy baz� danych,
+- skrypt tworzący bazę danych,
 - typowe zapytania.
