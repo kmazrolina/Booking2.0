@@ -55,7 +55,7 @@ Setup with SQL server as docker container and VSCode as GUI.
 2. Obliczanie wskaźnika atrakcyjności domku
 3. ~~Obliczanie ilości wolnych domków w danym dniu~~
 4. ~~Obliczanie średniej długości pobytu~~
-5. Sprawdzenie, czy dany domek jest dostępny w danych datach.
+5. ~~Sprawdzenie, czy dany domek jest dostępny w danych datach.~~
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
   Wyzwalacze:
