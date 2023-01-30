@@ -47,7 +47,7 @@ Setup with SQL server as docker container and VSCode as GUI.
 ~~12. Domki z pokojami~~
 
 13.~~Informacja o gosciach
-14. ~~Informacja o rezerwacjach z rodzajem obiektu  ~~~~ (TO CHECK czy nie powtorka z 11)
+14. ~~Informacja o rezerwacjach z rodzajem obiektu  ~~~ (TO CHECK czy nie powtorka z 11)
 
 ### Funkcje
 
