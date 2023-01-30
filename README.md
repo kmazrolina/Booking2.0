@@ -32,7 +32,8 @@ Widoki:
 9. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
 10. Domki w danym mieście przy zdanych datach z udogodnieniem X
 ~~11. Domki wraz z ich rezerwacjami i szczegółami rezerwacji ~~
-~~12. Domki z pokojami~~
+
+~~12. Domki z pokojami ~~
 
 Funkcje:
 1. Obliczanie ratingu
