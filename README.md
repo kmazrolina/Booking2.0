@@ -53,7 +53,7 @@ Setup with SQL server as docker container and VSCode as GUI.
 
 1. Obliczanie ratingu
 2. Obliczanie wskaźnika atrakcyjności domku
-3. Obliczanie ilości wolnych domków w danym dniu
+3. ~~Obliczanie ilości wolnych domków w danym dniu~~
 4. ~~Obliczanie średniej długości pobytu~~
 5. Sprawdzenie, czy dany domek jest dostępny w danych datach.
 
