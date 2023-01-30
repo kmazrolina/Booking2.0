@@ -1,4 +1,4 @@
----dostepnosc domku o danym ID
+--Sprawdzenie, czy dany domek jest dostępny w danych datach.
 CREATE OR ALTER FUNCTION dbo.IsHousingAvailable
 (
  @housingId INT,
