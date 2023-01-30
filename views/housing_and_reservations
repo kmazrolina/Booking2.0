@@ -1,7 +1,7 @@
-EXEC drop_object 'houses_and_reservations'
+EXEC drop_object 'housing_and_reservations'
 
 GO
-CREATE VIEW houses_and_reservations AS
+CREATE VIEW housing_and_reservations AS
 SELECT H.id AS housing_id, H.name, R.start_date, R.end_date, RD.room_id FROM
 housing H RIGHT JOIN reservation R ON H.id = R.housing_id 
 RIGHT JOIN reservation_details RD ON RD.reservation_id = R.id
