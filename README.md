@@ -20,6 +20,10 @@ Setup with SQL server as docker container and VSCode as GUI.
    - username: `sa`
    - password: `zaq1@WSX`
 
+## Map
+
+- [View link](https://www.google.com/maps/d/edit?mid=18tvxkBTl4RfZrkY-aiGixkC0ZhavzSc&usp=sharing)
+
 ## TO DO
 
 - ~~!!Sprawdzić czy rezerwacje są poprawne (czy nie ma zbyt dużo rezerwacji na jeden obiekt w danych datach) !!~~
