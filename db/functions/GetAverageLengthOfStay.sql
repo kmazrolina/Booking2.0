@@ -1,5 +1,5 @@
 ---- zwraca srednią dlugosc pobytu wszystkich guestow
-
+GO
 CREATE OR ALTER FUNCTION [dbo].[GetAverageLengthOfStay] ()
 RETURNS FLOAT
 AS
@@ -25,4 +25,4 @@ SET @averageStayLength = 0
 END
 GO
 
-SELECT dbo.GetAverageLengthOfStay()
+
