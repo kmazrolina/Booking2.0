@@ -75,13 +75,13 @@ Karolina 1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwac
 
 Karolina 2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualizacja odpowiedniego widoku)
 
-3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
+wiki 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
 
 Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji
 
 ### Procedury składowane
 
-~~1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa~~
+~~1. Dodawanie: recenzji domku, ~~profilu gospodarza, profilu gościa
 ~~2. Dodawanie pytania do gospodarza~~
 ~~3. Dodawanie odpowiedzi do pytania~~
 
