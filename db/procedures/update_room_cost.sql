@@ -1,4 +1,4 @@
-DROP PROC update_room_cost
+GO
 CREATE  PROCEDURE update_room_cost (@id INT, @new_cost MONEY)
 AS
 BEGIN
@@ -6,3 +6,4 @@ BEGIN
     SET cost_per_night = @new_cost
     WHERE id = @id;
 END
+GO
