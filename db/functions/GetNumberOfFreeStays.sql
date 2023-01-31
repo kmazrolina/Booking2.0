@@ -1,4 +1,5 @@
 ---Obliczanie ilości wolnych domków w danym dniu
+GO
 CREATE OR ALTER FUNCTION dbo.GetNumberOfFreeStays (@date DATETIME)
 RETURNS INT
 AS
@@ -19,7 +20,4 @@ BEGIN
 
     RETURN @freeStays
 END
-
---
---DECLARE @date datetime = '2023-02-20'
---SELECT dbo.GetNumberOfFreeStays (@d
+GO
