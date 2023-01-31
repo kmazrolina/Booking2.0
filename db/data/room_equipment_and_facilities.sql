@@ -997,4 +997,4 @@ insert into room_equipment_and_facilities (count, room_id, item_id) values (1, 3
 insert into room_equipment_and_facilities (count, room_id, item_id) values (1, 270, 3);
 insert into room_equipment_and_facilities (count, room_id, item_id) values (3, 471, 1);
 insert into room_equipment_and_facilities (count, room_id, item_id) values (2, 184, 20);
-insert into room_equipment_and_facilities (count, room_id, item_id) values (1000, 1, 99, 29);
+insert into room_equipment_and_facilities (count, room_id, item_id) values (1, 99, 29);
