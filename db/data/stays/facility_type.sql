@@ -1,16 +1,17 @@
-insert into facility_type (id, name) values (1, 'Wi-fi');
-insert into facility_type (id, name) values (2, 'Café');
-insert into facility_type (id, name) values (3, 'Restaurant');
-insert into facility_type (id, name) values (4, 'Airport transfer');
-insert into facility_type (id, name) values (5, 'Daily cleaning');
-insert into facility_type (id, name) values (6, 'Laundry');
-insert into facility_type (id, name) values (7, 'Luggage storage');
-insert into facility_type (id, name) values (8, 'Lift');
-insert into facility_type (id, name) values (9, 'Indoor swimming pool');
-insert into facility_type (id, name) values (10, 'Open pool');
-insert into facility_type (id, name) values (11, 'Dry sauna');
-insert into facility_type (id, name) values (12, 'Steam sauna');
-insert into facility_type (id, name) values (13, 'Jacuzzi');
-insert into facility_type (id, name) values (14, 'Fitness center');
-insert into facility_type (id, name) values (15, 'Spa and wellness center');
-insert into facility_type (id, name) values (16, 'Parking');
+insert into facility_type (id, name) values
+(1, 'Wi-fi'),
+(2, 'Café'),
+(3, 'Restaurant'),
+(4, 'Airport transfer'),
+(5, 'Daily cleaning'),
+(6, 'Laundry'),
+(7, 'Luggage storage'),
+(8, 'Lift'),
+(9, 'Indoor swimming pool'),
+(10, 'Open pool'),
+(11, 'Dry sauna'),
+(12, 'Steam sauna'),
+(13, 'Jacuzzi'),
+(14, 'Fitness center'),
+(15, 'Spa and wellness center'),
+(16, 'Parking')

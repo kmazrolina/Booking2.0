@@ -1,400 +1,401 @@
-insert into facility ( housing_id, facility_type_id) values (61, 3);
-insert into facility ( housing_id, facility_type_id) values (88, 3);
-insert into facility ( housing_id, facility_type_id) values (10, 13);
-insert into facility ( housing_id, facility_type_id) values (92, 9);
-insert into facility ( housing_id, facility_type_id) values (41, 7);
-insert into facility ( housing_id, facility_type_id) values (5, 2);
-insert into facility ( housing_id, facility_type_id) values (26, 1);
-insert into facility ( housing_id, facility_type_id) values (81, 7);
-insert into facility ( housing_id, facility_type_id) values (53, 9);
-insert into facility ( housing_id, facility_type_id) values (48, 6);
-insert into facility ( housing_id, facility_type_id) values (10, 12);
-insert into facility ( housing_id, facility_type_id) values (46, 9);
-insert into facility ( housing_id, facility_type_id) values (34, 3);
-insert into facility ( housing_id, facility_type_id) values (55, 1);
-insert into facility ( housing_id, facility_type_id) values (83, 6);
-insert into facility ( housing_id, facility_type_id) values (53, 6);
-insert into facility ( housing_id, facility_type_id) values (7, 8);
-insert into facility ( housing_id, facility_type_id) values (2, 3);
-insert into facility ( housing_id, facility_type_id) values (50, 4);
-insert into facility ( housing_id, facility_type_id) values (96, 6);
-insert into facility ( housing_id, facility_type_id) values (80, 1);
-insert into facility ( housing_id, facility_type_id) values (42, 9);
-insert into facility ( housing_id, facility_type_id) values (96, 7);
-insert into facility ( housing_id, facility_type_id) values (82, 11);
-insert into facility ( housing_id, facility_type_id) values (74, 8);
-insert into facility ( housing_id, facility_type_id) values (13, 10);
-insert into facility ( housing_id, facility_type_id) values (70, 13);
-insert into facility ( housing_id, facility_type_id) values (28, 8);
-insert into facility ( housing_id, facility_type_id) values (100, 2);
-insert into facility ( housing_id, facility_type_id) values (53, 7);
-insert into facility ( housing_id, facility_type_id) values (51, 9);
-insert into facility ( housing_id, facility_type_id) values (93, 12);
-insert into facility ( housing_id, facility_type_id) values (77, 12);
-insert into facility ( housing_id, facility_type_id) values (44, 6);
-insert into facility ( housing_id, facility_type_id) values (30, 3);
-insert into facility ( housing_id, facility_type_id) values (18, 9);
-insert into facility ( housing_id, facility_type_id) values (90, 9);
-insert into facility ( housing_id, facility_type_id) values (91, 5);
-insert into facility ( housing_id, facility_type_id) values (21, 7);
-insert into facility ( housing_id, facility_type_id) values (29, 12);
-insert into facility ( housing_id, facility_type_id) values (10, 14);
-insert into facility ( housing_id, facility_type_id) values (8, 14);
-insert into facility ( housing_id, facility_type_id) values (3, 11);
-insert into facility ( housing_id, facility_type_id) values (14, 9);
-insert into facility ( housing_id, facility_type_id) values (85, 9);
-insert into facility ( housing_id, facility_type_id) values (85, 12);
-insert into facility ( housing_id, facility_type_id) values (67, 14);
-insert into facility ( housing_id, facility_type_id) values (17, 12);
-insert into facility ( housing_id, facility_type_id) values (37, 12);
-insert into facility ( housing_id, facility_type_id) values (7, 3);
-insert into facility ( housing_id, facility_type_id) values (71, 7);
-insert into facility ( housing_id, facility_type_id) values (95, 8);
-insert into facility ( housing_id, facility_type_id) values (3, 9);
-insert into facility ( housing_id, facility_type_id) values (25, 2);
-insert into facility ( housing_id, facility_type_id) values (32, 8);
-insert into facility ( housing_id, facility_type_id) values (42, 6);
-insert into facility ( housing_id, facility_type_id) values (62, 5);
-insert into facility ( housing_id, facility_type_id) values (21, 14);
-insert into facility ( housing_id, facility_type_id) values (18, 10);
-insert into facility ( housing_id, facility_type_id) values (85, 14);
-insert into facility ( housing_id, facility_type_id) values (66, 9);
-insert into facility ( housing_id, facility_type_id) values (82, 7);
-insert into facility ( housing_id, facility_type_id) values (35, 10);
-insert into facility ( housing_id, facility_type_id) values (33, 3);
-insert into facility ( housing_id, facility_type_id) values (68, 12);
-insert into facility ( housing_id, facility_type_id) values (75, 3);
-insert into facility ( housing_id, facility_type_id) values (31, 3);
-insert into facility ( housing_id, facility_type_id) values (47, 10);
-insert into facility ( housing_id, facility_type_id) values (25, 8);
-insert into facility ( housing_id, facility_type_id) values (57, 1);
-insert into facility ( housing_id, facility_type_id) values (88, 4);
-insert into facility ( housing_id, facility_type_id) values (76, 8);
-insert into facility ( housing_id, facility_type_id) values (75, 9);
-insert into facility ( housing_id, facility_type_id) values (13, 2);
-insert into facility ( housing_id, facility_type_id) values (40, 11);
-insert into facility ( housing_id, facility_type_id) values (19, 9);
-insert into facility ( housing_id, facility_type_id) values (35, 4);
-insert into facility ( housing_id, facility_type_id) values (65, 14);
-insert into facility ( housing_id, facility_type_id) values (49, 9);
-insert into facility ( housing_id, facility_type_id) values (26, 1);
-insert into facility ( housing_id, facility_type_id) values (31, 14);
-insert into facility ( housing_id, facility_type_id) values (87, 1);
-insert into facility ( housing_id, facility_type_id) values (90, 9);
-insert into facility ( housing_id, facility_type_id) values (95, 7);
-insert into facility ( housing_id, facility_type_id) values (95, 2);
-insert into facility ( housing_id, facility_type_id) values (32, 11);
-insert into facility ( housing_id, facility_type_id) values (78, 10);
-insert into facility ( housing_id, facility_type_id) values (17, 12);
-insert into facility ( housing_id, facility_type_id) values (86, 10);
-insert into facility ( housing_id, facility_type_id) values (31, 9);
-insert into facility ( housing_id, facility_type_id) values (11, 11);
-insert into facility ( housing_id, facility_type_id) values (80, 6);
-insert into facility ( housing_id, facility_type_id) values (79, 4);
-insert into facility ( housing_id, facility_type_id) values (86, 1);
-insert into facility ( housing_id, facility_type_id) values (80, 5);
-insert into facility ( housing_id, facility_type_id) values (86, 13);
-insert into facility ( housing_id, facility_type_id) values (28, 12);
-insert into facility ( housing_id, facility_type_id) values (57, 9);
-insert into facility ( housing_id, facility_type_id) values (23, 9);
-insert into facility ( housing_id, facility_type_id) values (60, 7);
-insert into facility ( housing_id, facility_type_id) values (42, 11);
-insert into facility ( housing_id, facility_type_id) values (59, 14);
-insert into facility ( housing_id, facility_type_id) values (53, 5);
-insert into facility ( housing_id, facility_type_id) values (93, 4);
-insert into facility ( housing_id, facility_type_id) values (5, 13);
-insert into facility ( housing_id, facility_type_id) values (83, 10);
-insert into facility ( housing_id, facility_type_id) values (56, 6);
-insert into facility ( housing_id, facility_type_id) values (61, 10);
-insert into facility ( housing_id, facility_type_id) values (4, 13);
-insert into facility ( housing_id, facility_type_id) values (26, 1);
-insert into facility ( housing_id, facility_type_id) values (74, 9);
-insert into facility ( housing_id, facility_type_id) values (29, 12);
-insert into facility ( housing_id, facility_type_id) values (89, 2);
-insert into facility ( housing_id, facility_type_id) values (71, 6);
-insert into facility ( housing_id, facility_type_id) values (48, 1);
-insert into facility ( housing_id, facility_type_id) values (58, 9);
-insert into facility ( housing_id, facility_type_id) values (45, 9);
-insert into facility ( housing_id, facility_type_id) values (51, 2);
-insert into facility ( housing_id, facility_type_id) values (90, 6);
-insert into facility ( housing_id, facility_type_id) values (87, 7);
-insert into facility ( housing_id, facility_type_id) values (41, 11);
-insert into facility ( housing_id, facility_type_id) values (94, 8);
-insert into facility ( housing_id, facility_type_id) values (6, 13);
-insert into facility ( housing_id, facility_type_id) values (25, 8);
-insert into facility ( housing_id, facility_type_id) values (33, 7);
-insert into facility ( housing_id, facility_type_id) values (27, 5);
-insert into facility ( housing_id, facility_type_id) values (4, 6);
-insert into facility ( housing_id, facility_type_id) values (79, 5);
-insert into facility ( housing_id, facility_type_id) values (85, 1);
-insert into facility ( housing_id, facility_type_id) values (19, 9);
-insert into facility ( housing_id, facility_type_id) values (77, 11);
-insert into facility ( housing_id, facility_type_id) values (87, 3);
-insert into facility ( housing_id, facility_type_id) values (13, 6);
-insert into facility ( housing_id, facility_type_id) values (70, 3);
-insert into facility ( housing_id, facility_type_id) values (28, 9);
-insert into facility ( housing_id, facility_type_id) values (75, 8);
-insert into facility ( housing_id, facility_type_id) values (29, 7);
-insert into facility ( housing_id, facility_type_id) values (5, 12);
-insert into facility ( housing_id, facility_type_id) values (97, 8);
-insert into facility ( housing_id, facility_type_id) values (80, 14);
-insert into facility ( housing_id, facility_type_id) values (15, 9);
-insert into facility ( housing_id, facility_type_id) values (98, 12);
-insert into facility ( housing_id, facility_type_id) values (9, 3);
-insert into facility ( housing_id, facility_type_id) values (49, 4);
-insert into facility ( housing_id, facility_type_id) values (54, 13);
-insert into facility ( housing_id, facility_type_id) values (87, 10);
-insert into facility ( housing_id, facility_type_id) values (82, 1);
-insert into facility ( housing_id, facility_type_id) values (31, 12);
-insert into facility ( housing_id, facility_type_id) values (56, 4);
-insert into facility ( housing_id, facility_type_id) values (37, 3);
-insert into facility ( housing_id, facility_type_id) values (99, 14);
-insert into facility ( housing_id, facility_type_id) values (59, 6);
-insert into facility ( housing_id, facility_type_id) values (1, 7);
-insert into facility ( housing_id, facility_type_id) values (59, 13);
-insert into facility ( housing_id, facility_type_id) values (6, 7);
-insert into facility ( housing_id, facility_type_id) values (68, 9);
-insert into facility ( housing_id, facility_type_id) values (34, 4);
-insert into facility ( housing_id, facility_type_id) values (55, 8);
-insert into facility ( housing_id, facility_type_id) values (49, 5);
-insert into facility ( housing_id, facility_type_id) values (20, 2);
-insert into facility ( housing_id, facility_type_id) values (44, 9);
-insert into facility ( housing_id, facility_type_id) values (26, 2);
-insert into facility ( housing_id, facility_type_id) values (96, 10);
-insert into facility ( housing_id, facility_type_id) values (13, 14);
-insert into facility ( housing_id, facility_type_id) values (67, 9);
-insert into facility ( housing_id, facility_type_id) values (66, 14);
-insert into facility ( housing_id, facility_type_id) values (13, 10);
-insert into facility ( housing_id, facility_type_id) values (18, 13);
-insert into facility ( housing_id, facility_type_id) values (98, 4);
-insert into facility ( housing_id, facility_type_id) values (33, 2);
-insert into facility ( housing_id, facility_type_id) values (11, 5);
-insert into facility ( housing_id, facility_type_id) values (12, 13);
-insert into facility ( housing_id, facility_type_id) values (79, 13);
-insert into facility ( housing_id, facility_type_id) values (77, 13);
-insert into facility ( housing_id, facility_type_id) values (99, 6);
-insert into facility ( housing_id, facility_type_id) values (85, 7);
-insert into facility ( housing_id, facility_type_id) values (16, 4);
-insert into facility ( housing_id, facility_type_id) values (93, 4);
-insert into facility ( housing_id, facility_type_id) values (6, 8);
-insert into facility ( housing_id, facility_type_id) values (69, 7);
-insert into facility ( housing_id, facility_type_id) values (89, 2);
-insert into facility ( housing_id, facility_type_id) values (42, 7);
-insert into facility ( housing_id, facility_type_id) values (40, 11);
-insert into facility ( housing_id, facility_type_id) values (8, 1);
-insert into facility ( housing_id, facility_type_id) values (92, 14);
-insert into facility ( housing_id, facility_type_id) values (48, 12);
-insert into facility ( housing_id, facility_type_id) values (17, 13);
-insert into facility ( housing_id, facility_type_id) values (79, 4);
-insert into facility ( housing_id, facility_type_id) values (50, 7);
-insert into facility ( housing_id, facility_type_id) values (85, 13);
-insert into facility ( housing_id, facility_type_id) values (88, 9);
-insert into facility ( housing_id, facility_type_id) values (17, 1);
-insert into facility ( housing_id, facility_type_id) values (3, 3);
-insert into facility ( housing_id, facility_type_id) values (62, 6);
-insert into facility ( housing_id, facility_type_id) values (22, 11);
-insert into facility ( housing_id, facility_type_id) values (11, 4);
-insert into facility ( housing_id, facility_type_id) values (6, 9);
-insert into facility ( housing_id, facility_type_id) values (45, 10);
-insert into facility ( housing_id, facility_type_id) values (26, 12);
-insert into facility ( housing_id, facility_type_id) values (61, 8);
-insert into facility ( housing_id, facility_type_id) values (47, 8);
-insert into facility ( housing_id, facility_type_id) values (21, 7);
-insert into facility ( housing_id, facility_type_id) values (50, 11);
-insert into facility ( housing_id, facility_type_id) values (9, 11);
-insert into facility ( housing_id, facility_type_id) values (62, 3);
-insert into facility ( housing_id, facility_type_id) values (43, 10);
-insert into facility ( housing_id, facility_type_id) values (98, 4);
-insert into facility ( housing_id, facility_type_id) values (62, 10);
-insert into facility ( housing_id, facility_type_id) values (96, 9);
-insert into facility ( housing_id, facility_type_id) values (5, 5);
-insert into facility ( housing_id, facility_type_id) values (2, 8);
-insert into facility ( housing_id, facility_type_id) values (68, 4);
-insert into facility ( housing_id, facility_type_id) values (33, 8);
-insert into facility ( housing_id, facility_type_id) values (25, 8);
-insert into facility ( housing_id, facility_type_id) values (64, 13);
-insert into facility ( housing_id, facility_type_id) values (5, 14);
-insert into facility ( housing_id, facility_type_id) values (6, 8);
-insert into facility ( housing_id, facility_type_id) values (85, 13);
-insert into facility ( housing_id, facility_type_id) values (74, 4);
-insert into facility ( housing_id, facility_type_id) values (43, 5);
-insert into facility ( housing_id, facility_type_id) values (15, 4);
-insert into facility ( housing_id, facility_type_id) values (62, 1);
-insert into facility ( housing_id, facility_type_id) values (42, 3);
-insert into facility ( housing_id, facility_type_id) values (88, 3);
-insert into facility ( housing_id, facility_type_id) values (98, 6);
-insert into facility ( housing_id, facility_type_id) values (22, 13);
-insert into facility ( housing_id, facility_type_id) values (55, 5);
-insert into facility ( housing_id, facility_type_id) values (4, 1);
-insert into facility ( housing_id, facility_type_id) values (22, 7);
-insert into facility ( housing_id, facility_type_id) values (53, 9);
-insert into facility ( housing_id, facility_type_id) values (65, 9);
-insert into facility ( housing_id, facility_type_id) values (2, 5);
-insert into facility ( housing_id, facility_type_id) values (44, 4);
-insert into facility ( housing_id, facility_type_id) values (71, 7);
-insert into facility ( housing_id, facility_type_id) values (56, 12);
-insert into facility ( housing_id, facility_type_id) values (55, 1);
-insert into facility ( housing_id, facility_type_id) values (55, 4);
-insert into facility ( housing_id, facility_type_id) values (46, 1);
-insert into facility ( housing_id, facility_type_id) values (5, 3);
-insert into facility ( housing_id, facility_type_id) values (80, 8);
-insert into facility ( housing_id, facility_type_id) values (43, 8);
-insert into facility ( housing_id, facility_type_id) values (47, 13);
-insert into facility ( housing_id, facility_type_id) values (10, 2);
-insert into facility ( housing_id, facility_type_id) values (75, 3);
-insert into facility ( housing_id, facility_type_id) values (92, 10);
-insert into facility ( housing_id, facility_type_id) values (36, 6);
-insert into facility ( housing_id, facility_type_id) values (94, 11);
-insert into facility ( housing_id, facility_type_id) values (4, 7);
-insert into facility ( housing_id, facility_type_id) values (40, 14);
-insert into facility ( housing_id, facility_type_id) values (53, 5);
-insert into facility ( housing_id, facility_type_id) values (85, 4);
-insert into facility ( housing_id, facility_type_id) values (10, 4);
-insert into facility ( housing_id, facility_type_id) values (96, 7);
-insert into facility ( housing_id, facility_type_id) values (5, 11);
-insert into facility ( housing_id, facility_type_id) values (46, 6);
-insert into facility ( housing_id, facility_type_id) values (93, 1);
-insert into facility ( housing_id, facility_type_id) values (93, 6);
-insert into facility ( housing_id, facility_type_id) values (84, 7);
-insert into facility ( housing_id, facility_type_id) values (15, 2);
-insert into facility ( housing_id, facility_type_id) values (54, 9);
-insert into facility ( housing_id, facility_type_id) values (94, 2);
-insert into facility ( housing_id, facility_type_id) values (43, 11);
-insert into facility ( housing_id, facility_type_id) values (11, 12);
-insert into facility ( housing_id, facility_type_id) values (52, 3);
-insert into facility ( housing_id, facility_type_id) values (47, 1);
-insert into facility ( housing_id, facility_type_id) values (71, 9);
-insert into facility ( housing_id, facility_type_id) values (34, 10);
-insert into facility ( housing_id, facility_type_id) values (21, 10);
-insert into facility ( housing_id, facility_type_id) values (81, 13);
-insert into facility ( housing_id, facility_type_id) values (56, 11);
-insert into facility ( housing_id, facility_type_id) values (62, 1);
-insert into facility ( housing_id, facility_type_id) values (99, 8);
-insert into facility ( housing_id, facility_type_id) values (14, 7);
-insert into facility ( housing_id, facility_type_id) values (99, 8);
-insert into facility ( housing_id, facility_type_id) values (78, 2);
-insert into facility ( housing_id, facility_type_id) values (32, 6);
-insert into facility ( housing_id, facility_type_id) values (76, 7);
-insert into facility ( housing_id, facility_type_id) values (74, 6);
-insert into facility ( housing_id, facility_type_id) values (67, 1);
-insert into facility ( housing_id, facility_type_id) values (57, 12);
-insert into facility ( housing_id, facility_type_id) values (2, 2);
-insert into facility ( housing_id, facility_type_id) values (82, 2);
-insert into facility ( housing_id, facility_type_id) values (96, 7);
-insert into facility ( housing_id, facility_type_id) values (93, 10);
-insert into facility ( housing_id, facility_type_id) values (32, 3);
-insert into facility ( housing_id, facility_type_id) values (29, 1);
-insert into facility ( housing_id, facility_type_id) values (37, 11);
-insert into facility ( housing_id, facility_type_id) values (86, 14);
-insert into facility ( housing_id, facility_type_id) values (9, 8);
-insert into facility ( housing_id, facility_type_id) values (34, 13);
-insert into facility ( housing_id, facility_type_id) values (50, 1);
-insert into facility ( housing_id, facility_type_id) values (36, 8);
-insert into facility ( housing_id, facility_type_id) values (61, 2);
-insert into facility ( housing_id, facility_type_id) values (47, 11);
-insert into facility ( housing_id, facility_type_id) values (1, 2);
-insert into facility ( housing_id, facility_type_id) values (27, 1);
-insert into facility ( housing_id, facility_type_id) values (42, 4);
-insert into facility ( housing_id, facility_type_id) values (1, 14);
-insert into facility ( housing_id, facility_type_id) values (95, 6);
-insert into facility ( housing_id, facility_type_id) values (42, 10);
-insert into facility ( housing_id, facility_type_id) values (62, 2);
-insert into facility ( housing_id, facility_type_id) values (44, 4);
-insert into facility ( housing_id, facility_type_id) values (30, 7);
-insert into facility ( housing_id, facility_type_id) values (60, 13);
-insert into facility ( housing_id, facility_type_id) values (71, 2);
-insert into facility ( housing_id, facility_type_id) values (56, 10);
-insert into facility ( housing_id, facility_type_id) values (26, 13);
-insert into facility ( housing_id, facility_type_id) values (74, 4);
-insert into facility ( housing_id, facility_type_id) values (75, 7);
-insert into facility ( housing_id, facility_type_id) values (93, 1);
-insert into facility ( housing_id, facility_type_id) values (90, 7);
-insert into facility ( housing_id, facility_type_id) values (99, 7);
-insert into facility ( housing_id, facility_type_id) values (83, 12);
-insert into facility ( housing_id, facility_type_id) values (89, 3);
-insert into facility ( housing_id, facility_type_id) values (4, 12);
-insert into facility ( housing_id, facility_type_id) values (41, 3);
-insert into facility ( housing_id, facility_type_id) values (39, 7);
-insert into facility ( housing_id, facility_type_id) values (20, 14);
-insert into facility ( housing_id, facility_type_id) values (57, 9);
-insert into facility ( housing_id, facility_type_id) values (65, 9);
-insert into facility ( housing_id, facility_type_id) values (85, 14);
-insert into facility ( housing_id, facility_type_id) values (83, 4);
-insert into facility ( housing_id, facility_type_id) values (47, 11);
-insert into facility ( housing_id, facility_type_id) values (90, 7);
-insert into facility ( housing_id, facility_type_id) values (7, 7);
-insert into facility ( housing_id, facility_type_id) values (4, 2);
-insert into facility ( housing_id, facility_type_id) values (16, 3);
-insert into facility ( housing_id, facility_type_id) values (79, 1);
-insert into facility ( housing_id, facility_type_id) values (27, 8);
-insert into facility ( housing_id, facility_type_id) values (76, 4);
-insert into facility ( housing_id, facility_type_id) values (42, 13);
-insert into facility ( housing_id, facility_type_id) values (71, 4);
-insert into facility ( housing_id, facility_type_id) values (70, 9);
-insert into facility ( housing_id, facility_type_id) values (75, 10);
-insert into facility ( housing_id, facility_type_id) values (78, 14);
-insert into facility ( housing_id, facility_type_id) values (57, 9);
-insert into facility ( housing_id, facility_type_id) values (70, 9);
-insert into facility ( housing_id, facility_type_id) values (48, 7);
-insert into facility ( housing_id, facility_type_id) values (25, 10);
-insert into facility ( housing_id, facility_type_id) values (23, 10);
-insert into facility ( housing_id, facility_type_id) values (99, 7);
-insert into facility ( housing_id, facility_type_id) values (25, 14);
-insert into facility ( housing_id, facility_type_id) values (79, 13);
-insert into facility ( housing_id, facility_type_id) values (7, 5);
-insert into facility ( housing_id, facility_type_id) values (100, 5);
-insert into facility ( housing_id, facility_type_id) values (96, 5);
-insert into facility ( housing_id, facility_type_id) values (43, 1);
-insert into facility ( housing_id, facility_type_id) values (47, 9);
-insert into facility ( housing_id, facility_type_id) values (77, 8);
-insert into facility ( housing_id, facility_type_id) values (62, 13);
-insert into facility ( housing_id, facility_type_id) values (92, 2);
-insert into facility ( housing_id, facility_type_id) values (72, 13);
-insert into facility ( housing_id, facility_type_id) values (53, 14);
-insert into facility ( housing_id, facility_type_id) values (52, 14);
-insert into facility ( housing_id, facility_type_id) values (93, 13);
-insert into facility ( housing_id, facility_type_id) values (49, 12);
-insert into facility ( housing_id, facility_type_id) values (7, 4);
-insert into facility ( housing_id, facility_type_id) values (43, 4);
-insert into facility ( housing_id, facility_type_id) values (37, 9);
-insert into facility ( housing_id, facility_type_id) values (17, 14);
-insert into facility ( housing_id, facility_type_id) values (98, 11);
-insert into facility ( housing_id, facility_type_id) values (31, 8);
-insert into facility ( housing_id, facility_type_id) values (23, 3);
-insert into facility ( housing_id, facility_type_id) values (4, 13);
-insert into facility ( housing_id, facility_type_id) values (25, 4);
-insert into facility ( housing_id, facility_type_id) values (35, 6);
-insert into facility ( housing_id, facility_type_id) values (84, 13);
-insert into facility ( housing_id, facility_type_id) values (22, 11);
-insert into facility ( housing_id, facility_type_id) values (8, 12);
-insert into facility ( housing_id, facility_type_id) values (9, 13);
-insert into facility ( housing_id, facility_type_id) values (60, 9);
-insert into facility ( housing_id, facility_type_id) values (41, 14);
-insert into facility ( housing_id, facility_type_id) values (44, 14);
-insert into facility ( housing_id, facility_type_id) values (85, 1);
-insert into facility ( housing_id, facility_type_id) values (95, 2);
-insert into facility ( housing_id, facility_type_id) values (41, 1);
-insert into facility ( housing_id, facility_type_id) values (23, 6);
-insert into facility ( housing_id, facility_type_id) values (85, 10);
-insert into facility ( housing_id, facility_type_id) values (94, 10);
-insert into facility ( housing_id, facility_type_id) values (59, 6);
-insert into facility ( housing_id, facility_type_id) values (81, 3);
-insert into facility ( housing_id, facility_type_id) values (61, 3);
-insert into facility ( housing_id, facility_type_id) values (39, 12);
-insert into facility ( housing_id, facility_type_id) values (62, 6);
-insert into facility ( housing_id, facility_type_id) values (27, 7);
-insert into facility ( housing_id, facility_type_id) values (24, 14);
-insert into facility ( housing_id, facility_type_id) values (57, 3);
-insert into facility ( housing_id, facility_type_id) values (48, 10);
-insert into facility ( housing_id, facility_type_id) values (90, 7);
-insert into facility ( housing_id, facility_type_id) values (17, 2);
-insert into facility ( housing_id, facility_type_id) values (39, 7);
-insert into facility ( housing_id, facility_type_id) values (60, 10);
-insert into facility ( housing_id, facility_type_id) values (88, 4);
-insert into facility ( housing_id, facility_type_id) values (28, 9);
-insert into facility ( housing_id, facility_type_id) values (58, 13);
-insert into facility ( housing_id, facility_type_id) values (70, 14);
-insert into facility ( housing_id, facility_type_id) values (92, 3);
-insert into facility ( housing_id, facility_type_id) values (67, 7);
-insert into facility ( housing_id, facility_type_id) values (76, 5);
-insert into facility ( housing_id, facility_type_id) values (7, 5);
+insert into facility ( housing_id, facility_type_id) values
+(61, 3),
+(88, 3),
+(10, 13),
+(92, 9),
+(41, 7),
+(5, 2),
+(26, 1),
+(81, 7),
+(53, 9),
+(48, 6),
+(10, 12),
+(46, 9),
+(34, 3),
+(55, 1),
+(83, 6),
+(53, 6),
+(7, 8),
+(2, 3),
+(50, 4),
+(96, 6),
+(80, 1),
+(42, 9),
+(96, 7),
+(82, 11),
+(74, 8),
+(13, 10),
+(70, 13),
+(28, 8),
+(100, 2),
+(53, 7),
+(51, 9),
+(93, 12),
+(77, 12),
+(44, 6),
+(30, 3),
+(18, 9),
+(90, 9),
+(91, 5),
+(21, 7),
+(29, 12),
+(10, 14),
+(8, 14),
+(3, 11),
+(14, 9),
+(85, 9),
+(85, 12),
+(67, 14),
+(17, 12),
+(37, 12),
+(7, 3),
+(71, 7),
+(95, 8),
+(3, 9),
+(25, 2),
+(32, 8),
+(42, 6),
+(62, 5),
+(21, 14),
+(18, 10),
+(85, 14),
+(66, 9),
+(82, 7),
+(35, 10),
+(33, 3),
+(68, 12),
+(75, 3),
+(31, 3),
+(47, 10),
+(25, 8),
+(57, 1),
+(88, 4),
+(76, 8),
+(75, 9),
+(13, 2),
+(40, 11),
+(19, 9),
+(35, 4),
+(65, 14),
+(49, 9),
+(26, 1),
+(31, 14),
+(87, 1),
+(90, 9),
+(95, 7),
+(95, 2),
+(32, 11),
+(78, 10),
+(17, 12),
+(86, 10),
+(31, 9),
+(11, 11),
+(80, 6),
+(79, 4),
+(86, 1),
+(80, 5),
+(86, 13),
+(28, 12),
+(57, 9),
+(23, 9),
+(60, 7),
+(42, 11),
+(59, 14),
+(53, 5),
+(93, 4),
+(5, 13),
+(83, 10),
+(56, 6),
+(61, 10),
+(4, 13),
+(26, 1),
+(74, 9),
+(29, 12),
+(89, 2),
+(71, 6),
+(48, 1),
+(58, 9),
+(45, 9),
+(51, 2),
+(90, 6),
+(87, 7),
+(41, 11),
+(94, 8),
+(6, 13),
+(25, 8),
+(33, 7),
+(27, 5),
+(4, 6),
+(79, 5),
+(85, 1),
+(19, 9),
+(77, 11),
+(87, 3),
+(13, 6),
+(70, 3),
+(28, 9),
+(75, 8),
+(29, 7),
+(5, 12),
+(97, 8),
+(80, 14),
+(15, 9),
+(98, 12),
+(9, 3),
+(49, 4),
+(54, 13),
+(87, 10),
+(82, 1),
+(31, 12),
+(56, 4),
+(37, 3),
+(99, 14),
+(59, 6),
+(1, 7),
+(59, 13),
+(6, 7),
+(68, 9),
+(34, 4),
+(55, 8),
+(49, 5),
+(20, 2),
+(44, 9),
+(26, 2),
+(96, 10),
+(13, 14),
+(67, 9),
+(66, 14),
+(13, 10),
+(18, 13),
+(98, 4),
+(33, 2),
+(11, 5),
+(12, 13),
+(79, 13),
+(77, 13),
+(99, 6),
+(85, 7),
+(16, 4),
+(93, 4),
+(6, 8),
+(69, 7),
+(89, 2),
+(42, 7),
+(40, 11),
+(8, 1),
+(92, 14),
+(48, 12),
+(17, 13),
+(79, 4),
+(50, 7),
+(85, 13),
+(88, 9),
+(17, 1),
+(3, 3),
+(62, 6),
+(22, 11),
+(11, 4),
+(6, 9),
+(45, 10),
+(26, 12),
+(61, 8),
+(47, 8),
+(21, 7),
+(50, 11),
+(9, 11),
+(62, 3),
+(43, 10),
+(98, 4),
+(62, 10),
+(96, 9),
+(5, 5),
+(2, 8),
+(68, 4),
+(33, 8),
+(25, 8),
+(64, 13),
+(5, 14),
+(6, 8),
+(85, 13),
+(74, 4),
+(43, 5),
+(15, 4),
+(62, 1),
+(42, 3),
+(88, 3),
+(98, 6),
+(22, 13),
+(55, 5),
+(4, 1),
+(22, 7),
+(53, 9),
+(65, 9),
+(2, 5),
+(44, 4),
+(71, 7),
+(56, 12),
+(55, 1),
+(55, 4),
+(46, 1),
+(5, 3),
+(80, 8),
+(43, 8),
+(47, 13),
+(10, 2),
+(75, 3),
+(92, 10),
+(36, 6),
+(94, 11),
+(4, 7),
+(40, 14),
+(53, 5),
+(85, 4),
+(10, 4),
+(96, 7),
+(5, 11),
+(46, 6),
+(93, 1),
+(93, 6),
+(84, 7),
+(15, 2),
+(54, 9),
+(94, 2),
+(43, 11),
+(11, 12),
+(52, 3),
+(47, 1),
+(71, 9),
+(34, 10),
+(21, 10),
+(81, 13),
+(56, 11),
+(62, 1),
+(99, 8),
+(14, 7),
+(99, 8),
+(78, 2),
+(32, 6),
+(76, 7),
+(74, 6),
+(67, 1),
+(57, 12),
+(2, 2),
+(82, 2),
+(96, 7),
+(93, 10),
+(32, 3),
+(29, 1),
+(37, 11),
+(86, 14),
+(9, 8),
+(34, 13),
+(50, 1),
+(36, 8),
+(61, 2),
+(47, 11),
+(1, 2),
+(27, 1),
+(42, 4),
+(1, 14),
+(95, 6),
+(42, 10),
+(62, 2),
+(44, 4),
+(30, 7),
+(60, 13),
+(71, 2),
+(56, 10),
+(26, 13),
+(74, 4),
+(75, 7),
+(93, 1),
+(90, 7),
+(99, 7),
+(83, 12),
+(89, 3),
+(4, 12),
+(41, 3),
+(39, 7),
+(20, 14),
+(57, 9),
+(65, 9),
+(85, 14),
+(83, 4),
+(47, 11),
+(90, 7),
+(7, 7),
+(4, 2),
+(16, 3),
+(79, 1),
+(27, 8),
+(76, 4),
+(42, 13),
+(71, 4),
+(70, 9),
+(75, 10),
+(78, 14),
+(57, 9),
+(70, 9),
+(48, 7),
+(25, 10),
+(23, 10),
+(99, 7),
+(25, 14),
+(79, 13),
+(7, 5),
+(100, 5),
+(96, 5),
+(43, 1),
+(47, 9),
+(77, 8),
+(62, 13),
+(92, 2),
+(72, 13),
+(53, 14),
+(52, 14),
+(93, 13),
+(49, 12),
+(7, 4),
+(43, 4),
+(37, 9),
+(17, 14),
+(98, 11),
+(31, 8),
+(23, 3),
+(4, 13),
+(25, 4),
+(35, 6),
+(84, 13),
+(22, 11),
+(8, 12),
+(9, 13),
+(60, 9),
+(41, 14),
+(44, 14),
+(85, 1),
+(95, 2),
+(41, 1),
+(23, 6),
+(85, 10),
+(94, 10),
+(59, 6),
+(81, 3),
+(61, 3),
+(39, 12),
+(62, 6),
+(27, 7),
+(24, 14),
+(57, 3),
+(48, 10),
+(90, 7),
+(17, 2),
+(39, 7),
+(60, 10),
+(88, 4),
+(28, 9),
+(58, 13),
+(70, 14),
+(92, 3),
+(67, 7),
+(76, 5),
+(7, 5);

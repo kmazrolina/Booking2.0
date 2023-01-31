@@ -1,50 +1,51 @@
-insert into reservation_details (reservation_id, room_id, cost) values (1, 7, '€386,92');
-insert into reservation_details (reservation_id, room_id, cost) values (2, 14, '€133,14');
-insert into reservation_details (reservation_id, room_id, cost) values (3, 21, '€496,09');
-insert into reservation_details (reservation_id, room_id, cost) values (4, 28, '€234,78');
-insert into reservation_details (reservation_id, room_id, cost) values (5, 35, '€237,71');
-insert into reservation_details (reservation_id, room_id, cost) values (6, 42, '€354,05');
-insert into reservation_details (reservation_id, room_id, cost) values (7, 49, '€52,82');
-insert into reservation_details (reservation_id, room_id, cost) values (8, 56, '€629,14');
-insert into reservation_details (reservation_id, room_id, cost) values (9, 63, '€898,75');
-insert into reservation_details (reservation_id, room_id, cost) values (10, 70, '€334,77');
-insert into reservation_details (reservation_id, room_id, cost) values (11, 77, '€818,53');
-insert into reservation_details (reservation_id, room_id, cost) values (12, 84, '€140,71');
-insert into reservation_details (reservation_id, room_id, cost) values (13, 91, '€290,48');
-insert into reservation_details (reservation_id, room_id, cost) values (14, 98, '€763,50');
-insert into reservation_details (reservation_id, room_id, cost) values (15, 105, '€978,65');
-insert into reservation_details (reservation_id, room_id, cost) values (16, 112, '€51,85');
-insert into reservation_details (reservation_id, room_id, cost) values (17, 119, '€519,84');
-insert into reservation_details (reservation_id, room_id, cost) values (18, 126, '€635,40');
-insert into reservation_details (reservation_id, room_id, cost) values (19, 133, '€674,24');
-insert into reservation_details (reservation_id, room_id, cost) values (20, 140, '€873,00');
-insert into reservation_details (reservation_id, room_id, cost) values (21, 147, '€493,90');
-insert into reservation_details (reservation_id, room_id, cost) values (22, 154, '€334,05');
-insert into reservation_details (reservation_id, room_id, cost) values (23, 161, '€220,53');
-insert into reservation_details (reservation_id, room_id, cost) values (24, 168, '€359,90');
-insert into reservation_details (reservation_id, room_id, cost) values (25, 175, '€359,81');
-insert into reservation_details (reservation_id, room_id, cost) values (26, 182, '€125,70');
-insert into reservation_details (reservation_id, room_id, cost) values (27, 189, '€366,12');
-insert into reservation_details (reservation_id, room_id, cost) values (28, 196, '€470,10');
-insert into reservation_details (reservation_id, room_id, cost) values (29, 203, '€831,48');
-insert into reservation_details (reservation_id, room_id, cost) values (30, 210, '€704,59');
-insert into reservation_details (reservation_id, room_id, cost) values (31, 217, '€235,08');
-insert into reservation_details (reservation_id, room_id, cost) values (32, 224, '€114,31');
-insert into reservation_details (reservation_id, room_id, cost) values (33, 231, '€79,48');
-insert into reservation_details (reservation_id, room_id, cost) values (34, 238, '€942,24');
-insert into reservation_details (reservation_id, room_id, cost) values (35, 245, '€478,51');
-insert into reservation_details (reservation_id, room_id, cost) values (36, 252, '€648,68');
-insert into reservation_details (reservation_id, room_id, cost) values (37, 259, '€188,92');
-insert into reservation_details (reservation_id, room_id, cost) values (38, 266, '€241,31');
-insert into reservation_details (reservation_id, room_id, cost) values (39, 273, '€650,90');
-insert into reservation_details (reservation_id, room_id, cost) values (40, 280, '€491,46');
-insert into reservation_details (reservation_id, room_id, cost) values (41, 287, '€801,67');
-insert into reservation_details (reservation_id, room_id, cost) values (42, 294, '€950,31');
-insert into reservation_details (reservation_id, room_id, cost) values (43, 301, '€394,30');
-insert into reservation_details (reservation_id, room_id, cost) values (44, 308, '€381,74');
-insert into reservation_details (reservation_id, room_id, cost) values (45, 315, '€718,99');
-insert into reservation_details (reservation_id, room_id, cost) values (46, 322, '€193,96');
-insert into reservation_details (reservation_id, room_id, cost) values (47, 329, '€295,22');
-insert into reservation_details (reservation_id, room_id, cost) values (48, 336, '€742,21');
-insert into reservation_details (reservation_id, room_id, cost) values (49, 343, '€34,57');
-insert into reservation_details (reservation_id, room_id, cost) values (50, 350, '€127,29');
+insert into reservation_details (reservation_id, room_id, cost) values
+(1, 7, '€386,92'),
+(2, 14, '€133,14'),
+(3, 21, '€496,09'),
+(4, 28, '€234,78'),
+(5, 35, '€237,71'),
+(6, 42, '€354,05'),
+(7, 49, '€52,82'),
+(8, 56, '€629,14'),
+(9, 63, '€898,75'),
+(10, 70, '€334,77'),
+(11, 77, '€818,53'),
+(12, 84, '€140,71'),
+(13, 91, '€290,48'),
+(14, 98, '€763,50'),
+(15, 105, '€978,65'),
+(16, 112, '€51,85'),
+(17, 119, '€519,84'),
+(18, 126, '€635,40'),
+(19, 133, '€674,24'),
+(20, 140, '€873,00'),
+(21, 147, '€493,90'),
+(22, 154, '€334,05'),
+(23, 161, '€220,53'),
+(24, 168, '€359,90'),
+(25, 175, '€359,81'),
+(26, 182, '€125,70'),
+(27, 189, '€366,12'),
+(28, 196, '€470,10'),
+(29, 203, '€831,48'),
+(30, 210, '€704,59'),
+(31, 217, '€235,08'),
+(32, 224, '€114,31'),
+(33, 231, '€79,48'),
+(34, 238, '€942,24'),
+(35, 245, '€478,51'),
+(36, 252, '€648,68'),
+(37, 259, '€188,92'),
+(38, 266, '€241,31'),
+(39, 273, '€650,90'),
+(40, 280, '€491,46'),
+(41, 287, '€801,67'),
+(42, 294, '€950,31'),
+(43, 301, '€394,30'),
+(44, 308, '€381,74'),
+(45, 315, '€718,99'),
+(46, 322, '€193,96'),
+(47, 329, '€295,22'),
+(48, 336, '€742,21'),
+(49, 343, '€34,57'),
+(50, 350, '€127,29');

@@ -1,300 +1,301 @@
-insert into housing_rating (housing_id, author_id, rating_data_id) values (59, 15, 1);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (18, 3, 2);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (31, 9, 3);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (87, 42, 4);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (95, 49, 5);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (48, 43, 6);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (13, 79, 7);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (9, 12, 8);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (48, 62, 9);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (95, 90, 10);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (19, 29, 11);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (84, 13, 12);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (70, 79, 13);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (40, 84, 14);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (28, 68, 15);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (7, 16, 16);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (5, 34, 17);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (96, 21, 18);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (92, 69, 19);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (58, 83, 20);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (72, 66, 21);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (68, 69, 22);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (18, 87, 23);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (49, 45, 24);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (99, 55, 25);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (11, 50, 26);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (31, 32, 27);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (79, 15, 28);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (14, 75, 29);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (92, 93, 30);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (93, 62, 31);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (98, 38, 32);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (2, 10, 33);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (1, 30, 34);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (15, 49, 35);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (21, 37, 36);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (22, 10, 37);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (57, 59, 38);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (80, 38, 39);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (10, 4, 40);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (29, 78, 41);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (5, 41, 42);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (50, 47, 43);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (40, 10, 44);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (53, 19, 45);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (83, 24, 46);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (44, 38, 47);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (79, 41, 48);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (77, 22, 49);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (7, 21, 50);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (83, 100, 51);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (2, 54, 52);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (63, 38, 53);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (99, 18, 54);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (71, 73, 55);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (14, 90, 56);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (58, 61, 57);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (87, 31, 58);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (3, 50, 59);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (1, 15, 60);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (98, 54, 61);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (16, 68, 62);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (4, 41, 63);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (69, 14, 64);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (8, 96, 65);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (67, 35, 66);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (36, 42, 67);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (4, 1, 68);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (76, 27, 69);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (44, 28, 70);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (77, 30, 71);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (6, 69, 72);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (66, 82, 73);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (57, 3, 74);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (47, 14, 75);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (2, 26, 76);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (51, 42, 77);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (9, 9, 78);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (42, 49, 79);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (3, 68, 80);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (67, 6, 81);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (68, 29, 82);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (79, 82, 83);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (39, 64, 84);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (51, 95, 85);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (68, 53, 86);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (92, 2, 87);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (64, 87, 88);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (60, 74, 89);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (93, 20, 90);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (50, 17, 91);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (62, 92, 92);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (38, 19, 93);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (23, 13, 94);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (55, 40, 95);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (54, 37, 96);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (20, 49, 97);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (45, 81, 98);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (98, 31, 99);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (21, 54, 100);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (34, 8, 101);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (35, 69, 102);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (99, 51, 103);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (32, 10, 104);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (1, 48, 105);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (15, 89, 106);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (89, 84, 107);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (10, 33, 108);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (8, 92, 109);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (64, 90, 110);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (67, 96, 111);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (3, 9, 112);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (12, 57, 113);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (84, 91, 114);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (77, 62, 115);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (90, 47, 116);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (25, 93, 117);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (71, 55, 118);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (12, 84, 119);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (50, 21, 120);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (72, 58, 121);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (27, 54, 122);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (13, 80, 123);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (86, 3, 124);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (90, 79, 125);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (31, 20, 126);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (2, 97, 127);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (89, 74, 128);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (98, 68, 129);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (50, 57, 130);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (3, 14, 131);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (78, 53, 132);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (49, 29, 133);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (28, 89, 134);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (77, 31, 135);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (8, 91, 136);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (62, 86, 137);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (47, 78, 138);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (54, 16, 139);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (86, 28, 140);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (88, 19, 141);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (84, 46, 142);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (80, 85, 143);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (20, 89, 144);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (43, 61, 145);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (96, 34, 146);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (1, 61, 147);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (75, 47, 148);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (44, 88, 149);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (33, 60, 150);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (74, 47, 151);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (3, 35, 152);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (90, 25, 153);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (26, 26, 154);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (8, 89, 155);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (67, 84, 156);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (28, 30, 157);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (66, 53, 158);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (19, 70, 159);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (83, 41, 160);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (34, 72, 161);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (34, 34, 162);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (16, 27, 163);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (44, 81, 164);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (25, 1, 165);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (95, 78, 166);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (24, 76, 167);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (30, 82, 168);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (43, 4, 169);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (43, 72, 170);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (35, 45, 171);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (55, 30, 172);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (54, 55, 173);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (51, 22, 174);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (40, 35, 175);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (63, 31, 176);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (71, 100, 177);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (79, 72, 178);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (82, 98, 179);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (82, 38, 180);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (97, 99, 181);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (79, 58, 182);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (1, 63, 183);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (28, 34, 184);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (32, 27, 185);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (35, 36, 186);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (80, 87, 187);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (77, 58, 188);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (7, 9, 189);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (33, 3, 190);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (90, 64, 191);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (90, 44, 192);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (86, 61, 193);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (48, 5, 194);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (18, 81, 195);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (92, 88, 196);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (45, 2, 197);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (84, 28, 198);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (7, 77, 199);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (44, 32, 200);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (15, 25, 201);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (72, 10, 202);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (74, 5, 203);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (48, 46, 204);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (48, 75, 205);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (70, 10, 206);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (40, 98, 207);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (51, 16, 208);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (17, 39, 209);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (86, 6, 210);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (35, 22, 211);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (52, 60, 212);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (47, 38, 213);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (90, 48, 214);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (7, 49, 215);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (15, 30, 216);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (53, 100, 217);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (19, 70, 218);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (19, 92, 219);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (65, 63, 220);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (55, 52, 221);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (59, 92, 222);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (50, 86, 223);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (8, 22, 224);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (93, 49, 225);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (64, 44, 226);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (19, 3, 227);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (16, 32, 228);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (41, 1, 229);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (31, 34, 230);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (49, 13, 231);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (2, 3, 232);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (15, 8, 233);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (67, 30, 234);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (35, 26, 235);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (90, 10, 236);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (25, 78, 237);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (32, 77, 238);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (65, 26, 239);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (78, 64, 240);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (1, 15, 241);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (87, 15, 242);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (92, 32, 243);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (27, 39, 244);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (18, 90, 245);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (79, 81, 246);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (29, 67, 247);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (27, 35, 248);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (99, 39, 249);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (22, 5, 250);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (72, 36, 251);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (97, 59, 252);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (42, 8, 253);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (60, 4, 254);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (78, 42, 255);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (7, 43, 256);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (64, 79, 257);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (40, 56, 258);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (81, 26, 259);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (73, 3, 260);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (37, 12, 261);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (29, 64, 262);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (49, 20, 263);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (87, 48, 264);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (65, 19, 265);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (24, 69, 266);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (45, 74, 267);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (24, 29, 268);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (58, 63, 269);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (1, 54, 270);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (85, 39, 271);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (68, 31, 272);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (76, 22, 273);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (44, 44, 274);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (63, 51, 275);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (61, 33, 276);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (48, 21, 277);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (10, 44, 278);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (41, 70, 279);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (36, 62, 280);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (38, 55, 281);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (54, 87, 282);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (73, 34, 283);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (55, 12, 284);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (45, 16, 285);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (18, 67, 286);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (19, 17, 287);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (22, 83, 288);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (48, 7, 289);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (5, 19, 290);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (62, 30, 291);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (56, 30, 292);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (17, 66, 293);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (83, 87, 294);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (2, 48, 295);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (76, 76, 296);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (97, 4, 297);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (33, 58, 298);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (34, 4, 299);
-insert into housing_rating (housing_id, author_id, rating_data_id) values (64, 36, 300);
+insert into housing_rating (housing_id, author_id, rating_data_id) values
+(59, 15, 1),
+(18, 3, 2),
+(31, 9, 3),
+(87, 42, 4),
+(95, 49, 5),
+(48, 43, 6),
+(13, 79, 7),
+(9, 12, 8),
+(48, 62, 9),
+(95, 90, 10),
+(19, 29, 11),
+(84, 13, 12),
+(70, 79, 13),
+(40, 84, 14),
+(28, 68, 15),
+(7, 16, 16),
+(5, 34, 17),
+(96, 21, 18),
+(92, 69, 19),
+(58, 83, 20),
+(72, 66, 21),
+(68, 69, 22),
+(18, 87, 23),
+(49, 45, 24),
+(99, 55, 25),
+(11, 50, 26),
+(31, 32, 27),
+(79, 15, 28),
+(14, 75, 29),
+(92, 93, 30),
+(93, 62, 31),
+(98, 38, 32),
+(2, 10, 33),
+(1, 30, 34),
+(15, 49, 35),
+(21, 37, 36),
+(22, 10, 37),
+(57, 59, 38),
+(80, 38, 39),
+(10, 4, 40),
+(29, 78, 41),
+(5, 41, 42),
+(50, 47, 43),
+(40, 10, 44),
+(53, 19, 45),
+(83, 24, 46),
+(44, 38, 47),
+(79, 41, 48),
+(77, 22, 49),
+(7, 21, 50),
+(83, 100, 51),
+(2, 54, 52),
+(63, 38, 53),
+(99, 18, 54),
+(71, 73, 55),
+(14, 90, 56),
+(58, 61, 57),
+(87, 31, 58),
+(3, 50, 59),
+(1, 15, 60),
+(98, 54, 61),
+(16, 68, 62),
+(4, 41, 63),
+(69, 14, 64),
+(8, 96, 65),
+(67, 35, 66),
+(36, 42, 67),
+(4, 1, 68),
+(76, 27, 69),
+(44, 28, 70),
+(77, 30, 71),
+(6, 69, 72),
+(66, 82, 73),
+(57, 3, 74),
+(47, 14, 75),
+(2, 26, 76),
+(51, 42, 77),
+(9, 9, 78),
+(42, 49, 79),
+(3, 68, 80),
+(67, 6, 81),
+(68, 29, 82),
+(79, 82, 83),
+(39, 64, 84),
+(51, 95, 85),
+(68, 53, 86),
+(92, 2, 87),
+(64, 87, 88),
+(60, 74, 89),
+(93, 20, 90),
+(50, 17, 91),
+(62, 92, 92),
+(38, 19, 93),
+(23, 13, 94),
+(55, 40, 95),
+(54, 37, 96),
+(20, 49, 97),
+(45, 81, 98),
+(98, 31, 99),
+(21, 54, 100),
+(34, 8, 101),
+(35, 69, 102),
+(99, 51, 103),
+(32, 10, 104),
+(1, 48, 105),
+(15, 89, 106),
+(89, 84, 107),
+(10, 33, 108),
+(8, 92, 109),
+(64, 90, 110),
+(67, 96, 111),
+(3, 9, 112),
+(12, 57, 113),
+(84, 91, 114),
+(77, 62, 115),
+(90, 47, 116),
+(25, 93, 117),
+(71, 55, 118),
+(12, 84, 119),
+(50, 21, 120),
+(72, 58, 121),
+(27, 54, 122),
+(13, 80, 123),
+(86, 3, 124),
+(90, 79, 125),
+(31, 20, 126),
+(2, 97, 127),
+(89, 74, 128),
+(98, 68, 129),
+(50, 57, 130),
+(3, 14, 131),
+(78, 53, 132),
+(49, 29, 133),
+(28, 89, 134),
+(77, 31, 135),
+(8, 91, 136),
+(62, 86, 137),
+(47, 78, 138),
+(54, 16, 139),
+(86, 28, 140),
+(88, 19, 141),
+(84, 46, 142),
+(80, 85, 143),
+(20, 89, 144),
+(43, 61, 145),
+(96, 34, 146),
+(1, 61, 147),
+(75, 47, 148),
+(44, 88, 149),
+(33, 60, 150),
+(74, 47, 151),
+(3, 35, 152),
+(90, 25, 153),
+(26, 26, 154),
+(8, 89, 155),
+(67, 84, 156),
+(28, 30, 157),
+(66, 53, 158),
+(19, 70, 159),
+(83, 41, 160),
+(34, 72, 161),
+(34, 34, 162),
+(16, 27, 163),
+(44, 81, 164),
+(25, 1, 165),
+(95, 78, 166),
+(24, 76, 167),
+(30, 82, 168),
+(43, 4, 169),
+(43, 72, 170),
+(35, 45, 171),
+(55, 30, 172),
+(54, 55, 173),
+(51, 22, 174),
+(40, 35, 175),
+(63, 31, 176),
+(71, 100, 177),
+(79, 72, 178),
+(82, 98, 179),
+(82, 38, 180),
+(97, 99, 181),
+(79, 58, 182),
+(1, 63, 183),
+(28, 34, 184),
+(32, 27, 185),
+(35, 36, 186),
+(80, 87, 187),
+(77, 58, 188),
+(7, 9, 189),
+(33, 3, 190),
+(90, 64, 191),
+(90, 44, 192),
+(86, 61, 193),
+(48, 5, 194),
+(18, 81, 195),
+(92, 88, 196),
+(45, 2, 197),
+(84, 28, 198),
+(7, 77, 199),
+(44, 32, 200),
+(15, 25, 201),
+(72, 10, 202),
+(74, 5, 203),
+(48, 46, 204),
+(48, 75, 205),
+(70, 10, 206),
+(40, 98, 207),
+(51, 16, 208),
+(17, 39, 209),
+(86, 6, 210),
+(35, 22, 211),
+(52, 60, 212),
+(47, 38, 213),
+(90, 48, 214),
+(7, 49, 215),
+(15, 30, 216),
+(53, 100, 217),
+(19, 70, 218),
+(19, 92, 219),
+(65, 63, 220),
+(55, 52, 221),
+(59, 92, 222),
+(50, 86, 223),
+(8, 22, 224),
+(93, 49, 225),
+(64, 44, 226),
+(19, 3, 227),
+(16, 32, 228),
+(41, 1, 229),
+(31, 34, 230),
+(49, 13, 231),
+(2, 3, 232),
+(15, 8, 233),
+(67, 30, 234),
+(35, 26, 235),
+(90, 10, 236),
+(25, 78, 237),
+(32, 77, 238),
+(65, 26, 239),
+(78, 64, 240),
+(1, 15, 241),
+(87, 15, 242),
+(92, 32, 243),
+(27, 39, 244),
+(18, 90, 245),
+(79, 81, 246),
+(29, 67, 247),
+(27, 35, 248),
+(99, 39, 249),
+(22, 5, 250),
+(72, 36, 251),
+(97, 59, 252),
+(42, 8, 253),
+(60, 4, 254),
+(78, 42, 255),
+(7, 43, 256),
+(64, 79, 257),
+(40, 56, 258),
+(81, 26, 259),
+(73, 3, 260),
+(37, 12, 261),
+(29, 64, 262),
+(49, 20, 263),
+(87, 48, 264),
+(65, 19, 265),
+(24, 69, 266),
+(45, 74, 267),
+(24, 29, 268),
+(58, 63, 269),
+(1, 54, 270),
+(85, 39, 271),
+(68, 31, 272),
+(76, 22, 273),
+(44, 44, 274),
+(63, 51, 275),
+(61, 33, 276),
+(48, 21, 277),
+(10, 44, 278),
+(41, 70, 279),
+(36, 62, 280),
+(38, 55, 281),
+(54, 87, 282),
+(73, 34, 283),
+(55, 12, 284),
+(45, 16, 285),
+(18, 67, 286),
+(19, 17, 287),
+(22, 83, 288),
+(48, 7, 289),
+(5, 19, 290),
+(62, 30, 291),
+(56, 30, 292),
+(17, 66, 293),
+(83, 87, 294),
+(2, 48, 295),
+(76, 76, 296),
+(97, 4, 297),
+(33, 58, 298),
+(34, 4, 299),
+(64, 36, 300);

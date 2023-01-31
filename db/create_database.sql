@@ -1,0 +1,5 @@
+IF DB_ID('booking2') IS NOT NULL
+  DROP DATABASE booking2
+GO
+
+CREATE DATABASE booking2

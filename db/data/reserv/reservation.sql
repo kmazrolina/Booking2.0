@@ -1,50 +1,51 @@
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (52, 29, '12/11/2023', '12/13/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (64, 86, '02/04/2022', '02/05/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (93, 61, '11/23/2023', '11/27/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (40, 71, '06/13/2023', '06/15/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (37, 60, '05/11/2022', '05/13/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (13, 17, '03/10/2023', '03/11/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (85, 26, '10/27/2022', '10/28/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (57, 78, '01/30/2023', '01/31/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (43, 59, '03/04/2022', '03/19/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (93, 41, '10/22/2022', '10/25/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (44, 12, '04/20/2023', '04/28/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (9, 98, '06/04/2022', '06/06/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (23, 74, '11/15/2022', '11/18/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (11, 34, '12/29/2023', '12/30/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (49, 27, '11/17/2022', '11/18/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (37, 39, '06/07/2023', '06/09/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (52, 11, '04/03/2022', '04/04/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (39, 29, '09/05/2023', '09/10/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (66, 98, '05/14/2023', '05/17/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (89, 94, '02/08/2023', '02/09/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (70, 38, '08/24/2022', '08/25/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (6, 98, '08/13/2022', '08/15/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (98, 58, '08/17/2022', '08/18/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (88, 53, '08/29/2023', '08/30/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (16, 36, '11/19/2023', '11/28/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (1, 4, '12/06/2023', '12/07/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (38, 52, '11/10/2023', '11/18/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (41, 3, '10/05/2022', '10/07/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (69, 70, '05/30/2022', '06/07/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (59, 66, '08/26/2022', '08/27/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (15, 93, '06/26/2022', '06/27/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (52, 82, '07/12/2022', '07/16/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (37, 50, '07/23/2022', '07/27/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (89, 4, '08/27/2022', '08/28/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (53, 36, '11/28/2023', '11/29/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (98, 41, '11/05/2022', '11/07/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (47, 89, '11/23/2022', '11/28/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (66, 100, '10/11/2023', '10/12/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (47, 66, '10/29/2022', '10/30/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (54, 37, '07/12/2022', '07/15/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (98, 2, '07/01/2023', '07/02/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (28, 15, '11/23/2023', '11/26/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (22, 98, '04/14/2023', '04/15/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (46, 93, '12/02/2022', '12/06/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (63, 12, '08/17/2023', '08/18/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (28, 2, '12/16/2022', '12/18/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (7, 84, '12/14/2022', '12/18/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (71, 75, '12/28/2023', '12/29/2023');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (66, 50, '08/23/2022', '08/29/2022');
-insert into reservation ( guest_id, housing_id, start_date, end_date) values (16, 54, '10/12/2023', '10/13/2023');
+insert into reservation ( guest_id, housing_id, start_date, end_date) values
+(52, 29, '12/11/2023', '12/13/2023'),
+(64, 86, '02/04/2022', '02/05/2022'),
+(93, 61, '11/23/2023', '11/27/2023'),
+(40, 71, '06/13/2023', '06/15/2023'),
+(37, 60, '05/11/2022', '05/13/2022'),
+(13, 17, '03/10/2023', '03/11/2023'),
+(85, 26, '10/27/2022', '10/28/2022'),
+(57, 78, '01/30/2023', '01/31/2023'),
+(43, 59, '03/04/2022', '03/19/2022'),
+(93, 41, '10/22/2022', '10/25/2022'),
+(44, 12, '04/20/2023', '04/28/2023'),
+(9, 98, '06/04/2022', '06/06/2022'),
+(23, 74, '11/15/2022', '11/18/2022'),
+(11, 34, '12/29/2023', '12/30/2023'),
+(49, 27, '11/17/2022', '11/18/2022'),
+(37, 39, '06/07/2023', '06/09/2023'),
+(52, 11, '04/03/2022', '04/04/2022'),
+(39, 29, '09/05/2023', '09/10/2023'),
+(66, 98, '05/14/2023', '05/17/2023'),
+(89, 94, '02/08/2023', '02/09/2023'),
+(70, 38, '08/24/2022', '08/25/2022'),
+(6, 98, '08/13/2022', '08/15/2022'),
+(98, 58, '08/17/2022', '08/18/2022'),
+(88, 53, '08/29/2023', '08/30/2023'),
+(16, 36, '11/19/2023', '11/28/2023'),
+(1, 4, '12/06/2023', '12/07/2023'),
+(38, 52, '11/10/2023', '11/18/2023'),
+(41, 3, '10/05/2022', '10/07/2022'),
+(69, 70, '05/30/2022', '06/07/2022'),
+(59, 66, '08/26/2022', '08/27/2022'),
+(15, 93, '06/26/2022', '06/27/2022'),
+(52, 82, '07/12/2022', '07/16/2022'),
+(37, 50, '07/23/2022', '07/27/2022'),
+(89, 4, '08/27/2022', '08/28/2022'),
+(53, 36, '11/28/2023', '11/29/2023'),
+(98, 41, '11/05/2022', '11/07/2022'),
+(47, 89, '11/23/2022', '11/28/2022'),
+(66, 100, '10/11/2023', '10/12/2023'),
+(47, 66, '10/29/2022', '10/30/2022'),
+(54, 37, '07/12/2022', '07/15/2022'),
+(98, 2, '07/01/2023', '07/02/2023'),
+(28, 15, '11/23/2023', '11/26/2023'),
+(22, 98, '04/14/2023', '04/15/2023'),
+(46, 93, '12/02/2022', '12/06/2022'),
+(63, 12, '08/17/2023', '08/18/2023'),
+(28, 2, '12/16/2022', '12/18/2022'),
+(7, 84, '12/14/2022', '12/18/2022'),
+(71, 75, '12/28/2023', '12/29/2023'),
+(66, 50, '08/23/2022', '08/29/2022'),
+(16, 54, '10/12/2023', '10/13/2023');

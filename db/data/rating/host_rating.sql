@@ -1,50 +1,51 @@
-insert into host_rating (host_id, author_id, rating_data_id) values ( 77, 40, 1);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 12, 59, 2);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 38, 81, 3);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 63, 46, 4);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 12, 27, 5);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 61, 45, 6);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 28, 38, 7);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 52, 91, 8);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 53, 9, 9);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 79, 55, 10);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 76, 44, 11);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 74, 22, 12);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 40, 46, 13);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 6, 62, 14);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 42, 44, 15);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 40, 64, 16);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 28, 89, 17);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 44, 86, 18);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 62, 1, 19);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 43, 53, 20);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 17, 65, 21);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 46, 10, 22);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 63, 72, 23);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 43, 4, 24);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 12, 43, 25);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 74, 43, 26);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 30, 62, 27);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 68, 78, 28);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 23, 23, 29);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 60, 22, 30);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 77, 34, 31);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 7, 58, 32);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 27, 67, 33);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 63, 24, 34);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 5, 25, 35);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 35, 87, 36);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 30, 41, 37);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 31, 68, 38);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 25, 39, 39);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 29, 41, 40);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 19, 52, 41);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 58, 90, 42);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 63, 91, 43);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 46, 35, 44);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 72, 73, 45);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 64, 18, 46);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 69, 4, 47);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 14, 18, 48);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 1, 53, 49);
-insert into host_rating (host_id, author_id, rating_data_id) values ( 46, 88, 50);
+insert into host_rating (host_id, author_id, rating_data_id) values
+( 77, 40, 1),
+( 12, 59, 2),
+( 38, 81, 3),
+( 63, 46, 4),
+( 12, 27, 5),
+( 61, 45, 6),
+( 28, 38, 7),
+( 52, 91, 8),
+( 53, 9, 9),
+( 79, 55, 10),
+( 76, 44, 11),
+( 74, 22, 12),
+( 40, 46, 13),
+( 6, 62, 14),
+( 42, 44, 15),
+( 40, 64, 16),
+( 28, 89, 17),
+( 44, 86, 18),
+( 62, 1, 19),
+( 43, 53, 20),
+( 17, 65, 21),
+( 46, 10, 22),
+( 63, 72, 23),
+( 43, 4, 24),
+( 12, 43, 25),
+( 74, 43, 26),
+( 30, 62, 27),
+( 68, 78, 28),
+( 23, 23, 29),
+( 60, 22, 30),
+( 77, 34, 31),
+( 7, 58, 32),
+( 27, 67, 33),
+( 63, 24, 34),
+( 5, 25, 35),
+( 35, 87, 36),
+( 30, 41, 37),
+( 31, 68, 38),
+( 25, 39, 39),
+( 29, 41, 40),
+( 19, 52, 41),
+( 58, 90, 42),
+( 63, 91, 43),
+( 46, 35, 44),
+( 72, 73, 45),
+( 64, 18, 46),
+( 69, 4, 47),
+( 14, 18, 48),
+( 1, 53, 49),
+( 46, 88, 50);
