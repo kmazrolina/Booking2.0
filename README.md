@@ -55,7 +55,9 @@ In order to recreate map in database following programs were used (more on that 
 
 ~~12. Domki z ich pokojami~~
 
-13.~~Informacja o gosciach~~ 14. ~~Informacja o rezerwacjach z rodzajem obiektu~~ (TO CHECK czy nie powtorka z 11)
+13.~~Informacja o gosciach~~ 
+14. ~~Informacja o rezerwacjach z rodzajem obiektu~~ (TO CHECK czy nie powtorka z 11)
+15. ~~QA view~~
 
 ### Funkcje
 
@@ -82,9 +84,9 @@ Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy prób
 
 ### Procedury składowane
 
-Wiki 1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
-Wiki 2. Dodawanie pytania do gospodarza
-3. Dodawanie odpowiedzi do pytania
+~~1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa~~
+ ~~2. Dodawanie pytania do gospodarza~~
+~~3. Dodawanie odpowiedzi do pytania~~
 
 ~~4. Dokonanie rezerwacji domku~~
 
