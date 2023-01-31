@@ -11,9 +11,3 @@ BEGIN
   VALUES (@housing_id, @author_id, @rating_id);
 END
 GO
-EXEC add_rating 3,10, 4, 'Nice hotel with easy parking and good breakfast', 'Hotel located 5 minutes
-away from the ferry crossing, in a small quiet village with restaurants and small supermarket nearby. 
-Friendly and discreet staff. Very clean bedroom with comfy bed. Great choice of local fresh breads 
-(including a delicious gingerbread and sugar/cinnamon) for breakfast with ample selection of local 
-cheese and ham, cereals and yogourts, bacon and egg, and fresh fruit salad - all continuously
-refilled by watchful staff member. Free tea and coffee during the day'
