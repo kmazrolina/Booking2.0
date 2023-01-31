@@ -59,7 +59,7 @@ In order to recreate map in database following programs were used (more on that 
 
 ### Funkcje
 
-Karolina 1. Obliczanie ratingu
+~~1. Obliczanie ratingu~~
 
 Karolina 2. Obliczanie wskaźnika atrakcyjności domku
 
