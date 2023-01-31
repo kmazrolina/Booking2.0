@@ -13,8 +13,3 @@ sudo docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=$password" \
   -p $port:1433 --name $container_name --hostname $container_name \
   -d \
   mcr.microsoft.com/mssql/server:2022-latest
-
-# vscode connection:
-# - host.docker.internal,1433
-# - <database name>
-# - ...
