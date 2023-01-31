@@ -85,7 +85,9 @@ Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy prób
 1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
 2. Dodawanie pytania do gospodarza
 3. Dodawanie odpowiedzi do pytania
-4. Dokonanie rezerwacji domku
+
+Karolina 4. Dokonanie rezerwacji domku
+
 5. Opłacenie rezerwacji
 6. Anulowanie rezerwacji
 7. Zmiana daty rezerwacji
