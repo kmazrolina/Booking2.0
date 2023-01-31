@@ -89,8 +89,8 @@ Wiki 2. Dodawanie pytania do gospodarza
 ~~4. Dokonanie rezerwacji domku~~
 
 5. Opłacenie rezerwacji
-Karolina 6. Anulowanie rezerwacji
-Karolina 7. Zmiana daty rezerwacji
+~~6. Anulowanie rezerwacji~~
+~~7. Zmiana daty rezerwacji~~
 wiki 8. Zmiana ceny noclegu w danym domku
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
