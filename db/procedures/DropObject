@@ -1,5 +1,5 @@
 GO
-CREATE PROCEDURE dbo.drop_object(@objectname varchar(max))
+CREATE PROCEDURE DropObject(@objectname varchar(max))
 AS
 BEGIN
 IF EXISTS( SELECT * FROM sys.objects WHERE name = @objectname)
