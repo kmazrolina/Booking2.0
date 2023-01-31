@@ -45,7 +45,7 @@ CREATE TABLE [host_rating] (
 GO
 
 CREATE TABLE [reservation] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [guest_id] integer,
   [housing_id] integer,
   [start_date] datetime,
