@@ -4,8 +4,6 @@ GO
 CREATE PROCEDURE DeleteReservation(@reservation_id int)
 AS
 BEGIN
-SET IMPLICIT_TRANSACTIONS OFF
-
 BEGIN TRANSACTION
 
 	--tutaj uruchomiony zostanie wyzwalacz aktualizujacy widoki zawierajace rezerwacje
