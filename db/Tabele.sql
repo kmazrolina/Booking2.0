@@ -166,7 +166,7 @@ CREATE TABLE [city] (
 GO
 
 CREATE TABLE [attraction] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [name] varchar(100),
   [description] varchar(500),
   [attraction_type_id] integer,
