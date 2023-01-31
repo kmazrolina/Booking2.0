@@ -1,80 +1,81 @@
-insert into host (user_data_id) values ( 102);
-insert into host (user_data_id) values ( 101);
-insert into host (user_data_id) values ( 100);
-insert into host (user_data_id) values ( 107);
-insert into host (user_data_id) values ( 106);
-insert into host (user_data_id) values ( 105);
-insert into host (user_data_id) values ( 104);
-insert into host (user_data_id) values ( 111);
-insert into host (user_data_id) values ( 110);
-insert into host (user_data_id) values ( 109);
-insert into host (user_data_id) values ( 108);
-insert into host (user_data_id) values ( 115);
-insert into host (user_data_id) values ( 114);
-insert into host (user_data_id) values ( 113);
-insert into host (user_data_id) values ( 112);
-insert into host (user_data_id) values ( 119);
-insert into host (user_data_id) values ( 118);
-insert into host (user_data_id) values ( 117);
-insert into host (user_data_id) values ( 116);
-insert into host (user_data_id) values ( 123);
-insert into host (user_data_id) values ( 122);
-insert into host (user_data_id) values ( 121);
-insert into host (user_data_id) values ( 120);
-insert into host (user_data_id) values ( 127);
-insert into host (user_data_id) values ( 126);
-insert into host (user_data_id) values ( 125);
-insert into host (user_data_id) values ( 124);
-insert into host (user_data_id) values ( 131);
-insert into host (user_data_id) values ( 130);
-insert into host (user_data_id) values ( 129);
-insert into host (user_data_id) values ( 128);
-insert into host (user_data_id) values ( 135);
-insert into host (user_data_id) values ( 134);
-insert into host (user_data_id) values ( 133);
-insert into host (user_data_id) values ( 132);
-insert into host (user_data_id) values ( 139);
-insert into host (user_data_id) values ( 138);
-insert into host (user_data_id) values ( 137);
-insert into host (user_data_id) values ( 136);
-insert into host (user_data_id) values ( 143);
-insert into host (user_data_id) values ( 142);
-insert into host (user_data_id) values ( 141);
-insert into host (user_data_id) values ( 140);
-insert into host (user_data_id) values ( 147);
-insert into host (user_data_id) values ( 146);
-insert into host (user_data_id) values ( 145);
-insert into host (user_data_id) values ( 144);
-insert into host (user_data_id) values ( 151);
-insert into host (user_data_id) values ( 150);
-insert into host (user_data_id) values ( 149);
-insert into host (user_data_id) values ( 148);
-insert into host (user_data_id) values ( 155);
-insert into host (user_data_id) values ( 154);
-insert into host (user_data_id) values ( 153);
-insert into host (user_data_id) values ( 152);
-insert into host (user_data_id) values ( 159);
-insert into host (user_data_id) values ( 158);
-insert into host (user_data_id) values ( 157);
-insert into host (user_data_id) values ( 156);
-insert into host (user_data_id) values ( 163);
-insert into host (user_data_id) values ( 162);
-insert into host (user_data_id) values ( 161);
-insert into host (user_data_id) values ( 160);
-insert into host (user_data_id) values ( 167);
-insert into host (user_data_id) values ( 166);
-insert into host (user_data_id) values ( 165);
-insert into host (user_data_id) values ( 164);
-insert into host (user_data_id) values ( 171);
-insert into host (user_data_id) values ( 170);
-insert into host (user_data_id) values ( 169);
-insert into host (user_data_id) values ( 168);
-insert into host (user_data_id) values ( 175);
-insert into host (user_data_id) values ( 174);
-insert into host (user_data_id) values ( 173);
-insert into host (user_data_id) values ( 172);
-insert into host (user_data_id) values ( 179);
-insert into host (user_data_id) values ( 178);
-insert into host (user_data_id) values ( 177);
-insert into host (user_data_id) values ( 176);
-insert into host (user_data_id) values ( 183);
+insert into host (user_data_id) values
+( 102),
+( 101),
+( 100),
+( 107),
+( 106),
+( 105),
+( 104),
+( 111),
+( 110),
+( 109),
+( 108),
+( 115),
+( 114),
+( 113),
+( 112),
+( 119),
+( 118),
+( 117),
+( 116),
+( 123),
+( 122),
+( 121),
+( 120),
+( 127),
+( 126),
+( 125),
+( 124),
+( 131),
+( 130),
+( 129),
+( 128),
+( 135),
+( 134),
+( 133),
+( 132),
+( 139),
+( 138),
+( 137),
+( 136),
+( 143),
+( 142),
+( 141),
+( 140),
+( 147),
+( 146),
+( 145),
+( 144),
+( 151),
+( 150),
+( 149),
+( 148),
+( 155),
+( 154),
+( 153),
+( 152),
+( 159),
+( 158),
+( 157),
+( 156),
+( 163),
+( 162),
+( 161),
+( 160),
+( 167),
+( 166),
+( 165),
+( 164),
+( 171),
+( 170),
+( 169),
+( 168),
+( 175),
+( 174),
+( 173),
+( 172),
+( 179),
+( 178),
+( 177),
+( 176),
+( 183);

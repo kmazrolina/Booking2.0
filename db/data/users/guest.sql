@@ -1,101 +1,102 @@
 --user_id_data od 1-100 to uzytkownicy a od 101-180 gospodarze
-insert into guest (user_data_id) values (2);
-insert into guest (user_data_id) values (1);
-insert into guest (user_data_id) values (100);
-insert into guest (user_data_id) values (7);
-insert into guest (user_data_id) values (6);
-insert into guest (user_data_id) values (5);
-insert into guest (user_data_id) values (4);
-insert into guest (user_data_id) values (11);
-insert into guest (user_data_id) values (10);
-insert into guest (user_data_id) values (9);
-insert into guest (user_data_id) values (8);
-insert into guest (user_data_id) values (15);
-insert into guest (user_data_id) values (14);
-insert into guest (user_data_id) values (13);
-insert into guest (user_data_id) values (12);
-insert into guest (user_data_id) values (19);
-insert into guest (user_data_id) values (18);
-insert into guest (user_data_id) values (17);
-insert into guest (user_data_id) values (16);
-insert into guest (user_data_id) values (23);
-insert into guest (user_data_id) values (22);
-insert into guest (user_data_id) values (21);
-insert into guest (user_data_id) values (20);
-insert into guest (user_data_id) values (27);
-insert into guest (user_data_id) values (26);
-insert into guest (user_data_id) values (25);
-insert into guest (user_data_id) values (24);
-insert into guest (user_data_id) values (31);
-insert into guest (user_data_id) values (30);
-insert into guest (user_data_id) values (29);
-insert into guest (user_data_id) values (28);
-insert into guest (user_data_id) values (35);
-insert into guest (user_data_id) values (34);
-insert into guest (user_data_id) values (33);
-insert into guest (user_data_id) values (32);
-insert into guest (user_data_id) values (39);
-insert into guest (user_data_id) values (38);
-insert into guest (user_data_id) values (37);
-insert into guest (user_data_id) values (36);
-insert into guest (user_data_id) values (43);
-insert into guest (user_data_id) values (42);
-insert into guest (user_data_id) values (41);
-insert into guest (user_data_id) values (40);
-insert into guest (user_data_id) values (47);
-insert into guest (user_data_id) values (46);
-insert into guest (user_data_id) values (45);
-insert into guest (user_data_id) values (44);
-insert into guest (user_data_id) values (51);
-insert into guest (user_data_id) values (50);
-insert into guest (user_data_id) values (49);
-insert into guest (user_data_id) values (48);
-insert into guest (user_data_id) values (55);
-insert into guest (user_data_id) values (54);
-insert into guest (user_data_id) values (53);
-insert into guest (user_data_id) values (52);
-insert into guest (user_data_id) values (59);
-insert into guest (user_data_id) values (58);
-insert into guest (user_data_id) values (57);
-insert into guest (user_data_id) values (56);
-insert into guest (user_data_id) values (63);
-insert into guest (user_data_id) values (62);
-insert into guest (user_data_id) values (61);
-insert into guest (user_data_id) values (60);
-insert into guest (user_data_id) values (67);
-insert into guest (user_data_id) values (66);
-insert into guest (user_data_id) values (65);
-insert into guest (user_data_id) values (64);
-insert into guest (user_data_id) values (71);
-insert into guest (user_data_id) values (70);
-insert into guest (user_data_id) values (69);
-insert into guest (user_data_id) values (68);
-insert into guest (user_data_id) values (75);
-insert into guest (user_data_id) values (74);
-insert into guest (user_data_id) values (73);
-insert into guest (user_data_id) values (72);
-insert into guest (user_data_id) values (79);
-insert into guest (user_data_id) values (78);
-insert into guest (user_data_id) values (77);
-insert into guest (user_data_id) values (76);
-insert into guest (user_data_id) values (83);
-insert into guest (user_data_id) values (82);
-insert into guest (user_data_id) values (81);
-insert into guest (user_data_id) values (80);
-insert into guest (user_data_id) values (87);
-insert into guest (user_data_id) values (86);
-insert into guest (user_data_id) values (85);
-insert into guest (user_data_id) values (84);
-insert into guest (user_data_id) values (91);
-insert into guest (user_data_id) values (90);
-insert into guest (user_data_id) values (89);
-insert into guest (user_data_id) values (88);
-insert into guest (user_data_id) values (95);
-insert into guest (user_data_id) values (94);
-insert into guest (user_data_id) values (93);
-insert into guest (user_data_id) values (92);
-insert into guest (user_data_id) values (99);
-insert into guest (user_data_id) values (98);
-insert into guest (user_data_id) values (97);
-insert into guest (user_data_id) values (96);
-insert into guest (user_data_id) values (3);
+insert into guest (user_data_id) values
+(2),
+(1),
+(100),
+(7),
+(6),
+(5),
+(4),
+(11),
+(10),
+(9),
+(8),
+(15),
+(14),
+(13),
+(12),
+(19),
+(18),
+(17),
+(16),
+(23),
+(22),
+(21),
+(20),
+(27),
+(26),
+(25),
+(24),
+(31),
+(30),
+(29),
+(28),
+(35),
+(34),
+(33),
+(32),
+(39),
+(38),
+(37),
+(36),
+(43),
+(42),
+(41),
+(40),
+(47),
+(46),
+(45),
+(44),
+(51),
+(50),
+(49),
+(48),
+(55),
+(54),
+(53),
+(52),
+(59),
+(58),
+(57),
+(56),
+(63),
+(62),
+(61),
+(60),
+(67),
+(66),
+(65),
+(64),
+(71),
+(70),
+(69),
+(68),
+(75),
+(74),
+(73),
+(72),
+(79),
+(78),
+(77),
+(76),
+(83),
+(82),
+(81),
+(80),
+(87),
+(86),
+(85),
+(84),
+(91),
+(90),
+(89),
+(88),
+(95),
+(94),
+(93),
+(92),
+(99),
+(98),
+(97),
+(96),
+(3);

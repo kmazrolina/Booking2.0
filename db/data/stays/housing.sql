@@ -1,100 +1,101 @@
-insert into housing (name, housing_category_id, host_id, location) values ('Schmeler LLC', 6, 50, 'POINT (21.0210416 52.2840007)');
-insert into housing (name, housing_category_id, host_id, location) values ('Hane and Sons', 6, 8, 'POINT (20.9681699 52.2793799)');
-insert into housing (name, housing_category_id, host_id, location) values ('Davis-Konopelski', 4, 72, 'POINT (20.9860226 52.2600512)');
-insert into housing (name, housing_category_id, host_id, location) values ('Steuber Inc', 6, 16, 'POINT (21.0629269 52.2575294)');
-insert into housing (name, housing_category_id, host_id, location) values ('Heidenreich-Marquardt', 6, 36, 'POINT (20.9681699 52.2196858)');
-insert into housing (name, housing_category_id, host_id, location) values ('Streich, Schneider and Kunde', 1, 39, 'POINT (21.0340878 52.2280983)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wehner and Sons', 4, 16, 'POINT (20.9516904 52.2415549)');
-insert into housing (name, housing_category_id, host_id, location) values ('Durgan, Rutherford and Roob', 5, 17, 'POINT (21.0979459 52.2394526)');
-insert into housing (name, housing_category_id, host_id, location) values ('Bartell, Frami and Bradtke', 4, 24, 'POINT (21.0910794 52.2781196)');
-insert into housing (name, housing_category_id, host_id, location) values ('Simonis Inc', 2, 41, 'POINT (21.0052487 52.2079057)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kub, Pacocha and VonRueden', 4, 42, 'POINT (20.9173581 52.2238923)');
-insert into housing (name, housing_category_id, host_id, location) values ('Hilpert, Balistreri and Pagac', 7, 44, 'POINT (20.9942624 52.310876)');
-insert into housing (name, housing_category_id, host_id, location) values ('DuBuque and Sons', 8, 27, 'POINT (21.0526273 52.2007519)');
-insert into housing (name, housing_category_id, host_id, location) values ('Gutkowski Inc', 1, 15, 'POINT (21.1260983 52.2217891)');
-insert into housing (name, housing_category_id, host_id, location) values ('Anderson Group', 5, 42, 'POINT (20.9207913 52.2697166)');
-insert into housing (name, housing_category_id, host_id, location) values ('Bechtelar, Stokes and Lemke', 8, 59, 'POINT (21.0100552 52.3003798)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wilderman, Klein and Kautzer', 2, 42, 'POINT (21.07254 52.3150738)');
-insert into housing (name, housing_category_id, host_id, location) values ('Nikolaus, Lesch and Rowe', 7, 53, 'POINT (21.0519406 52.292401)');
-insert into housing (name, housing_category_id, host_id, location) values ('Bayer-Dooley', 4, 61, 'POINT (21.1075589 52.2213685)');
-insert into housing (name, housing_category_id, host_id, location) values ('West-Abernathy', 8, 31, 'POINT (19.9345516 50.0825029)');
-insert into housing (name, housing_category_id, host_id, location) values ('Cartwright, Crist and Dare', 3, 61, 'POINT (19.8854565 50.0827232)');
-insert into housing (name, housing_category_id, host_id, location) values ('Purdy-Morar', 8, 75, 'POINT (19.9180721 50.0747916)');
-insert into housing (name, housing_category_id, host_id, location) values ('Ullrich-Larson', 7, 33, 'POINT (19.9760937 50.0761137)');
-insert into housing (name, housing_category_id, host_id, location) values ('Douglas-Langosh', 4, 2, 'POINT (19.9627041 50.0728085)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wiza-Wunsch', 7, 54, 'POINT (19.9376415 50.0505481)');
-insert into housing (name, housing_category_id, host_id, location) values ('Bogisich Group', 7, 65, 'POINT (19.975407 50.0582633)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kling and Sons', 3, 52, 'POINT (19.9129223 50.0626714)');
-insert into housing (name, housing_category_id, host_id, location) values ('Bosco-Murray', 1, 17, 'POINT (17.0522617 51.1255769)');
-insert into housing (name, housing_category_id, host_id, location) values ('O''Conner, Zemlak and Reichel', 3, 21, 'POINT (17.0083164 51.1251459)');
-insert into housing (name, housing_category_id, host_id, location) values ('Gibson, Moen and King', 4, 24, 'POINT (16.9945834 51.1027309)');
-insert into housing (name, housing_category_id, host_id, location) values ('Steuber-Gutkowski', 3, 27, 'POINT (17.0254825 51.0820305)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kohler LLC', 6, 29, 'POINT (17.0811008 51.0979879)');
-insert into housing (name, housing_category_id, host_id, location) values ('Weimann-Greenholt', 1, 75, 'POINT (17.0460819 51.1091979)');
-insert into housing (name, housing_category_id, host_id, location) values ('Collier-Weber', 6, 27, 'POINT (17.0069431 51.0608892)');
-insert into housing (name, housing_category_id, host_id, location) values ('Torphy-Schuppe', 1, 70, 'POINT (19.4928073 51.7439497)');
-insert into housing (name, housing_category_id, host_id, location) values ('Hagenes-Donnelly', 4, 66, 'POINT (19.4728946 51.7889936)');
-insert into housing (name, housing_category_id, host_id, location) values ('Luettgen and Sons', 8, 4, 'POINT (19.3994235 51.7737007)');
-insert into housing (name, housing_category_id, host_id, location) values ('Swaniawski-Thiel', 7, 77, 'POINT (19.4172763 51.8059797)');
-insert into housing (name, housing_category_id, host_id, location) values ('Marquardt, Schneider and Farrell', 7, 31, 'POINT (19.4165897 51.7265149)');
-insert into housing (name, housing_category_id, host_id, location) values ('Parker-Bruen', 3, 39, 'POINT (19.4777011 51.7256643)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kemmer LLC', 2, 77, 'POINT (19.4529819 51.7596777)');
-insert into housing (name, housing_category_id, host_id, location) values ('Ryan and Sons', 2, 1, 'POINT (16.8907608 52.4057446)');
-insert into housing (name, housing_category_id, host_id, location) values ('Konopelski, Blanda and O''Reilly', 8, 35, 'POINT (16.9017472 52.3921283)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kirlin-Bradtke', 5, 2, 'POINT (16.9649186 52.3889855)');
-insert into housing (name, housing_category_id, host_id, location) values ('Rippin, Botsford and Adams', 5, 80, 'POINT (16.9377961 52.4164253)');
-insert into housing (name, housing_category_id, host_id, location) values ('Tillman, Kub and Wuckert', 4, 15, 'POINT (16.9326462 52.3940139)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wolff, Morissette and Schamberger', 2, 42, 'POINT (18.5851788 54.4203059)');
-insert into housing (name, housing_category_id, host_id, location) values ('Huel-Kunze', 3, 44, 'POINT (18.5783123 54.391131)');
-insert into housing (name, housing_category_id, host_id, location) values ('Smitham, Halvorson and Hammes', 8, 59, 'POINT (18.6160778 54.4015245)');
-insert into housing (name, housing_category_id, host_id, location) values ('Altenwerth, Lind and Von', 7, 23, 'POINT (18.6236309 54.3435274)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kohler, Crist and Schumm', 4, 36, 'POINT (18.6188244 54.3735361)');
-insert into housing (name, housing_category_id, host_id, location) values ('Ullrich-Herman', 3, 58, 'POINT (17.107074 48.1584326)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kozey and Sons', 6, 55, 'POINT (17.1142837 48.1314009)');
-insert into housing (name, housing_category_id, host_id, location) values ('Padberg-Bernhard', 4, 37, 'POINT (17.1256134 48.1501871)');
-insert into housing (name, housing_category_id, host_id, location) values ('Quigley-Bartell', 2, 17, 'POINT (17.1228668 48.1210885)');
-insert into housing (name, housing_category_id, host_id, location) values ('Yundt Inc', 2, 42, 'POINT (21.2520752 48.7333176)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kunze LLC', 4, 66, 'POINT (21.2671814 48.69798)');
-insert into housing (name, housing_category_id, host_id, location) values ('Towne LLC', 5, 3, 'POINT (21.2386449 48.9972882)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wunsch-King', 8, 60, 'POINT (16.6542182 49.1906046)');
-insert into housing (name, housing_category_id, host_id, location) values ('Jakubowski-Blanda', 4, 74, 'POINT (16.6061531 49.217971)');
-insert into housing (name, housing_category_id, host_id, location) values ('Herman-O''Kon', 1, 37, 'POINT (16.5931068 49.2027195)');
-insert into housing (name, housing_category_id, host_id, location) values ('Jakubowski Inc', 3, 21, 'POINT (16.6013465 49.1731001)');
-insert into housing (name, housing_category_id, host_id, location) values ('Runte LLC', 8, 35, 'POINT (14.4855703 50.0948182)');
-insert into housing (name, housing_category_id, host_id, location) values ('Pfannerstill-Rodriguez', 2, 26, 'POINT (14.4326986 50.105389)');
-insert into housing (name, housing_category_id, host_id, location) values ('Gottlieb, Torphy and Gaylord', 1, 27, 'POINT (14.3791403 50.0701441)');
-insert into housing (name, housing_category_id, host_id, location) values ('Harvey Group', 5, 28, 'POINT (14.4752706 50.0586839)');
-insert into housing (name, housing_category_id, host_id, location) values ('Stokes and Sons', 1, 55, 'POINT (14.4258321 50.0573614)');
-insert into housing (name, housing_category_id, host_id, location) values ('Mann-Cartwright', 6, 24, 'POINT (14.4478048 50.0899725)');
-insert into housing (name, housing_category_id, host_id, location) values ('Nicolas LLC', 5, 63, 'POINT (14.3743337 50.1018657)');
-insert into housing (name, housing_category_id, host_id, location) values ('Hackett-Gorczany', 1, 58, 'POINT (14.4361318 50.0401656)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kutch-Schaefer', 2, 71, 'POINT (14.4807638 50.0547163)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kerluke, Hand and Hodkiewicz', 2, 2, 'POINT (14.4732107 50.0811609)');
-insert into housing (name, housing_category_id, host_id, location) values ('Goyette and Sons', 2, 42, 'POINT (14.3461813 50.0877698)');
-insert into housing (name, housing_category_id, host_id, location) values ('Hansen-Thiel', 7, 75, 'POINT (14.4011129 50.1141961)');
-insert into housing (name, housing_category_id, host_id, location) values ('Balistreri Group', 4, 46, 'POINT (14.3846334 50.0564797)');
-insert into housing (name, housing_category_id, host_id, location) values ('Graham-Hills', 4, 48, 'POINT (18.3414149 49.7852031)');
-insert into housing (name, housing_category_id, host_id, location) values ('Mohr-Price', 7, 80, 'POINT (18.2919764 49.8729041)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wilkinson Inc', 1, 55, 'POINT (18.2837367 49.8339455)');
-insert into housing (name, housing_category_id, host_id, location) values ('Jenkins and Sons', 6, 48, 'POINT (19.0957405 47.4665847)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wehner-Lubowitz', 5, 66, 'POINT (19.0311958 47.4573001)');
-insert into housing (name, housing_category_id, host_id, location) values ('Gulgowski, Mayer and Rowe', 7, 40, 'POINT (19.0586616 47.5398749)');
-insert into housing (name, housing_category_id, host_id, location) values ('Moore, Quitzon and Blanda', 1, 53, 'POINT (19.1602852 47.5111277)');
-insert into housing (name, housing_category_id, host_id, location) values ('Crona-Goodwin', 1, 51, 'POINT (19.1863777 47.455443)');
-insert into housing (name, housing_category_id, host_id, location) values ('Nitzsche LLC', 2, 26, 'POINT (19.1094734 47.4415127)');
-insert into housing (name, housing_category_id, host_id, location) values ('Harber-Predovic', 2, 12, 'POINT (19.1081001 47.5259669)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wolf Inc', 8, 68, 'POINT (18.9996101 47.5185478)');
-insert into housing (name, housing_category_id, host_id, location) values ('Marks, Huel and Altenwerth', 8, 20, 'POINT (19.0023567 47.4508)');
-insert into housing (name, housing_category_id, host_id, location) values ('Barrows-Zieme', 3, 69, 'POINT (19.1012336 47.5148379)');
-insert into housing (name, housing_category_id, host_id, location) values ('Witting-Moore', 5, 75, 'POINT (19.0517952 47.5148379)');
-insert into housing (name, housing_category_id, host_id, location) values ('Abernathy-Witting', 4, 79, 'POINT (19.0394355 47.4387261)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wilkinson Group', 4, 14, 'POINT (18.9735176 47.5099682)');
-insert into housing (name, housing_category_id, host_id, location) values ('Wisoky, Langosh and Hackett', 4, 3, 'POINT (19.1177131 47.4969801)');
-insert into housing (name, housing_category_id, host_id, location) values ('Hayes and Sons', 5, 50, 'POINT (19.1534187 47.4830607)');
-insert into housing (name, housing_category_id, host_id, location) values ('Douglas-Wyman', 2, 28, 'POINT (19.1479255 47.4691376)');
-insert into housing (name, housing_category_id, host_id, location) values ('Hand-Kerluke', 5, 23, 'POINT (18.9982368 47.4951244)');
-insert into housing (name, housing_category_id, host_id, location) values ('Marvin-Kshlerin', 5, 37, 'POINT (20.1369036 46.2629054)');
-insert into housing (name, housing_category_id, host_id, location) values ('Bruen-Wehner', 4, 64, 'POINT (20.1327837 46.2401144)');
-insert into housing (name, housing_category_id, host_id, location) values ('Spencer-Bins', 4, 15, 'POINT (21.6134536 47.5410056)');
-insert into housing (name, housing_category_id, host_id, location) values ('Kovacek, Schmitt and Kiehn', 8, 30, 'POINT (21.6429794 47.5071571)');
-insert into housing (name, housing_category_id, host_id, location) values ('Balistreri, Pfannerstill and Kuhn', 7, 74, 'POINT (18.5930614 54.3677606)');
+insert into housing (name, housing_category_id, host_id, location) values
+('Schmeler LLC', 6, 50, 'POINT (21.0210416 52.2840007)'),
+('Hane and Sons', 6, 8, 'POINT (20.9681699 52.2793799)'),
+('Davis-Konopelski', 4, 72, 'POINT (20.9860226 52.2600512)'),
+('Steuber Inc', 6, 16, 'POINT (21.0629269 52.2575294)'),
+('Heidenreich-Marquardt', 6, 36, 'POINT (20.9681699 52.2196858)'),
+('Streich, Schneider and Kunde', 1, 39, 'POINT (21.0340878 52.2280983)'),
+('Wehner and Sons', 4, 16, 'POINT (20.9516904 52.2415549)'),
+('Durgan, Rutherford and Roob', 5, 17, 'POINT (21.0979459 52.2394526)'),
+('Bartell, Frami and Bradtke', 4, 24, 'POINT (21.0910794 52.2781196)'),
+('Simonis Inc', 2, 41, 'POINT (21.0052487 52.2079057)'),
+('Kub, Pacocha and VonRueden', 4, 42, 'POINT (20.9173581 52.2238923)'),
+('Hilpert, Balistreri and Pagac', 7, 44, 'POINT (20.9942624 52.310876)'),
+('DuBuque and Sons', 8, 27, 'POINT (21.0526273 52.2007519)'),
+('Gutkowski Inc', 1, 15, 'POINT (21.1260983 52.2217891)'),
+('Anderson Group', 5, 42, 'POINT (20.9207913 52.2697166)'),
+('Bechtelar, Stokes and Lemke', 8, 59, 'POINT (21.0100552 52.3003798)'),
+('Wilderman, Klein and Kautzer', 2, 42, 'POINT (21.07254 52.3150738)'),
+('Nikolaus, Lesch and Rowe', 7, 53, 'POINT (21.0519406 52.292401)'),
+('Bayer-Dooley', 4, 61, 'POINT (21.1075589 52.2213685)'),
+('West-Abernathy', 8, 31, 'POINT (19.9345516 50.0825029)'),
+('Cartwright, Crist and Dare', 3, 61, 'POINT (19.8854565 50.0827232)'),
+('Purdy-Morar', 8, 75, 'POINT (19.9180721 50.0747916)'),
+('Ullrich-Larson', 7, 33, 'POINT (19.9760937 50.0761137)'),
+('Douglas-Langosh', 4, 2, 'POINT (19.9627041 50.0728085)'),
+('Wiza-Wunsch', 7, 54, 'POINT (19.9376415 50.0505481)'),
+('Bogisich Group', 7, 65, 'POINT (19.975407 50.0582633)'),
+('Kling and Sons', 3, 52, 'POINT (19.9129223 50.0626714)'),
+('Bosco-Murray', 1, 17, 'POINT (17.0522617 51.1255769)'),
+('O''Conner, Zemlak and Reichel', 3, 21, 'POINT (17.0083164 51.1251459)'),
+('Gibson, Moen and King', 4, 24, 'POINT (16.9945834 51.1027309)'),
+('Steuber-Gutkowski', 3, 27, 'POINT (17.0254825 51.0820305)'),
+('Kohler LLC', 6, 29, 'POINT (17.0811008 51.0979879)'),
+('Weimann-Greenholt', 1, 75, 'POINT (17.0460819 51.1091979)'),
+('Collier-Weber', 6, 27, 'POINT (17.0069431 51.0608892)'),
+('Torphy-Schuppe', 1, 70, 'POINT (19.4928073 51.7439497)'),
+('Hagenes-Donnelly', 4, 66, 'POINT (19.4728946 51.7889936)'),
+('Luettgen and Sons', 8, 4, 'POINT (19.3994235 51.7737007)'),
+('Swaniawski-Thiel', 7, 77, 'POINT (19.4172763 51.8059797)'),
+('Marquardt, Schneider and Farrell', 7, 31, 'POINT (19.4165897 51.7265149)'),
+('Parker-Bruen', 3, 39, 'POINT (19.4777011 51.7256643)'),
+('Kemmer LLC', 2, 77, 'POINT (19.4529819 51.7596777)'),
+('Ryan and Sons', 2, 1, 'POINT (16.8907608 52.4057446)'),
+('Konopelski, Blanda and O''Reilly', 8, 35, 'POINT (16.9017472 52.3921283)'),
+('Kirlin-Bradtke', 5, 2, 'POINT (16.9649186 52.3889855)'),
+('Rippin, Botsford and Adams', 5, 80, 'POINT (16.9377961 52.4164253)'),
+('Tillman, Kub and Wuckert', 4, 15, 'POINT (16.9326462 52.3940139)'),
+('Wolff, Morissette and Schamberger', 2, 42, 'POINT (18.5851788 54.4203059)'),
+('Huel-Kunze', 3, 44, 'POINT (18.5783123 54.391131)'),
+('Smitham, Halvorson and Hammes', 8, 59, 'POINT (18.6160778 54.4015245)'),
+('Altenwerth, Lind and Von', 7, 23, 'POINT (18.6236309 54.3435274)'),
+('Kohler, Crist and Schumm', 4, 36, 'POINT (18.6188244 54.3735361)'),
+('Ullrich-Herman', 3, 58, 'POINT (17.107074 48.1584326)'),
+('Kozey and Sons', 6, 55, 'POINT (17.1142837 48.1314009)'),
+('Padberg-Bernhard', 4, 37, 'POINT (17.1256134 48.1501871)'),
+('Quigley-Bartell', 2, 17, 'POINT (17.1228668 48.1210885)'),
+('Yundt Inc', 2, 42, 'POINT (21.2520752 48.7333176)'),
+('Kunze LLC', 4, 66, 'POINT (21.2671814 48.69798)'),
+('Towne LLC', 5, 3, 'POINT (21.2386449 48.9972882)'),
+('Wunsch-King', 8, 60, 'POINT (16.6542182 49.1906046)'),
+('Jakubowski-Blanda', 4, 74, 'POINT (16.6061531 49.217971)'),
+('Herman-O''Kon', 1, 37, 'POINT (16.5931068 49.2027195)'),
+('Jakubowski Inc', 3, 21, 'POINT (16.6013465 49.1731001)'),
+('Runte LLC', 8, 35, 'POINT (14.4855703 50.0948182)'),
+('Pfannerstill-Rodriguez', 2, 26, 'POINT (14.4326986 50.105389)'),
+('Gottlieb, Torphy and Gaylord', 1, 27, 'POINT (14.3791403 50.0701441)'),
+('Harvey Group', 5, 28, 'POINT (14.4752706 50.0586839)'),
+('Stokes and Sons', 1, 55, 'POINT (14.4258321 50.0573614)'),
+('Mann-Cartwright', 6, 24, 'POINT (14.4478048 50.0899725)'),
+('Nicolas LLC', 5, 63, 'POINT (14.3743337 50.1018657)'),
+('Hackett-Gorczany', 1, 58, 'POINT (14.4361318 50.0401656)'),
+('Kutch-Schaefer', 2, 71, 'POINT (14.4807638 50.0547163)'),
+('Kerluke, Hand and Hodkiewicz', 2, 2, 'POINT (14.4732107 50.0811609)'),
+('Goyette and Sons', 2, 42, 'POINT (14.3461813 50.0877698)'),
+('Hansen-Thiel', 7, 75, 'POINT (14.4011129 50.1141961)'),
+('Balistreri Group', 4, 46, 'POINT (14.3846334 50.0564797)'),
+('Graham-Hills', 4, 48, 'POINT (18.3414149 49.7852031)'),
+('Mohr-Price', 7, 80, 'POINT (18.2919764 49.8729041)'),
+('Wilkinson Inc', 1, 55, 'POINT (18.2837367 49.8339455)'),
+('Jenkins and Sons', 6, 48, 'POINT (19.0957405 47.4665847)'),
+('Wehner-Lubowitz', 5, 66, 'POINT (19.0311958 47.4573001)'),
+('Gulgowski, Mayer and Rowe', 7, 40, 'POINT (19.0586616 47.5398749)'),
+('Moore, Quitzon and Blanda', 1, 53, 'POINT (19.1602852 47.5111277)'),
+('Crona-Goodwin', 1, 51, 'POINT (19.1863777 47.455443)'),
+('Nitzsche LLC', 2, 26, 'POINT (19.1094734 47.4415127)'),
+('Harber-Predovic', 2, 12, 'POINT (19.1081001 47.5259669)'),
+('Wolf Inc', 8, 68, 'POINT (18.9996101 47.5185478)'),
+('Marks, Huel and Altenwerth', 8, 20, 'POINT (19.0023567 47.4508)'),
+('Barrows-Zieme', 3, 69, 'POINT (19.1012336 47.5148379)'),
+('Witting-Moore', 5, 75, 'POINT (19.0517952 47.5148379)'),
+('Abernathy-Witting', 4, 79, 'POINT (19.0394355 47.4387261)'),
+('Wilkinson Group', 4, 14, 'POINT (18.9735176 47.5099682)'),
+('Wisoky, Langosh and Hackett', 4, 3, 'POINT (19.1177131 47.4969801)'),
+('Hayes and Sons', 5, 50, 'POINT (19.1534187 47.4830607)'),
+('Douglas-Wyman', 2, 28, 'POINT (19.1479255 47.4691376)'),
+('Hand-Kerluke', 5, 23, 'POINT (18.9982368 47.4951244)'),
+('Marvin-Kshlerin', 5, 37, 'POINT (20.1369036 46.2629054)'),
+('Bruen-Wehner', 4, 64, 'POINT (20.1327837 46.2401144)'),
+('Spencer-Bins', 4, 15, 'POINT (21.6134536 47.5410056)'),
+('Kovacek, Schmitt and Kiehn', 8, 30, 'POINT (21.6429794 47.5071571)'),
+('Balistreri, Pfannerstill and Kuhn', 7, 74, 'POINT (18.5930614 54.3677606)');
