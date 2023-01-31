@@ -93,7 +93,7 @@ Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy prób
 
 ~~7. Zmiana daty rezerwacji~~
 
-wiki 8. Zmiana ceny noclegu w danym domku
+~~8. Zmiana ceny noclegu w danym domku~~
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 - można utworzyć dwa programy klienckie jeden umożliwiający pracę administratorów (użytkowników ze zwiększonymi uprawnieniami), drugi umożliwiający prac zwykłych użytkowników.
