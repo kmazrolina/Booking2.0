@@ -22,7 +22,7 @@ Setup with SQL server as docker container and VSCode as GUI.
 
 ## Countries and cities map
 
-Countries and cities polygons with complete explanation and guide for adding new ones can be found [here](./map/wkt.md).
+Countries and cities polygons with complete explanation and guide for adding new ones can be found in [docs/wtk.md](./docs/wkt.md).
 
 In order to recreate map in database following programs were used (more on that in above mentioned file):
 
@@ -55,8 +55,7 @@ In order to recreate map in database following programs were used (more on that 
 
 ~~12. Domki z pokojami~~
 
-13.~~Informacja o gosciach~~
-14. ~~Informacja o rezerwacjach z rodzajem obiektu~~  (TO CHECK czy nie powtorka z 11)
+13.~~Informacja o gosciach~~ 14. ~~Informacja o rezerwacjach z rodzajem obiektu~~ (TO CHECK czy nie powtorka z 11)
 
 ### Funkcje
 
