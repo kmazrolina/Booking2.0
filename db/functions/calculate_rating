@@ -1,0 +1,58 @@
+EXEC drop_object 'calculate_rating'
+GO
+CREATE FUNCTION calculate_rating(
+@object_id INT, 
+@object_type varchar(50)
+)
+RETURNS float
+AS
+BEGIN
+
+DECLARE @score float
+
+IF @object_type = 'housing'
+BEGIN
+SET @score = 
+( SELECT CONVERT(float, AVG(score))
+FROM 
+	(SELECT * FROM housing_rating WHERE housing_id = @object_id ) AS HR
+	JOIN 
+	rating_data AS RD ON RD.id = HR.rating_data_id	
+)
+END
+
+IF @object_type = 'guest'
+BEGIN
+SET @score = 
+( SELECT CONVERT(float, AVG(score))
+FROM 
+	(SELECT * FROM guest_rating WHERE guest_id = @object_id ) AS GR
+	JOIN 
+	rating_data AS RD ON RD.id = GR.rating_data_id	
+)
+END
+IF @object_type = 'host'
+BEGIN
+SET @score = 
+( SELECT CONVERT(float, AVG(score))
+FROM 
+	(SELECT * FROM host_rating WHERE host_id = @object_id ) AS HR
+	JOIN 
+	rating_data AS RD ON RD.id = HR.rating_data_id	
+)
+END
+IF @object_type = 'attraction'
+BEGIN
+SET @score = 
+( SELECT CONVERT(float, AVG(score))
+FROM 
+	(SELECT * FROM attraction_rating WHERE attraction_id = @object_id ) AS AR
+	JOIN 
+	rating_data AS RD ON RD.id = AR.rating_data_id	
+)
+END
+
+RETURN @score 
+END
+
+
