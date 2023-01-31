@@ -20,9 +20,14 @@ Setup with SQL server as docker container and VSCode as GUI.
    - username: `sa`
    - password: `zaq1@WSX`
 
-## Map
+## Countries and cities map
 
-- [View link](https://www.google.com/maps/d/edit?mid=18tvxkBTl4RfZrkY-aiGixkC0ZhavzSc&usp=sharing)
+Countries and cities polygons with complete explanation and guide for adding new ones can be found [here](./map/wkt.md).
+
+In order to recreate map in database following programs were used (more on that in above mentioned file):
+
+- [OpenStreetMap](https://www.openstreetmap.org/)
+- [Polygons.OpenStreetMap](https://polygons.openstreetmap.fr/)
 
 ## TO DO
 
