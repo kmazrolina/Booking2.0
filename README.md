@@ -13,9 +13,10 @@ Setup with SQL server as docker container and VSCode as GUI.
 
 1. Requirements: Docker, VSCode with [SQL Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql) extension.
 1. Go to `docker/` directory and execute `sh start.sh` command.
+1. Wait for mssql to setup.
 1. Connect via extension using below values:
    - hostname: `localhost`
-   - database: `-`
+   - database: `booking2`
    - authentication type: `SQL Login`
    - username: `sa`
    - password: `zaq1@WSX`
