@@ -1,4 +1,4 @@
---
+GO
 CREATE OR ALTER PROCEDURE add_question (@housing_name NVARCHAR(100), @author_id INT, @description VARCHAR(2000))
 AS
 BEGIN
@@ -11,4 +11,5 @@ DECLARE @housing_id INT;
   INSERT INTO housing_question (housing_id, author_id, description)
   VALUES (@housing_id, @author_id, @description);
 END;
+GO
 --EXEC add_question 'Graham-Hills',10, 'How far aways is a grocery shop?'
