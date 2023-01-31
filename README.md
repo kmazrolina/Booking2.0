@@ -59,7 +59,7 @@ In order to recreate map in database following programs were used (more on that 
 
 ### Funkcje
 
-Karolina 1. Obliczanie ratingu
+~~1. Obliczanie ratingu~~
 
 Karolina 2. Obliczanie wskaźnika atrakcyjności domku
 
@@ -68,25 +68,33 @@ Karolina 2. Obliczanie wskaźnika atrakcyjności domku
 5. ~~Sprawdzenie, czy dany domek jest dostępny w danych datach.~~
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
-  Wyzwalacze:
 
-1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji (aktualizacja odpowiedniego widoku)
-2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualizacja odpowiedniego widoku)
+### Wyzwalacze:
+
+Karolina 1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji (aktualizacja odpowiedniego widoku)
+
+Karolina 2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualizacja odpowiedniego widoku)
+
 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
-4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji
-5.
-6.
+
+Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji
+
 
 ### Procedury składowane
 
-1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
-2. Dodawanie pytania do gospodarza
+Wiki 1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
+Wiki 2. Dodawanie pytania do gospodarza
 3. Dodawanie odpowiedzi do pytania
-4. Dokonanie rezerwacji domku
+
+~~4. Dokonanie rezerwacji domku~~
+
 5. Opłacenie rezerwacji
-6. Anulowanie rezerwacji
-7. Zmiana daty rezerwacji
-8. Zmiana ceny noclegu w danym domku
+
+~~6. Anulowanie rezerwacji~~
+
+~~7. Zmiana daty rezerwacji~~
+
+wiki 8. Zmiana ceny noclegu w danym domku
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 - można utworzyć dwa programy klienckie jeden umożliwiający pracę administratorów (użytkowników ze zwiększonymi uprawnieniami), drugi umożliwiający prac zwykłych użytkowników.

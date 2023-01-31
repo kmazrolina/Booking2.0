@@ -1,5 +1,5 @@
 CREATE TABLE [user_data] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY ,
   [first_name] varchar(100),
   [last_name] varchar(100),
   [email] varchar(100),
@@ -9,7 +9,7 @@ CREATE TABLE [user_data] (
 GO
 
 CREATE TABLE [rating_data] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [score] integer,
   [title] varchar(100),
   [description] varchar(2000)
@@ -17,13 +17,13 @@ CREATE TABLE [rating_data] (
 GO
 
 CREATE TABLE [guest] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [user_data_id] integer
 )
 GO
 
 CREATE TABLE [guest_rating] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [guest_id] integer,
   [author_id] integer,
   [rating_data_id] integer
@@ -31,13 +31,13 @@ CREATE TABLE [guest_rating] (
 GO
 
 CREATE TABLE [host] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [user_data_id] integer
 )
 GO
 
 CREATE TABLE [host_rating] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [host_id] integer,
   [author_id] integer,
   [rating_data_id] integer
@@ -45,7 +45,7 @@ CREATE TABLE [host_rating] (
 GO
 
 CREATE TABLE [reservation] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [guest_id] integer,
   [housing_id] integer,
   [start_date] datetime,
@@ -54,7 +54,7 @@ CREATE TABLE [reservation] (
 GO
 
 CREATE TABLE [reservation_details] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [reservation_id] integer,
   [room_id] integer,
   [cost] money
@@ -62,7 +62,7 @@ CREATE TABLE [reservation_details] (
 GO
 
 CREATE TABLE [payment] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [value] money,
   [date] datetime,
   [sender_id] integer,
@@ -71,7 +71,7 @@ CREATE TABLE [payment] (
 GO
 
 CREATE TABLE [housing] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [name] nvarchar(255),
   [housing_category_id] integer,
   [host_id] integer,
@@ -86,7 +86,7 @@ CREATE TABLE [housing_category] (
 GO
 
 CREATE TABLE [housing_rating] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [housing_id] integer,
   [author_id] integer,
   [rating_data_id] integer
@@ -94,7 +94,7 @@ CREATE TABLE [housing_rating] (
 GO
 
 CREATE TABLE [housing_question] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [housing_id] integer,
   [author_id] integer,
   [description] varchar(2000)
@@ -102,14 +102,14 @@ CREATE TABLE [housing_question] (
 GO
 
 CREATE TABLE [question_answer] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [question_id] integer,
   [description] varchar(2000)
 )
 GO
 
 CREATE TABLE [facility] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [housing_id] integer,
   [facility_type_id] integer
 )
@@ -122,7 +122,7 @@ CREATE TABLE [facility_type] (
 GO
 
 CREATE TABLE [room] (
-  [id] integer,
+  [id] integer PRIMARY KEY,
   [name] varchar(100),
   [cost_per_night] money,
   [housing_id] integer
@@ -130,7 +130,7 @@ CREATE TABLE [room] (
 GO
 
 CREATE TABLE [room_equipment_and_facilities] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [count] integer,
   [room_id] integer,
   [item_id] integer
@@ -166,7 +166,7 @@ CREATE TABLE [city] (
 GO
 
 CREATE TABLE [attraction] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [name] varchar(100),
   [description] varchar(500),
   [attraction_type_id] integer,
@@ -181,7 +181,7 @@ CREATE TABLE [attraction_type] (
 GO
 
 CREATE TABLE [attraction_rating] (
-  [id] integer PRIMARY KEY,
+  [id] integer IDENTITY(1,1) PRIMARY KEY,
   [author_id] integer,
   [attraction_id] integer,
   [rating_data_id] integer
