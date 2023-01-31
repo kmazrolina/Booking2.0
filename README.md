@@ -53,7 +53,7 @@ In order to recreate map in database following programs were used (more on that 
 
 ~~11.Domki wraz z ich rezerwacjami i szczegółami rezerwacji~~
 
-~~12. Domki z pokojami~~
+~~12. Domki z ich pokojami~~
 
 13.~~Informacja o gosciach~~ 14. ~~Informacja o rezerwacjach z rodzajem obiektu~~ (TO CHECK czy nie powtorka z 11)
 
