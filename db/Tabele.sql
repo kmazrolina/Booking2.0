@@ -4,7 +4,7 @@ CREATE TABLE [user_data] (
   [last_name] varchar(100),
   [email] varchar(100),
   [phone] varchar(20),
-  [gender] varchar(10)
+  [gender] varchar(20)
 )
 GO
 
@@ -150,43 +150,46 @@ CREATE TABLE [item_category] (
 )
 GO
 
-CREATE TABLE [country] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100),
-  [location] geometry
+-- -------------------- START GEO --------------------
+
+CREATE TABLE country (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  name NVARCHAR(50),
+  location GEOMETRY
 )
 GO
 
-CREATE TABLE [city] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100),
-  [population] integer,
-  [location] geometry
+CREATE TABLE city (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  name NVARCHAR(50),
+  population INT,
+  location GEOMETRY
 )
 GO
 
-CREATE TABLE [attraction] (
-  [id] integer IDENTITY(1,1) PRIMARY KEY,
-  [name] varchar(100),
-  [description] varchar(500),
-  [attraction_type_id] integer,
-  [location] geometry
+CREATE TABLE attraction_category (
+  id INT PRIMARY KEY,
+  name NVARCHAR(50),
 )
 GO
 
-CREATE TABLE [attraction_type] (
-  [id] integer PRIMARY KEY,
-  [name] varchar(100)
+CREATE TABLE attraction (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  name NVARCHAR(200),
+  category_id INT REFERENCES attraction_category (id),
+  location GEOMETRY
 )
 GO
 
-CREATE TABLE [attraction_rating] (
-  [id] integer IDENTITY(1,1) PRIMARY KEY,
-  [author_id] integer,
-  [attraction_id] integer,
-  [rating_data_id] integer
+CREATE TABLE attraction_rating (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  author_id INT REFERENCES guest (id),
+  attraction_id INT REFERENCES attraction (id),
+  rating_data_id INT REFERENCES rating_data (id)
 )
 GO
+
+-- -------------------- END GEO --------------------
 
 ALTER TABLE [guest] ADD FOREIGN KEY ([user_data_id]) REFERENCES [user_data] ([id])
 GO
@@ -272,14 +275,3 @@ GO
 ALTER TABLE [item] ADD FOREIGN KEY ([category_id]) REFERENCES [item_category] ([id])
 GO
 
-ALTER TABLE [attraction] ADD FOREIGN KEY ([attraction_type_id]) REFERENCES [attraction_type] ([id])
-GO
-
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([author_id]) REFERENCES [guest] ([id])
-GO
-
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([attraction_id]) REFERENCES [attraction] ([id])
-GO
-
-ALTER TABLE [attraction_rating] ADD FOREIGN KEY ([rating_data_id]) REFERENCES [rating_data] ([id])
-GO
