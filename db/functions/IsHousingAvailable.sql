@@ -1,4 +1,5 @@
 --Sprawdzenie, czy dany domek jest dostępny w danych datach.
+GO
 CREATE OR ALTER FUNCTION dbo.IsHousingAvailable
 (
  @housingId INT,
@@ -20,4 +21,5 @@ BEGIN
 
  RETURN @result
 END
+GO
 --SELECT dbo.IsHousingAvailable(29, '2023-12-11', '2023-12-13'); ---niedostepne
