@@ -1,4 +1,4 @@
-EXEC drop_object 'housing_and_rooms'
+EXEC DropObject 'housing_and_rooms'
 
 GO
 CREATE VIEW housing_and_rooms AS
