@@ -122,7 +122,7 @@ CREATE TABLE [facility_type] (
 GO
 
 CREATE TABLE [room] (
-  [id] integer,
+  [id] integer PRIMARY KEY,
   [name] varchar(100),
   [cost_per_night] money,
   [housing_id] integer
