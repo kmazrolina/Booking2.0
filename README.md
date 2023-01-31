@@ -89,8 +89,8 @@ Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy prób
 Karolina 4. Dokonanie rezerwacji domku
 
 5. Opłacenie rezerwacji
-6. Anulowanie rezerwacji
-7. Zmiana daty rezerwacji
+Karolina 6. Anulowanie rezerwacji
+Karolina 7. Zmiana daty rezerwacji
 8. Zmiana ceny noclegu w danym domku
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
