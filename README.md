@@ -4,8 +4,8 @@
 
 ### dbdiagram.io
 
-- [Link to diagram](https://dbdiagram.io/d/63d2c531296d97641d7c61c4) (view only)
-- [Source file](./diagram-src.txt)
+- [Link to diagram](https://dbdiagram.io/d/63d96b3b296d97641d7d76f9) (view only)
+- [Source file](./docs/diagram_src.txt)
 
 ## Docker + VSCode setup
 
@@ -55,9 +55,7 @@ In order to recreate map in database following programs were used (more on that 
 
 ~~12. Domki z ich pokojami~~
 
-13.~~Informacja o gosciach~~ 
-14. ~~Informacja o rezerwacjach z rodzajem obiektu~~ (TO CHECK czy nie powtorka z 11)
-15. ~~QA view~~
+13.~~Informacja o gosciach~~ 14. ~~Informacja o rezerwacjach z rodzajem obiektu~~ (TO CHECK czy nie powtorka z 11) 15. ~~QA view~~
 
 ### Funkcje
 
@@ -81,11 +79,10 @@ Karolina 2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualiza
 
 Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji
 
-
 ### Procedury składowane
 
 ~~1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa~~
- ~~2. Dodawanie pytania do gospodarza~~
+~~2. Dodawanie pytania do gospodarza~~
 ~~3. Dodawanie odpowiedzi do pytania~~
 
 ~~4. Dokonanie rezerwacji domku~~

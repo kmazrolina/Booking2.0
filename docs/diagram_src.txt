@@ -8,7 +8,7 @@ Table user_data {
   last_name varchar (100)
   email varchar (100)
   phone varchar (20)
-  gender varchar(10)
+  gender varchar(20)
 }
 
 Table rating_data {
@@ -33,15 +33,7 @@ Table guest_rating {
   rating_data_id integer [ref: > rating_data.id]
 }
 
-// proposal: remove as it does not posess any significant role 
-// and we have 24 tables already
-// Table guest_favorite {
-//   id integer [pk]
-//   guest_id integer [ref: > guest.id]
-//   housing_id integer [ref: > housing.id]
-// }
-
-// ========== host ==========
+// ========== HOST ==========
 
 Table host{
   id integer [pk]
@@ -115,13 +107,11 @@ Table housing_question {
   description varchar(2000)
 }
 
-
 Table question_answer {
   id integer [pk]
   question_id integer [ref: > housing_question.id]
   description varchar(2000)
 }
-
 
 // ========== FACILITY ==========
 
@@ -139,7 +129,7 @@ Table facility_type {
 // ========== ROOM ==========
 
 Table room {
-  id integer 
+  id integer
   name varchar(100)
   cost_per_night money
   housing_id integer [ref: > housing.id]
@@ -181,12 +171,11 @@ Table city {
 Table attraction {
   id integer [pk]
   name varchar (100)
-  description varchar (500)
-  attraction_type_id integer [ref: > attraction_type.id]
+  category_id integer [ref: > attraction_category.id]
   location geometry
 }
 
-Table attraction_type {
+Table attraction_category {
   id integer [pk]
   name varchar (100)
 }
