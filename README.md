@@ -72,8 +72,11 @@ Karolina 2. Obliczanie wskaźnika atrakcyjności domku
 ### Wyzwalacze:
 
 1. Zwolnienie dat "w kalendarzu" przy anulowaniu / zmianie dat rezerwacji (aktualizacja odpowiedniego widoku)
+
 Karolina 2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualizacja odpowiedniego widoku)
+
 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
+
 Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji
 
 
