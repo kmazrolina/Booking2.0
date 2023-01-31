@@ -1,3 +1,4 @@
+GO
 CREATE OR ALTER PROCEDURE add_rating (@housing_id INT, @author_id INT, @score INT, @title VARCHAR(100), @description VARCHAR(2000))
 AS
 BEGIN
