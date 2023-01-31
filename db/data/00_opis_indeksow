@@ -1,9 +1,0 @@
-User_data
-- 0-100 tenants
-- 101-180 owners
-
-Rating_data
-- 1-50 owner rating
-- 51-350 housing rating
-- 351-500 tenant rating
-- 501-600 attraction rating
