@@ -1,0 +1,162 @@
+-- IF OBJECT_ID('attraction') IS NOT NULL
+--   DROP TABLE attraction
+-- GO
+
+-- CREATE TABLE attraction (
+--   id INT IDENTITY(1,1) PRIMARY KEY,
+--   name NVARCHAR(200),
+--   category_id INT REFERENCES attraction_category(id),
+--   location GEOMETRY
+-- )
+-- GO
+
+INSERT INTO attraction (location, name, category_id) VALUES
+-- Gdansk
+('POINT (18.6599765 54.3560413)',N'Museum of the Second World War in Gdańsk',2),
+('POINT (18.6532258 54.3485459)',N'Neptune Fountain',2),
+('POINT (18.6540527 54.3483126)',N'Dlugi Targ',2),
+('POINT (18.5620805 54.41122089999999)',N'Park Oliwski im. Adam Mickiewicz',1),
+('POINT (18.6669677 54.4067051)',N'Westerplatte',2),
+('POINT (18.6574162 54.3504874)',N'Crane. Branch of the National Maritime Museum',2),
+('POINT (18.6255711 54.4147064)',N'Pier in Brzeźno',3),
+('POINT (18.534556 54.4129559)',N'Gdańsk Zoological Garden',3),
+('POINT (18.6532847 54.3498348)',N'St. Mary''s Basilica of the Assumption of the Blessed Virgin Mary in Gdańsk',2),
+('POINT (18.6603291 54.3530987)',N'AmberSky Circle',3),
+-- Krakow
+('POINT (19.9373313 50.0615991)',N'Cloth Hall',2),
+('POINT (19.9393903 50.0616411)',N'St. Mary''s Basilica',2),
+('POINT (19.936756 50.0618971)',N'Main Square',2),
+('POINT (19.89322469999999 50.0549401)',N'Kościuszko Mound',1),
+('POINT (19.935423 50.0541115)',N'Wawel Royal Castle',2),
+('POINT (19.9414307 50.05992450000001)',N'Planty',1),
+('POINT (19.9059311 50.0412614)',N'Skałki Twardowskiego',1),
+('POINT (19.9971208 50.0672903)',N'Garden of Experiences Stanisław Lem',3),
+('POINT (19.9615736 50.04742960000001)',N'Oscar Schindler''s Enamel Factory',2),
+('POINT (19.8178761 50.2070516)',N'Ojcowski National Park',1),
+('POINT (20.0504819 49.9839282)',N'Wieliczka Salt Mine',2),
+('POINT (19.9237364 50.0604656)',N'National Museum in Krakow',2),
+-- Lodz
+('POINT (19.4449348 51.77923149999999)',N'Manufaktura',2),
+('POINT (19.4211728 51.7641864)',N'Aquapark Fala',3),
+('POINT (19.4604054 51.7611118)',N'OFF Piotrkowska',2),
+('POINT (19.4124336 51.7637467)',N'Orientarium ZOO Lodz',3),
+('POINT (19.4844744 51.6495639)',N'Mandoria',3),
+-- Poznan
+('POINT (16.9343675 52.4082496)',N'Old Market Square',2),
+('POINT (16.9698904 52.4021955)',N'Lake Maltańskie',1),
+('POINT (16.936194 52.4216742)',N'Citadel Park',1),
+('POINT (16.9944787 52.4004983)',N'New Zoo',3),
+('POINT (16.9014403 52.4019708)',N'Palm House',3),
+('POINT (16.9191553 52.40782900000001)',N'Imperial Castle',2),
+('POINT (16.9742523 52.40528)',N'Thermes of Malta',3),
+-- Warsaw
+('POINT (21.0349992 52.2151532)',N'Łazienki Królewskie',2),
+('POINT (21.015256 52.247976)',N'Royal Castle in Warsaw',2),
+('POINT (21.0287271 52.2418552)',N'Copernicus Science Center',3),
+('POINT (21.0076336 52.240265)',N'Saxon Garden',1),
+('POINT (21.0113328 52.25395349999999)',N'Multimedia Fountain Park',3),
+('POINT (21.02687 52.22064809999999)',N'Ujazdowski Park',2),
+('POINT (21.0457909 52.2394957)',N'PGE Narodowy',3),
+('POINT (21.005995 52.231838)',N'Palace of Culture and Science',3),
+('POINT (21.0034235 52.2126297)',N'Pole Mokotowskie',1),
+('POINT (21.0215756 52.2581092)',N'Municipal Zoological Garden in Warsaw',3),
+('POINT (20.9936657 52.2492299)',N'POLIN Museum of the History of Polish Jews',2),
+('POINT (20.9810343 52.2328613)',N'Museum of the Warsaw Uprising',2),
+-- Wroclaw
+('POINT (17.0443431 51.1101287)',N'Panorama Racławicka Museum',2),
+('POINT (17.0323662 51.1106992)',N'Rynek',2),
+('POINT (17.0751988 51.1043909)',N'Africarium',3),
+('POINT (17.0790447 51.1096604)',N'Japanese Garden',1),
+('POINT (17.0476491 51.1109059)',N'National Museum in Wrocław',2),
+('POINT (17.07419699999999 51.1041258)',N'ZOO Wrocław sp.z o.o.',3),
+('POINT (17.0465814 51.1141738)',N'St. John the Baptist',2),
+('POINT (17.0789491 51.1087669)',N'Wrocław Multimedia Fountain',3),
+('POINT (17.032314 51.09094340000001)',N'Aquapark Wrocław',3),
+('POINT (17.0810543 51.1147656)',N'Park Szczytnicki',1),
+-- Bratislava
+('POINT (17.106735 48.1451668)',N'Michael''s Gate',2),
+('POINT (17.1002348 48.1421086)',N'Bratislava Castle',2),
+('POINT (16.9787199 48.1739172)',N'Devín Castle',2),
+('POINT (17.0995921 48.15393649999999)',N'Slavín',2),
+('POINT (17.0757305 48.1566878)',N'Bratislava Zoo',3),
+('POINT (17.1197757 48.1500424)',N'Medická záhrada',1),
+('POINT (17.1046774 48.1366758)',N'Most SNP (UFO Tower)',3),
+('POINT (17.1097313 48.1352454)',N'Sad Janka Kráľa',1),
+-- Brno
+('POINT (16.6 49.2)',N'Špilberk',2),
+('POINT (16.609361 49.192573)',N'The Cabbage Market',2),
+('POINT (16.608218 49.1950705)',N'Náměstí Svobody',2),
+('POINT (16.5814633 49.2281663)',N'Technical museum',3),
+('POINT (16.5326668 49.2297136)',N'Brno Zoo',3),
+('POINT (16.4617601 49.2567688)',N'Veveří Castle',2),
+('POINT (16.6074144 49.1910184)',N'Cathedral of St. Peter and Paul',2),
+-- Kosice
+('POINT (21.2581399 48.72028330000001)',N'St. Elisabeth''s Cathedral',2),
+('POINT (21.2040414 48.783589)',N'ZOO Kosice',3),
+('POINT (21.2670153 48.6780696)',N'Park Barca',1),
+('POINT (21.2576979 48.7211829)',N'The Singing Fountain',3),
+-- Ostrava
+('POINT (18.3232963 49.8464755)',N'Ostrava Zoo',3),
+('POINT (18.2654811 49.868869)',N'Mining Museum Landek Park',2),
+('POINT (18.2996976 49.83037419999999)',N'Silesian Ostrava Castle',2),
+('POINT (18.2795458 49.8189646)',N'The lower Vítkovice Area',2),
+('POINT (18.1390202 49.8188229)',N'Skalka Family Park',1),
+('POINT (18.2825727 49.81933189999999)',N'Science and Technology Centrum',3),
+-- Prague
+('POINT (14.4016165 50.0910966)',N'Prague Castle',2),
+('POINT (14.4108939 50.0865346)',N'Charles Bridge',2),
+('POINT (14.3950838 50.083527)',N'Petrin Tower',2),
+('POINT (14.4141786 50.0754031)',N'Dancing House',3),
+('POINT (14.4062013 50.1177321)',N'Prague Zoo',3),
+('POINT (14.4160186 50.08659790000001)',N'Klementinum',2),
+('POINT (14.4207065 50.0870215)',N'Prague Astronomical Clock',2),
+('POINT (14.4309209 50.0789482)',N'Národní muzeum',2),
+('POINT (14.4200237 50.0644155)',N'Vyšehrad',2),
+('POINT (14.4207565 50.0874682)',N'Old Town Square',2),
+('POINT (14.4005114 50.09089179999999)',N'St. Vitus Cathedral',2),
+('POINT (14.4249052 50.0973756)',N'National Technical Museum',3),
+('POINT (14.420821 50.0816514)',N'Franz Kafka - Rotating Head',2),
+('POINT (14.4191289 50.1063295)',N'Královská obora Stromovka',1),
+('POINT (14.4067918 50.0862506)',N'Lennon Wall',2),
+('POINT (14.44115 50.0802048)',N'Riegrovy sady',1),
+('POINT (14.5719861 50.0077095)',N'Aquapalace Prague',3),
+('POINT (14.3250039 50.0933016)',N'Divoká Šárka',1),
+-- Presov
+('POINT (21.2605495 48.9602194)',N'Delňa Aquapark restaurant',3),
+('POINT (21.320284 49.05500540000001)',N'Kapušany Castle',2),
+('POINT (21.3464624 48.9746081)',N'Zbojnicky Castle',2),
+-- Budapest
+('POINT (19.0539887 47.5008902)','St. Stephen''s Basilica',2),
+('POINT (19.0778626 47.51494280000001)','Heroes'' Square',2),
+('POINT (19.0395666 47.4962048)','Buda Castle',2),
+('POINT (19.045669 47.507121)','Hungarian Parliament Building',2),
+('POINT (19.0341617 47.5019537)','Matthias Church',2),
+('POINT (19.058716 47.4977775)','Rumbach Street Synagogue',2),
+('POINT (19.0436937 47.49901120000001)','Széchenyi Chain Bridge',2),
+('POINT (19.0632758 47.4969938)','Szimpla Kert',3),
+('POINT (19.0830593 47.5148896)','Vajdahunyad Castle',2),
+('POINT (19.0830158 47.5152483)','City Park',1),
+('POINT (19.0776433 47.5189977)','Budapest Zoo & Botanical Garden',3),
+('POINT (19.0516211 47.4837444)','Gellért Thermal Bath',3),
+('POINT (19.046548 47.4869897)','Citadella',2),
+('POINT (19.018026 47.4078293)','Tropicarium-Oceanarium Kft.',3),
+('POINT (19.0463939 47.5266408)','Margaret Island',1),
+('POINT (19.0469677 47.527952)','Palatinus Strand Baths',3),
+('POINT (19.0426074 47.4949042)','Castle Garden Bazaar',2),
+-- Debrecen
+('POINT (21.622099 47.5330641)','Déri Museum',2),
+('POINT (21.6334 47.5524)','Debrecen Zoo and Amusement Park',3),
+('POINT (21.6260684 47.5521714)','Great Forest Park',2),
+('POINT (21.619716 47.558022)','Agora Science Adventure Center',3),
+('POINT (21.6297594 47.55456230000001)','Aquaticum Waterpark',3),
+-- Szeged
+('POINT (20.1593206 46.2508174)','Sunshine Aquapolis Szeged',3),
+('POINT (20.1491344 46.2489229)','Votive Church of Szeged',2),
+('POINT (20.1591329 46.23162)','Botanical Garden of Szeged',1),
+('POINT (20.1182929 46.25187949999999)','Szeged Zoo',3)
+
+-- SELECT
+--   a.name,
+--   c.name
+-- FROM attraction a
+-- LEFT JOIN attraction_category c ON a.category_id = c.id
