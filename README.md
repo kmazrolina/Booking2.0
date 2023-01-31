@@ -86,7 +86,7 @@ Wiki 1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
 Wiki 2. Dodawanie pytania do gospodarza
 3. Dodawanie odpowiedzi do pytania
 
-Karolina 4. Dokonanie rezerwacji domku
+~~4. Dokonanie rezerwacji domku~~
 
 5. Opłacenie rezerwacji
 Karolina 6. Anulowanie rezerwacji
