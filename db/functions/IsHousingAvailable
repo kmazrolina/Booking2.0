@@ -5,17 +5,17 @@ CREATE OR ALTER FUNCTION dbo.IsHousingAvailable
  @startDate DATETIME,
  @endDate DATETIME
 )
-RETURNS varchar(100)
+RETURNS BIT
 AS
 BEGIN
- DECLARE @result varchar(100) = 'Available!'
+ DECLARE @result BIT = 'TRUE'
 
  IF EXISTS (SELECT * FROM reservation r 
             WHERE r.housing_id = @housingId 
             AND (@startDate BETWEEN r.start_date AND r.end_date OR
                  @endDate BETWEEN r.start_date AND r.end_date))
  BEGIN
-  SET @result = 'Sorry, the property is unavailable on those dates'
+  SET @result = 'FALSE'
  END
 
  RETURN @result
