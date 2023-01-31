@@ -82,8 +82,8 @@ Karolina 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy prób
 
 ### Procedury składowane
 
-Wiki1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
-Wiki2. Dodawanie pytania do gospodarza
+Wiki 1. Dodawanie: recenzji domku, profilu gospodarza, profilu gościa
+Wiki 2. Dodawanie pytania do gospodarza
 3. Dodawanie odpowiedzi do pytania
 
 Karolina 4. Dokonanie rezerwacji domku
@@ -91,7 +91,7 @@ Karolina 4. Dokonanie rezerwacji domku
 5. Opłacenie rezerwacji
 Karolina 6. Anulowanie rezerwacji
 Karolina 7. Zmiana daty rezerwacji
-wiki8. Zmiana ceny noclegu w danym domku
+wiki 8. Zmiana ceny noclegu w danym domku
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 - można utworzyć dwa programy klienckie jeden umożliwiający pracę administratorów (użytkowników ze zwiększonymi uprawnieniami), drugi umożliwiający prac zwykłych użytkowników.
