@@ -1,6 +1,6 @@
-EXEC drop_object 'calculate_rating'
+EXEC drop_object 'CalculateRating'
 GO
-CREATE FUNCTION calculate_rating(
+CREATE FUNCTION CalculateRating(
 @object_id INT, 
 @object_type varchar(50)
 )
