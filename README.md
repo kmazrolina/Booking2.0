@@ -66,8 +66,6 @@ In order to recreate map in database following programs were used (more on that 
 
 ~~1. Obliczanie ratingu~~
 
-Karolina 2. Obliczanie wskaźnika atrakcyjności domku
-
 3. ~~Obliczanie ilości wolnych domków w danym dniu~~
 4. ~~Obliczanie średniej długości pobytu~~
 5. ~~Sprawdzenie, czy dany domek jest dostępny w danych datach.~~
