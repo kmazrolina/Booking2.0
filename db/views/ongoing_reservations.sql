@@ -24,4 +24,4 @@ END
 EXECUTE (@sql)
 GO
 
-SELECT * FROM ongoing_reservations
+-- SELECT * FROM ongoing_reservations
