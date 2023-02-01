@@ -78,13 +78,14 @@ Karolina 2. Obliczanie wskaźnika atrakcyjności domku
 
 ### Wyzwalacze:
 
-Karolina 1. Aktualizacja odpowiednich widoków przy dodaniu ratingu.
+Karolina 1. Aktualizacj awidoku 1.
 
-wiki 2. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
+wiki 2. Aktualizacja widoku 2.c i 7 przy dodaniu nowej recenzji domku
+3. Aktualizacja widoku  8 przy dodaniu nowej recenzji gospodarza
 
-~~3. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji~~
+~~4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji~~ + aktualizacja widoków 3-9
 
-~~4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie zmiany dat rezerwacji~~
+~~5. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie zmiany dat rezerwacji~~ + aktualizacja widoków 3-9
 
 ### Procedury składowane
 
