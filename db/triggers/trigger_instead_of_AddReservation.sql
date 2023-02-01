@@ -1,6 +1,5 @@
-DROP TRIGGER trigger_AddReservation
 GO
-CREATE TRIGGER trigger_AddReservation ON reservation
+CREATE OR ALTER TRIGGER trigger_AddReservation ON reservation
 INSTEAD OF INSERT 
 AS
 BEGIN
@@ -14,7 +13,7 @@ BEGIN
 	DECLARE @result BIT 
 	SELECT @result = dbo.IsHousingAvailable(@housing_id, @start_date, @end_date)
 	IF @result = 'FALSE'
-		RAISERROR('Obiekt niedostêpny w podanych datach.', 16,  1)
+		RAISERROR('Obiekt niedostÃªpny w podanych datach.', 16,  1)
 	ELSE
 	BEGIN
 		INSERT INTO reservation
