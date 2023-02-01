@@ -78,9 +78,9 @@ Karolina 2. Zabookowanie dat "w kalendarzu" przy zarezerwowaniu domku (aktualiza
 
 wiki 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowej recenzji
 
-~~ 4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji ~~
+~~4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji ~~
 
-~~ 5. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie zmiany dat rezerwacji ~~
+5. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie zmiany dat rezerwacji
 
 ### Procedury składowane
 
