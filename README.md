@@ -69,6 +69,7 @@ In order to recreate map in database following programs were used (more on that 
 3. ~~Obliczanie ilości wolnych domków w danym dniu~~
 4. ~~Obliczanie średniej długości pobytu~~
 5. ~~Sprawdzenie, czy dany domek jest dostępny w danych datach.~~
+!6.~~Obliczenie odległości danego obiektu od centrum miasta~~
 
 - baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
 
