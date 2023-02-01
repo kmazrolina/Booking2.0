@@ -1,4 +1,3 @@
---zbior obiektów w kolejnych miastach wraz z cenami najtańszych pokoi dostępnych w każdym z obiektów
 EXEC DropObject 'houses_per_city_per_price'
 GO
 CREATE VIEW houses_per_city_per_price
