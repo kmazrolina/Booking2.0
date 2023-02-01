@@ -97,10 +97,13 @@ profilu gospodarza, profilu gościa
 
 ~~8. Zmiana ceny noclegu w danym domku~~
 
-9. Domki w danym mieście przy zdanych datach w odległości X ode mnie
+9.Domki w danym mieście przy zdanych datach
 
+10.Domki w danym miescie posortowane po: cenie, odległości od centurm, ratingu, ilosci atrakcji w pobliżu
 
-4. Domki w danym miescie poniżej danej ceny
+11.Domki w danym mieście w odległości nie większej niż X ode mnie
+
+Karolina 12. Domki w danym miescie poniżej danej ceny
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 - można utworzyć dwa programy klienckie jeden umożliwiający pracę administratorów (użytkowników ze zwiększonymi uprawnieniami), drugi umożliwiający prac zwykłych użytkowników.
