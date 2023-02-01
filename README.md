@@ -80,7 +80,7 @@ wiki 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowe
 
 ~~4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji~~
 
-5. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie zmiany dat rezerwacji
+~~5. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie zmiany dat rezerwacji~~
 
 ### Procedury składowane
 
