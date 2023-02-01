@@ -106,6 +106,7 @@ To manage aspects that change over time, the following strategies have been appl
 8. Avaliable housing in a given city for given dates sorted by rating/distance from city center/price
 9. Selecting avaliable housing for given city in given dates
 10. Deleting an object of any type from the database
+11. Adding a new user
 
 ## Database maintenance strategy
 **Regular Backups:** Regularly backing up the database to ensure data preservation and disaster recovery.
