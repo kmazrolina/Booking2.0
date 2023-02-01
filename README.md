@@ -67,49 +67,67 @@ To manage aspects that change over time, the following strategies have been appl
 
 ### Views
 1. Housing in a given city
-2. Housing in a given city sorted by:
-a) price
-b) distance from the city center
-c) housing rating
-d) number of attractions nearby
-4. Housing in a given city below a given price
-5. Housing in a given city at distance X from me
-6. Housing in a given city at a distance not less than X from the center
-7. Housing in a given city with a rating not lower than X
-8. Housing in a given city with the owner's rating not lower than X
-9. Housing in a given city with the X facility
-10. Housing with their rooms
-11. All guests in the system and their personal data
-12. All reservations with the type of facility
-13. QA view
+2. Housing in a given city with details (name, rating, rooms, room name, room price)
+3. Housing in a given city with prices per night (only cheapest room in a given housing)
+4. Housing in a given city with its rating
+5. Housing in a given city with its facilities
+6. Housing with its rooms
+7. All guests in the system and their personal data
+8. All reservations with the type of facility
+9. QA view
+10. Best cities
+11. Best attractions
+12. Ongoing reservations
 
 ### Functions
 1. Calculation of the average guest/host/housing/attraction rating
-2. Calculation of the housing attractiveness index
-3. Calculation of the number of avaliable housing in given dates
-4. Calculation of the average length of stay
-5. Checking if a given house is available on given dates.
+2. Calculation of the number of avaliable housing in given dates
+3. Calculation of the average length of stay
+4. Checking if a given house is available on given dates
+5. Calculating the distance between given housing and city center
 
 ### Triggers:
-1. Updating view 2.a and 4 when changing the price per night in a given facility
-2. Update of view 2.c and 7 when adding a new housing review
-3. View 8 update when new host review is added
-4. Checking if a given facility is available on the given dates when trying to book while updating views 3-9
-5. Checking if a given property is available on given dates when trying to change booking dates while updating views 3-9
+1. Checking if a given facility is available on the given dates when trying to book
+2. Checking if a given property is available on given dates when trying to change booking dates
+3. Updating view 'Housing in a given city with prices per night' when changeing price of a room in a given housing
 
 ### Stored procedures
-1. Addition: reviews of the housing, host, guest
-2. Adding a question to the host
+1. Addiing tarings of the housing, host, guest
+2. Adding a question regardng housing
 3. Adding an answer to the question
-4. Making a reservation for a housing
-5. Cancellation
-6. Change of booking date
+4. Adding a reservation for a housing
+5. Cancellation of a reservation
+6. Change of booking dates for a reservation
 7. Changing the price of accommodation in a given housing
-8. Avaliable housing in a given city for given dates [optionally with additional search constraints]
+8. Avaliable housing in a given city for given dates sorted by rating/distance from city center/price
+9. Selecting avaliable housing for given city in given dates
+10. Deleting an object of any type from the database
 
 ### Database maintenance strategy
+#### Regular Backups: Regularly backing up the database to ensure data preservation and disaster recovery.
 
+#### Data Integrity: Implementing data validation and consistency checks to maintain data accuracy and completeness. 
+Hou
 
-### Common queries
+Index Maintenance: Regularly maintaining and updating indexes to optimize database performance and improve query speed.
 
+Security Measures: Implementing security measures to protect sensitive data, such as encryption, authentication, and authorization.
 
+Capacity Planning: Monitoring database usage and planning for future capacity needs to ensure adequate resources are available.
+
+Performance Monitoring: Monitoring database performance and identifying potential bottlenecks to optimize performance.
+
+Data Archiving: Archiving older, rarely accessed data to free up storage space and improve database performance.
+
+Software Upgrades: Regularly upgrading database software to improve performance, security, and functionality.
+
+Monitoring Log Files: Monitoring database log files to detect and resolve issues quickly.
+
+Regular Maintenance Tasks: Regularly performing database maintenance tasks, such as database defragmentation and statistics updates, to improve performance and reduce downtime.
+
+### Example queries
+1. Selecting avaliable housing in a given city in given dates in given price range
+2. Selecting avaliable housing in a given category in a given city in given dates 
+3. Selecting all reservations of guest of given id
+4. Selecting all reservations of objects owned by a host by given id
+5. Selecting all reviews of given housing ordered by date/score
