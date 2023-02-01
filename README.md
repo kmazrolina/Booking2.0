@@ -42,6 +42,7 @@ In order to recreate map in database following programs were used (more on that 
 ### Widoki
 
 ~~1. Domki w danym mieście~~
+
 ~~2. Domki w danym miescie wraz z ceną najtańszego pokoju dostępnego w danym domku~~
 
 6. Domki w danym mieście w odległości nie mniejszej niz X od centrum
@@ -57,7 +58,7 @@ In order to recreate map in database following programs were used (more on that 
 
 13. ~~QA view~~
 
-~~14. Domki w danym mieście wraz z ceną najtańszego pokoju~~
+
 
 ### Funkcje
 
