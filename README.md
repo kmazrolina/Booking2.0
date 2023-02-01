@@ -85,7 +85,7 @@ wiki 3. Aktualizacja ratingu domku / gospodarza / użytkownika przy dodaniu nowe
 
 ### Procedury składowane
 
-~~1. Dodawanie: recenzji domku, ~~
+~~1. Dodawanie: recenzji domku,~~
 profilu gospodarza, profilu gościa
 
 ~~2. Dodawanie pytania do gospodarza~~
