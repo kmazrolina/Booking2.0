@@ -1,14 +1,16 @@
-IF OBJECT_ID('houses_per_city_detailed', 'v') IS NOT NULL
-  DROP VIEW houses_per_city_detailed
+GO
+IF OBJECT_ID('housing_per_city_detailed', 'v') IS NOT NULL
+  DROP VIEW housing_per_city_detailed
 GO
 
-CREATE VIEW houses_per_city_detailed
+CREATE VIEW housing_per_city_detailed
 AS
   SELECT
     co.name country_name,
     ci.name city_name,
     COUNT(DISTINCT a.id) city_attractions,
-    h.name house_name,
+	h.id housing_id,
+    h.name housing_name,
     AVG(rd.score) housing_rating,
     r.name room_name,
     r.cost_per_night cost_per_night
@@ -19,12 +21,5 @@ AS
   INNER JOIN room r ON r.housing_id = h.id
   LEFT JOIN housing_rating hr ON hr.housing_id = h.id
   LEFT JOIN rating_data rd ON rd.id = hr.rating_data_id
-  GROUP BY co.name, ci.name, h.name, r.name, r.cost_per_night
+  GROUP BY co.name, ci.name, h.id, h.name, r.name, r.cost_per_night
 GO
-
--- SELECT * FROM houses_per_city_detailed
--- ORDER BY
---   country_name,
---   city_attractions DESC,
---   housing_rating DESC,
---   cost_per_night
