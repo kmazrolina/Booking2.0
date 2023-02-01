@@ -1,4 +1,6 @@
 # Booking2.0
+![sea-2720593_960_720](https://user-images.githubusercontent.com/121491288/216061686-f35e1d31-b4e8-48a3-be84-09578039102f.jpg)
+
 This project is a hotel-booking database that offers a variety of accommodation options including hotels, holiday houses, apartaments and more, located in four countries: Poland, Slovakia, Czech Republic, and Hungary. The database encompasses 15 cities and provides a map-based search feature, making it easy for users to find the perfect place to stay. Queries such as proximity to city centers and price ranges can be used to refine search results. The database is equipped with a range of functionalities including searching with different constraints (price, date, location, and rating), making reservations, changing or deleting reservations, and rating houses, their owners, and tourist attractions. Additionally, owners have the ability to rate guests who have stayed in their housing.
 
 ## Database diagram
