@@ -1,0 +1,6 @@
+CREATE NONCLUSTERED INDEX idx_user_data_email ON user_data (email)
+GO
+-- indeks mozna uzyc do wyszukiwania danych użytkownika po adresie email:
+--SELECT * FROM user_data 
+--WHERE email = 'example@email.com'
+-- indeks idx_user_data_email użyty, aby przyspieszyć wyszukiwanie
