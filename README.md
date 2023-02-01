@@ -100,7 +100,7 @@ profilu gospodarza, profilu gościa
 
 ~~8. Zmiana ceny noclegu w danym domku~~
 
-9.Domki w danym mieście przy zdanych datach
+~~9.Domki w danym mieście przy zdanych datach~~
 
 10.Domki w danym miescie posortowane po: cenie, odległości od centurm, ratingu, ilosci atrakcji w pobliżu
 
