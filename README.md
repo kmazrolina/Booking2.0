@@ -91,7 +91,9 @@ To manage aspects that change over time, the following strategies have been appl
 ### Triggers:
 1. Checking if a given facility is available on the given dates when trying to book
 2. Checking if a given property is available on given dates when trying to change booking dates
-3. Updating view 'Housing in a given city with prices per night' when changeing price of a room in a given housing
+3. Updating view 'Housing in a given city with prices per night' when changing price of a room in a given housing
+4. Updating view 'QA view' when a new question about housing is asked
+5. Updating view 'Housing in a given city per rating' when a new housing rating is added
 
 ### Stored procedures
 1. Addiing tarings of the housing, host, guest
