@@ -96,7 +96,7 @@ To manage aspects that change over time, the following strategies have been appl
 5. Updating view 'Housing in a given city per rating' when a new housing rating is added
 
 ### Stored procedures
-1. Addiing tarings of the housing, host, guest
+1. Adding ratings of the housing, host, guest
 2. Adding a question regardng housing
 3. Adding an answer to the question
 4. Adding a reservation for a housing
@@ -107,6 +107,10 @@ To manage aspects that change over time, the following strategies have been appl
 9. Selecting avaliable housing for given city in given dates
 10. Deleting an object of any type from the database
 11. Adding a new user
+
+### Indexes
+1. 'idx_user_data_email' - the index can be used by the database to improve the performance of queries that filter the data based on the "email" column
+2. 'idx_housing_name' - the index can be used by the databaseto improve the performance of queries that filter the data based on the "name" column
 
 ## Database maintenance strategy
 **Regular Backups:** Regularly backing up the database to ensure data preservation and disaster recovery.
