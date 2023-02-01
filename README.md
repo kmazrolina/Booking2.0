@@ -103,27 +103,17 @@ To manage aspects that change over time, the following strategies have been appl
 9. Selecting avaliable housing for given city in given dates
 10. Deleting an object of any type from the database
 
-### Database maintenance strategy
+## Database maintenance strategy
 #### Regular Backups: Regularly backing up the database to ensure data preservation and disaster recovery.
 
 #### Data Integrity: Implementing data validation and consistency checks to maintain data accuracy and completeness. 
-Hou
+For instance housing have to be located in one of the countries in one of the cities. 
 
-Index Maintenance: Regularly maintaining and updating indexes to optimize database performance and improve query speed.
+#### Security Measures: Implementing security measures to protect sensitive data, such as encryption, authentication, and authorization.
+For instance user data should be protected and only visible to the users themselves.
 
-Security Measures: Implementing security measures to protect sensitive data, such as encryption, authentication, and authorization.
-
-Capacity Planning: Monitoring database usage and planning for future capacity needs to ensure adequate resources are available.
-
-Performance Monitoring: Monitoring database performance and identifying potential bottlenecks to optimize performance.
-
-Data Archiving: Archiving older, rarely accessed data to free up storage space and improve database performance.
-
-Software Upgrades: Regularly upgrading database software to improve performance, security, and functionality.
-
-Monitoring Log Files: Monitoring database log files to detect and resolve issues quickly.
-
-Regular Maintenance Tasks: Regularly performing database maintenance tasks, such as database defragmentation and statistics updates, to improve performance and reduce downtime.
+#### Data Archiving: Archiving older, rarely accessed data to free up storage space and improve database performance.
+For example past reservations could be compressed while outdated user data could be deleted. 
 
 ### Example queries
 1. Selecting avaliable housing in a given city in given dates in given price range
