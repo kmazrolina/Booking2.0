@@ -41,7 +41,7 @@ In order to recreate map in database following programs were used (more on that 
 
 ### Widoki
 
-1. Domki w danym mieście
+~~1. Domki w danym mieście~~
 2. Domki w danym miescie posortowane po: 
 a) cenie,
 b) odległości od centurm
