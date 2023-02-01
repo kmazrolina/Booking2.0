@@ -7,6 +7,7 @@ AS
   SELECT
     co.name country_name,
     ci.name city_name,
+    h.id housing_id,
     h.name house_name
   FROM country co
   INNER JOIN city ci ON ci.location.STWithin(co.location) = 1
