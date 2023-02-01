@@ -56,6 +56,7 @@ In order to recreate map in database following programs were used (more on that 
 12. ~~Informacja o rezerwacjach z rodzajem obiektu~~
 
 13. ~~QA view~~
+14. Domki w danym mieście wraz z ceną najtańszego pokoju
 
 ### Funkcje
 
