@@ -5,6 +5,7 @@ CREATE PROCEDURE AddReservation(@guest_id INT, @housing_id INT, @room_id INT, @s
 AS
 BEGIN
 BEGIN TRY
+	SET XACT_ABORT ON
 	BEGIN TRANSACTION
 	IF (@start_date >= @end_date)
 		RAISERROR('Podane daty są niepoprawne.', 16,  1)
@@ -30,3 +31,4 @@ END TRY
 BEGIN CATCH END CATCH
 END
 GO
+
