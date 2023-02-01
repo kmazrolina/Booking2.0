@@ -106,15 +106,15 @@ To manage aspects that change over time, the following strategies have been appl
 10. Deleting an object of any type from the database
 
 ## Database maintenance strategy
-#### Regular Backups: Regularly backing up the database to ensure data preservation and disaster recovery.
+**Regular Backups:** Regularly backing up the database to ensure data preservation and disaster recovery.
 
-#### Data Integrity: Implementing data validation and consistency checks to maintain data accuracy and completeness. 
+**Data Integrity:** Implementing data validation and consistency checks to maintain data accuracy and completeness. 
 For instance housing have to be located in one of the countries in one of the cities. 
 
-#### Security Measures: Implementing security measures to protect sensitive data, such as encryption, authentication, and authorization.
+**Security Measures:** Implementing security measures to protect sensitive data, such as encryption, authentication, and authorization.
 For instance user data should be protected and only visible to the users themselves.
 
-#### Data Archiving: Archiving older, rarely accessed data to free up storage space and improve database performance.
+**Data Archiving:** Archiving older, rarely accessed data to free up storage space and improve database performance.
 For example past reservations could be compressed while outdated user data could be deleted. 
 
 ### Example queries
