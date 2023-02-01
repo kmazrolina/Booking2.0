@@ -1,0 +1,8 @@
+Exec DropObject 'houses_per_city_per_facility'
+GO
+CREATE VIEW houses_per_city_per_facility
+AS
+SELECT C.housing_name, FT.name [facility] FROM 
+houses_per_city C LEFT JOIN facility F ON C.housing_id = F.housing_id
+JOIN facility_type FT ON FT.id = F.facility_type_id
+GO 
