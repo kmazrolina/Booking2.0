@@ -1,0 +1,15 @@
+EXEC DropObject 'DistanceFromCityCenter'
+GO
+CREATE FUNCTION DistanceFromCityCenter(@housing_location geometry,@city_name varchar(50))
+RETURNS float
+BEGIN
+DECLARE @city_polygon geometry 
+DECLARE @city_center geometry 
+DECLARE @distance float
+
+SET @city_polygon = (SELECT location FROM city WHERE name = @city_name)
+SET @city_center = @city_polygon.STCentroid()
+SET @distance = @city_center.STDistance(@housing_location)
+
+RETURN @distance
+END
