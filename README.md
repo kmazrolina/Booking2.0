@@ -1,4 +1,5 @@
 # Booking 2.0
+
 ![sea-2720593_960_720](https://user-images.githubusercontent.com/121491288/216061686-f35e1d31-b4e8-48a3-be84-09578039102f.jpg)
 
 This project is a hotel-booking database that offers a variety of accommodation options including hotels, holiday houses, apartaments and more, located in four countries: Poland, Slovakia, Czech Republic, and Hungary. The database encompasses 15 cities and provides a map-based search feature, making it easy for users to find the perfect place to stay. Queries such as proximity to city centers and price ranges can be used to refine search results. The database is equipped with a range of functionalities including searching with different constraints (price, date, location, and rating), making reservations, changing or deleting reservations, and rating houses, their owners, and tourist attractions. Additionally, owners have the ability to rate guests who have stayed in their housing.
@@ -34,6 +35,7 @@ In order to recreate map in database following programs were used (more on that 
 - [Polygons.OpenStreetMap](https://polygons.openstreetmap.fr/)
 
 ## Tabels
+
 - user_data
 - rating_data
 - guest
@@ -60,14 +62,17 @@ In order to recreate map in database following programs were used (more on that 
 - attraction_rating
 
 ### Aspects that change over time
+
 The database contains the following parameters that may change over time: prices for accommodation, availability of housing and ratings of housing, hosts, guests and attractions. In our model, the number of housing, attractions, cities and countries is constant, and the details of housing, rooms and users remain unchanged. However, it is possible to add appropriate functionalities to allow editing of these elements. Sets of categories, such as the housing category (hotel, apartment, etc.) and the categories of room furnishings (furniture, household appliances, etc.), are invariant by design.
 
 To manage aspects that change over time, the following strategies have been applied:
+
 - the price per night is saved in the reservation_details at the time of booking
 - created triggers allow for updateing data in the entire database after introducing changes in one of the tables
-- the ITENTITY() property allows for adding new data without breaking the primary key constraints
+- the IDENTITY() property allows for adding new data without breaking the primary key constraints
 
 ### Views
+
 1. Housing in a given city
 2. Housing in a given city with details (name, rating, rooms, room name, room price)
 3. Housing in a given city with prices per night (only cheapest room in a given housing)
@@ -77,18 +82,20 @@ To manage aspects that change over time, the following strategies have been appl
 7. All guests in the system and their personal data
 8. All reservations with the type of facility
 9. QA view
-10. Best cities
-11. Best attractions
+10. Cities info (such as attractions count, houses count)
+11. Attractions info (place, popularity, average rating)
 12. Ongoing reservations
 
 ### Functions
+
 1. Calculation of the average guest/host/housing/attraction rating
 2. Calculation of the number of avaliable housing in given dates
 3. Calculation of the average length of stay
 4. Checking if a given house is available on given dates
 5. Calculating the distance between given housing and city center
 
-### Triggers:
+### Triggers
+
 1. Checking if a given facility is available on the given dates when trying to book
 2. Checking if a given property is available on given dates when trying to change booking dates
 3. Updating view 'Housing in a given city with prices per night' when changing price of a room in a given housing
@@ -96,6 +103,7 @@ To manage aspects that change over time, the following strategies have been appl
 5. Updating view 'Housing in a given city per rating' when a new housing rating is added
 
 ### Stored procedures
+
 1. Adding ratings of the housing, host, guest
 2. Adding a question regardng housing
 3. Adding an answer to the question
@@ -109,25 +117,27 @@ To manage aspects that change over time, the following strategies have been appl
 11. Adding a new user
 
 ### Indexes
+
 1. 'idx_user_data_email' - the index can be used by the database to improve the performance of queries that filter the data based on the "email" column
 2. 'idx_housing_name' - the index can be used by the databaseto improve the performance of queries that filter the data based on the "name" column
 
 ## Database maintenance strategy
+
 **Regular Backups:** Regularly backing up the database to ensure data preservation and disaster recovery.
 
-**Data Integrity:** Implementing data validation and consistency checks to maintain data accuracy and completeness. 
-For instance housing have to be located in one of the countries in one of the cities. 
+**Data Integrity:** Implementing data validation and consistency checks to maintain data accuracy and completeness.
+For instance housing have to be located in one of the countries in one of the cities.
 
 **Security Measures:** Implementing security measures to protect sensitive data, such as encryption, authentication, and authorization.
 For instance user data should be protected and only visible to the users themselves.
 
 **Data Archiving:** Archiving older, rarely accessed data to free up storage space and improve database performance.
-For example past reservations could be compressed while outdated user data could be deleted. 
+For example past reservations could be compressed while outdated user data could be deleted.
 
 ### Example queries
+
 1. Selecting avaliable housing in a given city in given dates in given price range
-2. Selecting avaliable housing in a given category in a given city in given dates 
+2. Selecting avaliable housing in a given category in a given city in given dates
 3. Selecting all reservations of guest of given id
 4. Selecting all reservations of objects owned by a host by given id
 5. Selecting all reviews of given housing ordered by date/score
-

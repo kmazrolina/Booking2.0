@@ -1,8 +1,10 @@
-IF OBJECT_ID('best_cities', 'v') IS NOT NULL
-  DROP VIEW best_cities
+--
+
+IF OBJECT_ID('cities_info', 'v') IS NOT NULL
+  DROP VIEW cities_info
 GO
 
-CREATE VIEW best_cities
+CREATE VIEW cities_info
 AS
   SELECT
     ci.name city_name,
@@ -19,7 +21,7 @@ AS
   GROUP BY ci.name, co.name
 GO
 
--- SELECT * FROM best_cities
+-- SELECT * FROM cities_info
 -- ORDER BY
 --   attraction_count DESC,
 --   house_count DESC,
