@@ -46,7 +46,7 @@ In order to recreate map in database following programs were used (more on that 
 ~~2. Domki w danym miescie wraz z ceną najtańszego pokoju dostępnego w danym domku~~
 
 6. Domki w danym mieście w odległości nie mniejszej niz X od centrum
-7. Domki w danym mieście o ratingu nie mniejszym niz X
+~~7. Domki w danym mieście zestawione z ich ratingiem~~
 8. Domki w danym mieście o ratingu właściciela nie mniejszym niz X
 9. Domki w danym mieście z udogodnieniem X
 
@@ -107,6 +107,7 @@ profilu gospodarza, profilu gościa
 11.Domki w danym mieście w odległości nie większej niż X ode mnie
 
 Karolina 12. Domki w danym miescie poniżej danej ceny
+Karolina 13. Domki w danym miescie o ratingu nie mniejszym niz X
 
 - strategia pielęgnacji bazy danych (kopie zapasowe)
 - można utworzyć dwa programy klienckie jeden umożliwiający pracę administratorów (użytkowników ze zwiększonymi uprawnieniami), drugi umożliwiający prac zwykłych użytkowników.
