@@ -42,21 +42,22 @@ In order to recreate map in database following programs were used (more on that 
 ### Widoki
 
 1. Domki w danym mieście
-2. Domek wraz z informacjami (rating, rating gospodarza, udogodnienia, atrakcje w pobliżu, odległość od centrum)
-3. Domki w danym miescie posortowane po: cenie, odległości od centurm, ratingu, ilosci atrakcji w pobliżu
-4. Domki w danym mieście przy zdanych datach
-5. Domki w danym miescie przy zdanych datach poniżej danej ceny
-6. Domki w danym mieście przy zdanych datach w odległości X ode mnie
-7. Domki w danym mieście przy zdanych datach w odległości nie mniejszej niz X od centrum
-8. Domki w danym mieście przy zdanych datach o ratingu nie mniejszym niz X
-9. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
-10. Domki w danym mieście przy zdanych datach z udogodnieniem X
+2. Domki w danym miescie posortowane po: cenie, odległości od centurm, ratingu, ilosci atrakcji w pobliżu
+3. Domki w danym mieście przy zdanych datach
+4. Domki w danym miescie przy zdanych datach poniżej danej ceny
+5. Domki w danym mieście przy zdanych datach w odległości X ode mnie
+6. Domki w danym mieście przy zdanych datach w odległości nie mniejszej niz X od centrum
+7. Domki w danym mieście przy zdanych datach o ratingu nie mniejszym niz X
+8. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
+9. Domki w danym mieście przy zdanych datach z udogodnieniem X
 
-~~11.Domki wraz z ich rezerwacjami i szczegółami rezerwacji~~
+~~10. Domki z ich pokojami~~
 
-~~12. Domki z ich pokojami~~
+11.~~Informacja o gosciach~~ 
 
-13.~~Informacja o gosciach~~ 14. ~~Informacja o rezerwacjach z rodzajem obiektu~~ (TO CHECK czy nie powtorka z 11) 15. ~~QA view~~
+12. ~~Informacja o rezerwacjach z rodzajem obiektu~~
+
+13. ~~QA view~~
 
 ### Funkcje
 
