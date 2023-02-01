@@ -1,0 +1,22 @@
+GO
+CREATE OR ALTER FUNCTION get_reviews_num (@rating_data_id INT)
+RETURNS INT
+AS
+BEGIN
+DECLARE @rating_count INT;
+
+SELECT @rating_count =
+    CASE 
+      WHEN EXISTS (SELECT 1 FROM guest_rating WHERE rating_data_id = @rating_data_id) THEN 
+        (SELECT COUNT(*) FROM guest_rating WHERE rating_data_id = @rating_data_id)
+      WHEN EXISTS (SELECT 1 FROM host_rating WHERE rating_data_id = @rating_data_id) THEN 
+      (SELECT COUNT(*) FROM host_rating WHERE rating_data_id = @rating_data_id)
+	WHEN EXISTS (SELECT 1 FROM housing_rating WHERE rating_data_id = @rating_data_id) THEN 
+        (SELECT COUNT(*) FROM housing_rating WHERE rating_data_id = @rating_data_id)
+      ELSE
+        0
+    END;
+
+RETURN @rating_count;
+END;
+GO
