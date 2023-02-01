@@ -42,12 +42,7 @@ In order to recreate map in database following programs were used (more on that 
 ### Widoki
 
 ~~1. Domki w danym mieście~~
-2. Domki w danym miescie posortowane po: 
-a) cenie,
-b) odległości od centurm
-c) ratingu
-d) ilosci atrakcji w pobliżu
-
+~~2. Domki w danym miescie wraz z ceną najtańszego pokoju dostępnego w danym domku~~
 3. Domki w danym mieście przy zdanych datach
 4. Domki w danym miescie przy zdanych datach poniżej danej ceny
 5. Domki w danym mieście przy zdanych datach w odległości X ode mnie
