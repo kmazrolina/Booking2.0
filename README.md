@@ -49,7 +49,6 @@ In order to recreate map in database following programs were used (more on that 
 
 ~~7. Domki w danym mieście zestawione z ich ratingiem~~
 
-8. Domki w danym mieście wraz z ratingiem właściciela
 
 ~~9. Domki w danym mieście wraz z ich udogodnieniami~~
 
