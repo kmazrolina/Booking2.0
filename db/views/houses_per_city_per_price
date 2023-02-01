@@ -1,0 +1,8 @@
+--zbior obiektów w kolejnych miastach wraz z cenami najtańszych pokoi dostępnych w każdym z obiektów
+EXEC DropObject 'houses_per_city_per_price'
+GO
+CREATE VIEW houses_per_city_per_price
+AS
+SELECT C.housing_name, MIN(R.cost_per_night) [prices from] FROM houses_per_city C JOIN room R ON C.housing_id = R.housing_id
+GROUP BY C.housing_name
+GO
