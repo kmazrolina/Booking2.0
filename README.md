@@ -1,4 +1,5 @@
 # Booking2.0
+This project is a hotel-booking database that offers a variety of accommodation options including hotels, holiday houses, apartaments and more, located in four countries: Poland, Slovakia, Czech Republic, and Hungary. The database encompasses 15 cities and provides a map-based search feature, making it easy for users to find the perfect place to stay. Queries such as proximity to city centers and price ranges can be used to refine search results. The database is equipped with a range of functionalities including searching with different constraints (price, date, location, and rating), making reservations, changing or deleting reservations, and rating houses, their owners, and tourist attractions. Additionally, owners have the ability to rate guests who have stayed in their housing.
 
 ## Database diagram
 
@@ -30,94 +31,85 @@ In order to recreate map in database following programs were used (more on that 
 - [OpenStreetMap](https://www.openstreetmap.org/)
 - [Polygons.OpenStreetMap](https://polygons.openstreetmap.fr/)
 
-## TO DO
+## Tabels
+- user_data
+- rating_data
+- guest
+- guest_rating
+- host
+- host_rating
+- reservation
+- reservation_details
+- housing
+- housing_category
+- housing_rating
+- housing_question
+- question_answer
+- facility
+- facility_type
+- room
+- room_equipment_and_facilities
+- item
+- item_category
+- country
+- city
+- attraction
+- attraction_type
+- attraction_rating
 
-- ~~!!Sprawdzić czy rezerwacje są poprawne (czy nie ma zbyt dużo rezerwacji na jeden obiekt w danych datach) !!~~
-- ~~8poprawnie zaprojektowanych tabel (na osobę), przy czym w bazie danych powinno być minimum 10 tabel,~~
-- dane dotyczące atrybutów, których wartość zmienia się w czasie,
-  Ceny domków
-- ~~- tabele realizujące jeden ze schematów dziedziczenia,~~
-- 10 widoków lub funkcji
+### Aspects that change over time
+The database contains the following parameters that may change over time: prices for accommodation, availability of housing and ratings of housing, hosts, guests and attractions. In our model, the number of housing, attractions, cities and countries is constant, and the details of housing, rooms and users remain unchanged. However, it is possible to add appropriate functionalities to allow editing of these elements. Sets of categories, such as the housing category (hotel, apartment, etc.) and the categories of room furnishings (furniture, household appliances, etc.), are invariant by design.
 
-### Widoki
+To manage aspects that change over time, the following strategies have been applied:
+- the price per night is saved in the reservation_details at the time of booking
+- created triggers allow for updateing data in the entire database after introducing changes in one of the tables
+- the ITENTITY() property allows for adding new data without breaking the primary key constraints
 
-1. Domki w danym mieście
-2. Domki w danym miescie posortowane po: 
-a) cenie,
-b) odległości od centurm
-c) ratingu
-d) ilosci atrakcji w pobliżu
+### Views
+1. Housing in a given city
+2. Housing in a given city sorted by:
+a) price
+b) distance from the city center
+c) housing rating
+d) number of attractions nearby
+4. Housing in a given city below a given price
+5. Housing in a given city at distance X from me
+6. Housing in a given city at a distance not less than X from the center
+7. Housing in a given city with a rating not lower than X
+8. Housing in a given city with the owner's rating not lower than X
+9. Housing in a given city with the X facility
+10. Housing with their rooms
+11. All guests in the system and their personal data
+12. All reservations with the type of facility
+13. QA view
 
-3. Domki w danym mieście przy zdanych datach
-4. Domki w danym miescie przy zdanych datach poniżej danej ceny
-5. Domki w danym mieście przy zdanych datach w odległości X ode mnie
-6. Domki w danym mieście przy zdanych datach w odległości nie mniejszej niz X od centrum
-7. Domki w danym mieście przy zdanych datach o ratingu nie mniejszym niz X
-8. Domki w danym mieście przy zdanych datach o ratingu właściciela nie mniejszym niz X
-9. Domki w danym mieście przy zdanych datach z udogodnieniem X
+### Functions
+1. Calculation of the average guest/host/housing/attraction rating
+2. Calculation of the housing attractiveness index
+3. Calculation of the number of avaliable housing in given dates
+4. Calculation of the average length of stay
+5. Checking if a given house is available on given dates.
 
-~~10. Domki z ich pokojami~~
+### Triggers:
+1. Updating view 2.a and 4 when changing the price per night in a given facility
+2. Update of view 2.c and 7 when adding a new housing review
+3. View 8 update when new host review is added
+4. Checking if a given facility is available on the given dates when trying to book while updating views 3-9
+5. Checking if a given property is available on given dates when trying to change booking dates while updating views 3-9
 
-11.~~Informacja o gosciach~~ 
+### Stored procedures
+1. Addition: reviews of the housing, host, guest
+2. Adding a question to the host
+3. Adding an answer to the question
+4. Making a reservation for a housing
+5. Cancellation
+6. Change of booking date
+7. Changing the price of accommodation in a given housing
+8. Avaliable housing in a given city for given dates [optionally with additional search constraints]
 
-12. ~~Informacja o rezerwacjach z rodzajem obiektu~~
+### Database maintenance strategy
 
-13. ~~QA view~~
 
-### Funkcje
+### Common queries
 
-~~1. Obliczanie ratingu~~
 
-Karolina 2. Obliczanie wskaźnika atrakcyjności domku
-
-3. ~~Obliczanie ilości wolnych domków w danym dniu~~
-4. ~~Obliczanie średniej długości pobytu~~
-5. ~~Sprawdzenie, czy dany domek jest dostępny w danych datach.~~
-
-- baza odpowiednio oprogramowana z wykorzystaniem procedur składowanych i wyzwalaczy (co najmniej po 5 procedur i po 5 wyzwalaczy)
-
-### Wyzwalacze:
-
-Karolina 1. Aktualizacj awidoku 1.
-
-wiki 2. Aktualizacja widoku 2.c i 7 przy dodaniu nowej recenzji domku
-3. Aktualizacja widoku  8 przy dodaniu nowej recenzji gospodarza
-
-~~4. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie rezerwacji~~ + aktualizacja widoków 3-9
-
-~~5. Sprawdzenie, czy dany obiekt jest wolny w podanych datach przy próbie zmiany dat rezerwacji~~ + aktualizacja widoków 3-9
-
-### Procedury składowane
-
-~~1. Dodawanie: recenzji domku,~~
-profilu gospodarza, profilu gościa
-
-~~2. Dodawanie pytania do gospodarza~~
-
-~~3. Dodawanie odpowiedzi do pytania~~
-
-~~4. Dokonanie rezerwacji domku~~
-
-5. Opłacenie rezerwacji
-
-~~6. Anulowanie rezerwacji~~
-
-~~7. Zmiana daty rezerwacji~~
-
-~~8. Zmiana ceny noclegu w danym domku~~
-
-- strategia pielęgnacji bazy danych (kopie zapasowe)
-- można utworzyć dwa programy klienckie jeden umożliwiający pracę administratorów (użytkowników ze zwiększonymi uprawnieniami), drugi umożliwiający prac zwykłych użytkowników.
-
-### Plik z opisem
-
-- podstawowe założenia projektu (cel, główne założenia, możliwości, ograniczenia przyj�te przy projektowaniu),
-- diagram ER,
-- schemat bazy danych (diagram relacji),
-- dodatkowe wi�zy integralności danych (nie zapisane w schemacie),
-- utworzone indeksy,
-- opis stworzonych widok�w,
-- opis procedur składowanych,
-- opis wyzwalaczy,
-- skrypt tworzący bazę danych,
-- typowe zapytania.
