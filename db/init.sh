@@ -57,12 +57,24 @@ echo "inserting rating data"
 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "$PWD" -d "booking2" -i /db/data/rating/housing_rating.sql
 /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "$PWD" -d "booking2" -i /db/data/rating/guest_rating.sql
 
-### ==================== CREATE FUNCTIONS ====================
-
 ### ==================== CREATE PROCEDURES ====================
+# for f in /db/procedures/*.sql; do
+#   /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "$PWD" -d "booking2" -i "$f"
+# done
+
+### ==================== CREATE FUNCTIONS ====================
+# for f in /db/functions/*.sql; do
+#   /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "$PWD" -d "booking2" -i "$f"
+# done
 
 ### ==================== CREATE TRIGGERS ====================
+# for f in /db/triggers/*.sql; do
+#   /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "$PWD" -d "booking2" -i "$f"
+# done
 
 ### ==================== CREATE VIEWS ====================
+# for f in /db/views/*.sql; do
+#   /opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "$PWD" -d "booking2" -i "$f"
+# done
 
 echo "database setup finished successfully"

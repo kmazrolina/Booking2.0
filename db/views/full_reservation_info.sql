@@ -1,5 +1,6 @@
 ---- widok z danymi na daty pobytu, koszt i rodzaj obiektu
-DROP VIEW full_reservation_info
+IF OBJECT_ID('full_reservation_info', 'v') IS NOT NULL
+  DROP VIEW full_reservation_info
 GO
 
 CREATE VIEW full_reservation_info AS
