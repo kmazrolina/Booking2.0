@@ -61,15 +61,6 @@ CREATE TABLE [reservation_details] (
 )
 GO
 
-CREATE TABLE [payment] (
-  [id] integer IDENTITY(1,1) PRIMARY KEY,
-  [value] money,
-  [date] datetime,
-  [sender_id] integer,
-  [reservation_id] integer
-)
-GO
-
 CREATE TABLE [housing] (
   [id] integer IDENTITY(1,1) PRIMARY KEY,
   [name] nvarchar(255),
